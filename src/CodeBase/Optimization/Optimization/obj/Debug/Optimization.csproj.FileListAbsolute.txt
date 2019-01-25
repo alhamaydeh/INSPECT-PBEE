@@ -1,0 +1,27 @@
+C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\Optimization.dll
+C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\Optimization.pdb
+C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\GeneralMatrix.dll
+C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\nunit.framework.dll
+C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\GeneralMatrix.pdb
+C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\nunit.framework.xml
+C:\Technology\Code\Personal\Optimization\Optimization\obj\Debug\Optimization.csprojResolveAssemblyReference.cache
+C:\Technology\Code\Personal\Optimization\Optimization\obj\Debug\Optimization.dll
+C:\Technology\Code\Personal\Optimization\Optimization\obj\Debug\Optimization.pdb
+C:\Users\Profile\Desktop\Optimization\Optimization\bin\Debug\Optimization.pdb
+C:\Users\Profile\Desktop\Optimization\Optimization\bin\Debug\nunit.framework.dll
+C:\Users\Profile\Desktop\Optimization\Optimization\bin\Debug\nunit.framework.xml
+C:\Users\Profile\Desktop\Optimization\Optimization\obj\Debug\Optimization.pdb
+C:\Users\Profile\Desktop\Optimization\Optimization\bin\Debug\MathNet.Numerics.dll
+C:\Users\Profile\Desktop\Optimization\Optimization\bin\Debug\MathNet.Numerics.xml
+C:\Users\Profile\Desktop\Optimization\Optimization\bin\Debug\Optimization.dll
+C:\Users\Profile\Desktop\Optimization\Optimization\obj\Debug\Optimization.dll
+C:\Users\Profile\Desktop\Optimization\Optimization\obj\Debug\Optimization.csprojResolveAssemblyReference.cache
+E:\IN LAST\Optimization\Optimization\bin\Debug\Optimization.dll
+E:\IN LAST\Optimization\Optimization\bin\Debug\Optimization.pdb
+E:\IN LAST\Optimization\Optimization\bin\Debug\MathNet.Numerics.dll
+E:\IN LAST\Optimization\Optimization\bin\Debug\nunit.framework.dll
+E:\IN LAST\Optimization\Optimization\bin\Debug\MathNet.Numerics.xml
+E:\IN LAST\Optimization\Optimization\bin\Debug\nunit.framework.xml
+E:\IN LAST\Optimization\Optimization\obj\Debug\Optimization.csprojResolveAssemblyReference.cache
+E:\IN LAST\Optimization\Optimization\obj\Debug\Optimization.dll
+E:\IN LAST\Optimization\Optimization\obj\Debug\Optimization.pdb

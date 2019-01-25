@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\Optimization.dll" total="32" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-03-27" time="09:28:09">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.8000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="OWL" user="Krzysztof" user-domain="OWL" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Technology\Code\Personal\Optimization\Optimization\bin\Debug\Optimization.dll" executed="True" result="Success" success="True" time="1.339" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Net" executed="True" result="Success" success="True" time="1.270" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Kniaz" executed="True" result="Success" success="True" time="1.269" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Optimization" executed="True" result="Success" success="True" time="1.267" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="NonGradient" executed="True" result="Success" success="True" time="0.649" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.648" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="NelderTests" executed="True" result="Success" success="True" time="0.518" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.NonGradient.Tests.NelderTests.CalculateBananaMinimum" executed="True" result="Success" success="True" time="0.289" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.NonGradient.Tests.NelderTests.CalculateParabolaMinimum" executed="True" result="Success" success="True" time="0.131" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="RosenTests" executed="True" result="Success" success="True" time="0.107" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.NonGradient.Tests.RosenTests.CalculateBananaMinimum" executed="True" result="Success" success="True" time="0.080" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.NonGradient.Tests.RosenTests.CalculateParabolaMinimum" executed="True" result="Success" success="True" time="0.015" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="QuasiNewton" executed="True" result="Success" success="True" time="0.592" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.591" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="BrentTests" executed="True" result="Success" success="True" time="0.082" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.BrentTests.MinBrent1" executed="True" result="Success" success="True" time="0.017" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.BrentTests.MinBrent2" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.BrentTests.MinBrent3" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.BrentTests.MinBrent4" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.BrentTests.MinBrent5" executed="True" result="Success" success="True" time="0.006" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="Derivatives" executed="True" result="Success" success="True" time="0.238" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.Hessian" executed="True" result="Success" success="True" time="0.134" asserts="9" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative00" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative01" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative02" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative10" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative11" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative12" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative20" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative21" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.Derivatives.PartialDerivative22" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="DFPTests" executed="True" result="Success" success="True" time="0.135" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.DFPTests.FitBFGS1" executed="True" result="Success" success="True" time="0.053" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.DFPTests.FitBFGS2" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.DFPTests.FitBFGS3" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.DFPTests.FitDFP1" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.DFPTests.FitDFP2" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.DFPTests.FitDFP3" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="GoldenTests" executed="True" result="Success" success="True" time="0.045" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.GoldenTests.MinGold1" executed="True" result="Success" success="True" time="0.006" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.GoldenTests.MinGold2" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.GoldenTests.MinGold3" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.GoldenTests.MinGold4" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="IntervalTests" executed="True" result="Success" success="True" time="0.032" asserts="0">
+                            <results>
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.IntervalTests.MinInterval1" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.IntervalTests.MinInterval2" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Net.Kniaz.Optimization.QuasiNewton.Tests.IntervalTests.MinInterval3" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

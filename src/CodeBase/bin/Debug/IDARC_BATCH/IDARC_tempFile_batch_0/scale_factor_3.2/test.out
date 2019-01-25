@@ -1,0 +1,2779 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            IIIIIIIIIIIIII      DDDDDDDDDDDDD        AAAAAAAAAAAA       RRRRRRRRRRRRR        CCCCCCCCCCCCC
+            IIIIIIIIIIIIII      DDDDDDDDDDDDDD      AAAAAAAAAAAAAA      RRRRRRRRRRRRRR      CCCCCCCCCCCCCC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AA          AA      RR          RR      CC
+                  II            DD          DD      AAAAAAAAAAAAAA      RRRRRRRRRRRRRR      CC
+                  II            DD          DD      AAAAAAAAAAAAAA      RRRRRRRRRRRRR       CC
+                  II            DD          DD      AA          AA      RR        RR        CC
+                  II            DD          DD      AA          AA      RR        RR        CC
+                  II            DD          DD      AA          AA      RR         RR       CC
+                  II            DD          DD      AA          AA      RR         RR       CC
+            IIIIIIIIIIIIII      DDDDDDDDDDDDDD      AA          AA      RR          RR      CCCCCCCCCCCCCC
+            IIIIIIIIIIIIII      DDDDDDDDDDDDD       AA          AA      RR          RR       CCCCCCCCCCCCC
+
+
+
+                             INELASTIC DAMAGE ANALYSIS OF REINFORCED CONCRETE STRUCTURES
+
+                                                   VERSION 7.0
+
+
+
+                               UNIVERSITY AT BUFFALO, THE STATE UNIVERSITY OF NEW YORK
+                                     (STATE UNIVERSITY OF NEW YORK AT BUFFALO)
+                                         DEPARTMENT OF CIVIL ENGINEERING
+
+                                                   MARCH 2009
+
+
+
+
+
+
+
+
+
+
+
+ INPUT DATA:
+
+
+ TITLE: Building1                                                                       
+
+
+
+
+ ********** CONTROL DATA **********
+
+
+
+ NUMBER OF STORIES ............    6
+ NUMBER OF FRAMES .............    3
+
+ NO. OF TYPES OF CONCRETE .....    1
+ NO. OF TYPES OF STEEL ........    1
+
+ NO. OF TYPES OF MASONRY ......    0
+
+ P-DELTA EFFECTS ..............    1     ( = 0, IGNORE; = 1, INCLUDE )   
+ PLASTICITY MODEL..............    1     ( =0, SPREAD  = 1, CONCENTRATED PLASTICITY)  
+ FLEXIBILITY DISTRIBUTION..........    1     ( =0, LINEAR  = 1, UNIFORM)  
+ COMPUTER PLATFORM ............    1     ( = 0, MAINFRAME; = 1, PC )     
+
+
+
+
+ ********** ELEMENT INFORMATION **********
+
+
+
+ NO. OF TYPES OF COLUMNS ...............   15
+ NO. OF TYPES OF BEAMS .................    0
+ NO. OF TYPES OF SHEAR WALLS ...........    6
+ NO. OF TYPES OF EDGE COLUMNS ..........    0
+ NO. OF TYPES OF TRANSVERSE BEAMS ......    0
+ NO. OF TYPES OF DISCRETE SPRINGS ......    0
+
+ NO. OF TYPES OF VISCOUS DAMPERS .......    0
+ NO. OF TYPES OF FRICTION DAMPERS ......    0
+ NO. OF TYPES OF HYSTERETIC DAMPERS ....    0
+ NO. OF TYPES OF INFILL PANELS .........    0
+
+
+
+ NUMBER OF COLUMNS .....................   96
+ NUMBER OF BEAMS .......................    0
+ NUMBER OF SHEAR WALLS .................   12
+ NUMBER OF EDGE COLUMNS ................    0
+ NUMBER OF TRANSVERSE BEAMS ............    0
+ NUMBER OF DISCRETE SPRINGS ............    0
+ NUMBER OF MOMENT RELEASES .............   14
+ NUMBER OF BRACES ......................    0
+ NUMBER OF INFILL PANELS ...............    0
+
+
+
+ SYSTEM OF UNITS:   INCH, KIPS
+
+
+
+
+
+
+
+
+
+
+
+ ********** STORY HEIGHTS **********
+
+
+ STORY         HEIGHT
+            FROM BASE
+
+
+     6       936.0000
+     5       780.0000
+     4       624.0000
+     3       468.0000
+     2       312.0000
+     1       156.0000
+
+
+
+
+
+
+ ********** WEIGHT DISTRIBUTION **********
+
+
+ STORY     FRAME     J-COORD. POSITION
+
+                              1         2         3         4         5         6
+                     ----------------------------------------------------------------------------------------------------
+     1         1          66.98     66.98     66.98     66.98     66.98     66.98
+     1         2          66.98     66.98     66.98     66.98     66.98     66.98
+     1         3          66.98     66.98     66.98     66.98     66.98     66.98
+     2         1          66.98     66.98     66.98     66.98     66.98     66.98
+     2         2          66.98     66.98     66.98     66.98     66.98     66.98
+     2         3          66.98     66.98     66.98     66.98     66.98     66.98
+     3         1          66.98     66.98     66.98     66.98     66.98     66.98
+     3         2          66.98     66.98     66.98     66.98     66.98     66.98
+     3         3          66.98     66.98     66.98     66.98     66.98     66.98
+     4         1          65.76     65.76     65.76     65.76     65.76     65.76
+     4         2          65.76     65.76     65.76     65.76     65.76     65.76
+     4         3          65.76     65.76     65.76     65.76     65.76     65.76
+     5         1          65.76     65.76     65.76     65.76     65.76     65.76
+     5         2          65.76     65.76     65.76     65.76     65.76     65.76
+     5         3          65.76     65.76     65.76     65.76     65.76     65.76
+     6         1          56.21     56.21     56.21     56.21     56.21     56.21
+     6         2          56.21     56.21     56.21     56.21     56.21     56.21
+     6         3          56.21     56.21     56.21     56.21     56.21     56.21
+
+
+
+ ENVELOPE PROPERTIES:  PROGRAM GENERATED
+ =======================================
+
+
+
+ ********** CONCRETE PROPERTIES **********
+
+
+
+ TYPE          UNCONF         INITIAL       STRAIN AT         TENSILE        ULTIMATE       Z-FACTOR
+             COMPRESS         ELASTIC        MAX COMP        STRENGTH          STRAIN
+             STRENGTH         MODULUS        STRENGTH
+
+
+    1           5.000         4030.50         .002000           .6000         .000000           .0000
+
+
+ (DEFAULT DATA FOR EPSU AND ZF IS GENERATED AT ELEMENT INPUT LEVEL)
+
+
+
+ ********** REINFORCEMENT PROPERTIES **********
+
+
+
+ TYPE          YIELD       ULTIMATE         YOUNGS     MODULUS AT      STRAIN AT
+            STRENGTH       STRENGTH        MODULUS      HARDENING      HARDENING
+                                                                           (%)
+
+    1         60.000         84.000      29000.000        203.509          3.000
+
+
+
+ ********** PROPERTIES FOR HYSTERETIC RULE **********
+
+
+
+ NO. OF TYPES OF HYSTERETIC RULES:      1
+
+
+
+ RULE      STIFFNESS       STRENGTH       STRENGTH         TARGET         TYPE
+  NO.      DEGRADING      DEGRADING      DEGRADING          SLIP
+              FACTOR         FACTOR         FACTOR         FACTOR
+                        (DUCTILITY)       (ENERGY)
+
+
+    1        130.000           .035           .030           .500           0
+
+
+
+
+ COLUMN PROPERTIES:  PROGRAM GENERATED
+ =======================================
+
+
+
+
+
+
+ ********** COLUMN TYPES **********
+
+
+
+ COL.   SHAPE    CONC   STEEL     AXIAL    LENGTH  ** RIGID ZONES **
+ TYPE            TYPE    TYPE      LOAD               (BOT)     (TOP)
+
+    1   RECT.       1       1    133.70    156.00       .00      4.00
+    2   RECT.       1       1    133.70    156.00      4.00      4.00
+    3   RECT.       1       1     41.50    156.00      4.00      4.00
+    4   RECT.       1       1    345.20    156.00       .00      4.00
+    5   RECT.       1       1    345.20    156.00      4.00      4.00
+    6   RECT.       1       1    110.80    156.00      4.00      4.00
+    7   RECT.       1       1    715.70    156.00       .00      4.00
+    8   RECT.       1       1    715.70    156.00      4.00      4.00
+    9   RECT.       1       1    237.00    156.00      4.00      4.00
+   10   RECT.       1       1    765.10    156.00       .00      4.00
+   11   RECT.       1       1    765.10    156.00      4.00      4.00
+   12   RECT.       1       1    253.40    156.00      4.00      4.00
+   13   RECT.       1       1    589.40    156.00       .00      4.00
+   14   RECT.       1       1    589.40    156.00      4.00      4.00
+   15   RECT.       1       1    345.20    156.00      4.00      4.00
+
+
+
+ CROSS SECTION DATA- RECTANGULAR COLUMNS: 
+
+
+ TYPE  REGION    HYS       DEPTH       WIDTH       COVER       REINF.   HOOP BAR     HOOP BAR    CONFINEMENT
+                RULE                                            AREA    DIAMETER     SPACING   EFFECTIVENESS
+
+    1     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+    2     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+    3     TOP      1       28.00       28.00        1.50        6.35        4.00      14.000        .500
+          BOT      1       28.00       28.00        1.50        6.35        4.00      14.000        .500
+    4     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+    5     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+    6     TOP      1       28.00       28.00        1.50        5.00        4.00      14.000        .500
+          BOT      1       28.00       28.00        1.50        5.00        4.00      14.000        .500
+    7     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+    8     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+    9     TOP      1       28.00       28.00        1.50        7.62        4.00      12.000        .500
+          BOT      1       28.00       28.00        1.50        7.62        4.00      12.000        .500
+   10     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+   11     TOP      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+          BOT      1       30.00       30.00        1.50        3.81        4.00      18.000        .500
+   12     TOP      1       28.00       28.00        1.50        6.35        4.00      14.000        .500
+          BOT      1       28.00       28.00        1.50        6.35        4.00      14.000        .500
+   13     TOP      1       16.00      180.00        1.50       45.78        6.00       9.000        .500
+          BOT      1       16.00      180.00        1.50       45.78        6.00       9.000        .500
+   14     TOP      1       16.00      180.00        1.50       45.78        6.00       9.000        .500
+          BOT      1       16.00      180.00        1.50       45.78        6.00       9.000        .500
+   15     TOP      1       16.00      180.00        1.50       45.78        6.00       9.000        .500
+          BOT      1       16.00      180.00        1.50       45.78        6.00       9.000        .500
+
+
+
+
+
+ WALL PROPERTIES:  PROGRAM GENERATED
+ ===================================
+
+
+
+
+
+ ********** SHEAR WALL PROPERTIES **********
+
+
+
+
+ WALL   CONC     HYSTERESIS RULE             AXIAL       MEMBER
+  NO.   TYPE     FLEX: BOT,TOP; SHEAR         LOAD       HEIGHT
+                                                                *********************SECTION DATA*********************
+                                                                 SECT  STEEL      DEPTH      WIDTH       VERT       HORZ
+                                                                  NO.   TYPE                            REINF      REINF
+                                                                                                        RATIO      RATIO
+
+    1      1             1,  1;     1    .1323E+03    .1560E+03
+                                                                    1      1   .360E+02   .160E+02   .353E+01   .969E+00
+                                                                    2      1   .108E+03   .160E+02   .313E+01   .611E+00
+                                                                    3      1   .360E+02   .160E+02   .353E+01   .969E+00
+    2      1             1,  1;     1    .1323E+03    .1560E+03
+                                                                    1      1   .360E+02   .160E+02   .353E+01   .969E+00
+                                                                    2      1   .108E+03   .160E+02   .313E+01   .611E+00
+                                                                    3      1   .360E+02   .160E+02   .353E+01   .969E+00
+    3      1             1,  1;     1    .1323E+03    .1560E+03
+                                                                    1      1   .360E+02   .160E+02   .353E+01   .969E+00
+                                                                    2      1   .108E+03   .160E+02   .313E+01   .611E+00
+                                                                    3      1   .360E+02   .160E+02   .353E+01   .969E+00
+    4      1             1,  1;     1    .1248E+03    .1560E+03
+                                                                    1      1   .360E+02   .160E+02   .313E+01   .625E+00
+                                                                    2      1   .108E+03   .160E+02   .313E+01   .611E+00
+                                                                    3      1   .360E+02   .160E+02   .313E+01   .625E+00
+    5      1             1,  1;     1    .1248E+03    .1560E+03
+                                                                    1      1   .360E+02   .160E+02   .313E+01   .625E+00
+                                                                    2      1   .108E+03   .160E+02   .313E+01   .611E+00
+                                                                    3      1   .360E+02   .160E+02   .313E+01   .625E+00
+    6      1             1,  1;     1    .1248E+03    .1560E+03
+                                                                    1      1   .360E+02   .160E+02   .313E+01   .625E+00
+                                                                    2      1   .108E+03   .160E+02   .313E+01   .611E+00
+                                                                    3      1   .360E+02   .160E+02   .313E+01   .625E+00
+
+
+
+
+
+
+                    *************** NODAL CONNECTIVITY INFORMATION ***************
+
+
+
+
+
+
+
+
+ ********** COLUMN ELEMENTS **********
+
+
+
+ COL.    TYPE    FRAME #   COL LINE    STORY #    STORY #
+  NO.                                    (BOT)      (TOP)
+
+
+    1       1          1          1          0          1
+    2       2          1          1          1          2
+    3       2          1          1          2          3
+    4       3          1          1          3          4
+    5       3          1          1          4          5
+    6       3          1          1          5          6
+    7       4          1          3          0          1
+    8       5          1          3          1          2
+    9       5          1          3          2          3
+   10       6          1          3          3          4
+   11       6          1          3          4          5
+   12       6          1          3          5          6
+   13       4          1          4          0          1
+   14       5          1          4          1          2
+   15       5          1          4          2          3
+   16       6          1          4          3          4
+   17       6          1          4          4          5
+   18       6          1          4          5          6
+   19       1          1          6          0          1
+   20       2          1          6          1          2
+   21       2          1          6          2          3
+   22       3          1          6          3          4
+   23       3          1          6          4          5
+   24       3          1          6          5          6
+   25      13          2          1          0          1
+   26      14          2          1          1          2
+   27      14          2          1          2          3
+   28      15          2          1          3          4
+   29      15          2          1          4          5
+   30      15          2          1          5          6
+   31      10          2          2          0          1
+   32      11          2          2          1          2
+   33      11          2          2          2          3
+   34      12          2          2          3          4
+   35      12          2          2          4          5
+   36      12          2          2          5          6
+   37      10          2          3          0          1
+   38      11          2          3          1          2
+   39      11          2          3          2          3
+   40      12          2          3          3          4
+   41      12          2          3          4          5
+   42      12          2          3          5          6
+   43      10          2          4          0          1
+   44      11          2          4          1          2
+   45      11          2          4          2          3
+   46      12          2          4          3          4
+   47      12          2          4          4          5
+   48      12          2          4          5          6
+   49      10          2          5          0          1
+   50      11          2          5          1          2
+   51      11          2          5          2          3
+   52      12          2          5          3          4
+   53      12          2          5          4          5
+   54      12          2          5          5          6
+   55      13          2          6          0          1
+   56      14          2          6          1          2
+   57      14          2          6          2          3
+   58      15          2          6          3          4
+   59      15          2          6          4          5
+   60      15          2          6          5          6
+   61       4          3          1          0          1
+   62       5          3          1          1          2
+   63       5          3          1          2          3
+   64       6          3          1          3          4
+   65       6          3          1          4          5
+   66       6          3          1          5          6
+   67      10          3          2          0          1
+   68      11          3          2          1          2
+   69      11          3          2          2          3
+   70      12          3          2          3          4
+   71      12          3          2          4          5
+   72      12          3          2          5          6
+   73       7          3          3          0          1
+   74       8          3          3          1          2
+   75       8          3          3          2          3
+   76       9          3          3          3          4
+   77       9          3          3          4          5
+   78       9          3          3          5          6
+   79       7          3          4          0          1
+   80       8          3          4          1          2
+   81       8          3          4          2          3
+   82       9          3          4          3          4
+   83       9          3          4          4          5
+   84       9          3          4          5          6
+   85      10          3          5          0          1
+   86      11          3          5          1          2
+   87      11          3          5          2          3
+   88      12          3          5          3          4
+   89      12          3          5          4          5
+   90      12          3          5          5          6
+   91       4          3          6          0          1
+   92       5          3          6          1          2
+   93       5          3          6          2          3
+   94       6          3          6          3          4
+   95       6          3          6          4          5
+   96       6          3          6          5          6
+
+
+
+
+
+ ********** SHEAR WALL ELEMENTS **********
+
+
+
+ WALL    TYPE   FRAME #   COL LINE   STORY #   STORY #
+  NO.                                  (BOT)     (TOP)
+
+
+    1       1         1          2         0         1
+    2       2         1          2         1         2
+    3       3         1          2         2         3
+    4       4         1          2         3         4
+    5       5         1          2         4         5
+    6       6         1          2         5         6
+    7       1         1          5         0         1
+    8       2         1          5         1         2
+    9       3         1          5         2         3
+   10       4         1          5         3         4
+   11       5         1          5         4         5
+   12       6         1          5         5         6
+
+
+
+
+ ******* SPECIFIED MOMENT RELEASES *******
+
+
+  ID#      COMPONENT    NUMBER         REGION
+
+    1           COL          1            BOT
+    2           COL          7            BOT
+    3           COL         13            BOT
+    4           COL         19            BOT
+    5           COL         31            BOT
+    6           COL         37            BOT
+    7           COL         43            BOT
+    8           COL         49            BOT
+    9           COL         61            BOT
+   10           COL         67            BOT
+   11           COL         73            BOT
+   12           COL         79            BOT
+   13           COL         85            BOT
+   14           COL         91            BOT
+
+
+
+
+                    ********** FRAME ELEVATION AND ELEMENT TYPES **********
+
+
+
+
+
+ ELEVATION OF FRAME NO.  1
+
+
+
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        ! 006    006w           ! 012       ! 018    012w           ! 024 
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        ! 005    005w           ! 011       ! 017    011w           ! 023 
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        ! 004    004w           ! 010       ! 016    010w           ! 022 
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        ! 003    003w           ! 009       ! 015    009w           ! 021 
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        ! 002    002w           ! 008       ! 014    008w           ! 020 
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        ! 001    001w           ! 007       ! 013    007w           ! 019 
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+
+
+
+ NOTATION: 
+
+ -  =  BEAM                 NUMBERS INDICATE ELEMENT TYPES
+ !  =  COLUMN               COLUMN TYPE NUMBERS ON RIGHT
+ W  =  SHEAR WALL           SHEAR WALL NUMBERS ON LEFT, AND
+ I  =  EDGE COLUMN          EDGE COLUMN NUMBERS BELOW COLUMN TYPES
+
+
+
+
+
+
+
+
+
+
+ ELEVATION OF FRAME NO.  2
+
+
+
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 030       ! 036       ! 042       ! 048       ! 054       ! 060 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 029       ! 035       ! 041       ! 047       ! 053       ! 059 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 028       ! 034       ! 040       ! 046       ! 052       ! 058 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 027       ! 033       ! 039       ! 045       ! 051       ! 057 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 026       ! 032       ! 038       ! 044       ! 050       ! 056 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 025       ! 031       ! 037       ! 043       ! 049       ! 055 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+
+
+
+ NOTATION: 
+
+ -  =  BEAM                 NUMBERS INDICATE ELEMENT TYPES
+ !  =  COLUMN               COLUMN TYPE NUMBERS ON RIGHT
+ W  =  SHEAR WALL           SHEAR WALL NUMBERS ON LEFT, AND
+ I  =  EDGE COLUMN          EDGE COLUMN NUMBERS BELOW COLUMN TYPES
+
+
+
+
+
+
+
+
+
+
+ ELEVATION OF FRAME NO.  3
+
+
+
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 066       ! 072       ! 078       ! 084       ! 090       ! 096 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 065       ! 071       ! 077       ! 083       ! 089       ! 095 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 064       ! 070       ! 076       ! 082       ! 088       ! 094 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 063       ! 069       ! 075       ! 081       ! 087       ! 093 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 062       ! 068       ! 074       ! 080       ! 086       ! 092 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        ! 061       ! 067       ! 073       ! 079       ! 085       ! 091 
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+
+
+
+ NOTATION: 
+
+ -  =  BEAM                 NUMBERS INDICATE ELEMENT TYPES
+ !  =  COLUMN               COLUMN TYPE NUMBERS ON RIGHT
+ W  =  SHEAR WALL           SHEAR WALL NUMBERS ON LEFT, AND
+ I  =  EDGE COLUMN          EDGE COLUMN NUMBERS BELOW COLUMN TYPES
+
+
+
+
+
+ ********** COLUMN PROPERTIES **********
+
+
+
+ *HYST. RULE IS FOR FLEXURAL IN LEFT, FOR SHEAR IN RIGHT SIDE
+ *SHEAR-STRAIN RELATIONSHIP AND HYST. RULE FOR .9990E+31 AS A HIGH SHEAR STIFFNESS FOR COLUMNS ARE DEFAULT VALUES
+  (HIGH SHEAR STIFFNESS AND STRENGTH CASE)
+
+  NO.         LENGTH    REGION  HYST.        RIGID       FLEXURAL          AXIAL          SHEAR
+                                RULE          ZONE      STIFFNESS      STIFFNESS      STIFFNESS
+
+
+    1       156.0000     TOP     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2043E+09      .2325E+05      .9990E+31
+    2       156.0000     TOP     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+    3       156.0000     TOP     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+    4       156.0000     TOP     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+    5       156.0000     TOP     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+    6       156.0000     TOP     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+    7       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2394E+09      .2325E+05      .9990E+31
+    8       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+    9       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   10       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   11       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   12       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   13       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2394E+09      .2325E+05      .9990E+31
+   14       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   15       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   16       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   17       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   18       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   19       156.0000     TOP     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2043E+09      .2325E+05      .9990E+31
+   20       156.0000     TOP     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+   21       156.0000     TOP     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2043E+09      .2325E+05      .9990E+31
+   22       156.0000     TOP     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+   23       156.0000     TOP     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+   24       156.0000     TOP     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1631E+09      .2026E+05      .9990E+31
+   25       156.0000     TOP     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2615E+09      .7441E+05      .9990E+31
+   26       156.0000     TOP     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+   27       156.0000     TOP     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+   28       156.0000     TOP     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+   29       156.0000     TOP     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+   30       156.0000     TOP     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+   31       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2547E+09      .2325E+05      .9990E+31
+   32       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   33       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   34       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   35       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   36       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   37       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2547E+09      .2325E+05      .9990E+31
+   38       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   39       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   40       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   41       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   42       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   43       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2547E+09      .2325E+05      .9990E+31
+   44       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   45       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   46       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   47       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   48       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   49       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2547E+09      .2325E+05      .9990E+31
+   50       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   51       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   52       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   53       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   54       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   55       156.0000     TOP     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2615E+09      .7441E+05      .9990E+31
+   56       156.0000     TOP     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+   57       156.0000     TOP     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2615E+09      .7441E+05      .9990E+31
+   58       156.0000     TOP     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+   59       156.0000     TOP     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+   60       156.0000     TOP     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2725E+09      .7441E+05      .9990E+31
+   61       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2394E+09      .2325E+05      .9990E+31
+   62       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   63       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   64       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   65       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   66       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   67       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2547E+09      .2325E+05      .9990E+31
+   68       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   69       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   70       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   71       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   72       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   73       156.0000     TOP     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2509E+09      .2325E+05      .9990E+31
+   74       156.0000     TOP     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+   75       156.0000     TOP     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+   76       156.0000     TOP     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+   77       156.0000     TOP     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+   78       156.0000     TOP     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+   79       156.0000     TOP     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2509E+09      .2325E+05      .9990E+31
+   80       156.0000     TOP     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+   81       156.0000     TOP     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2509E+09      .2325E+05      .9990E+31
+   82       156.0000     TOP     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+   83       156.0000     TOP     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+   84       156.0000     TOP     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2151E+09      .2026E+05      .9990E+31
+   85       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2547E+09      .2325E+05      .9990E+31
+   86       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   87       156.0000     TOP     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2547E+09      .2325E+05      .9990E+31
+   88       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   89       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   90       156.0000     TOP     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2038E+09      .2026E+05      .9990E+31
+   91       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .0000E+00      .2394E+09      .2325E+05      .9990E+31
+   92       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   93       156.0000     TOP     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .2394E+09      .2325E+05      .9990E+31
+   94       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   95       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+   96       156.0000     TOP     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+                         BOT     1,1      .4000E+01      .1790E+09      .2026E+05      .9990E+31
+
+
+
+ FLEXURAL PROPERTIES
+ -------------------
+
+  NO.  SECT       EI         PCP         PYP         UYP         UUP        EI3P         PCN         PYN         UYN         UUN        EI3N
+
+    1   TOP   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+        BOT   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+    2   TOP   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+        BOT   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+    3   TOP   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+        BOT   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+    4   TOP   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+        BOT   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+    5   TOP   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+        BOT   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+    6   TOP   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+        BOT   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+    7   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+    8   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+    9   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   10   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   11   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   12   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   13   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   14   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   15   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   16   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   17   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   18   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   19   TOP   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+        BOT   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+   20   TOP   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+        BOT   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+   21   TOP   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+        BOT   .2043E+09   .4295E+04   .7809E+04   .1191E-03   .3811E-02   .5614E+06  -.4295E+04  -.7809E+04  -.1191E-03  -.3811E-02   .5614E+06
+   22   TOP   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+        BOT   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+   23   TOP   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+        BOT   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+   24   TOP   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+        BOT   .1631E+09   .5431E+04   .9875E+04   .1407E-03   .4503E-02   .7369E+06  -.5431E+04  -.9875E+04  -.1407E-03  -.4503E-02   .7369E+06
+   25   TOP   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+        BOT   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+   26   TOP   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+        BOT   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+   27   TOP   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+        BOT   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+   28   TOP   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+        BOT   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+   29   TOP   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+        BOT   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+   30   TOP   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+        BOT   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+   31   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   32   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   33   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   34   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   35   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   36   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   37   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   38   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   39   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   40   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   41   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   42   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   43   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   44   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   45   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   46   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   47   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   48   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   49   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   50   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   51   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   52   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   53   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   54   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   55   TOP   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+        BOT   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+   56   TOP   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+        BOT   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+   57   TOP   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+        BOT   .2615E+09   .2166E+05   .3938E+05   .3172E-03   .1015E-01   .1394E+07  -.2166E+05  -.3938E+05  -.3172E-03  -.1015E-01   .1394E+07
+   58   TOP   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+        BOT   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+   59   TOP   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+        BOT   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+   60   TOP   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+        BOT   .2725E+09   .2088E+05   .3796E+05   .3100E-03   .9921E-02   .1403E+07  -.2088E+05  -.3796E+05  -.3100E-03  -.9921E-02   .1403E+07
+   61   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   62   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   63   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   64   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   65   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   66   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   67   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   68   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   69   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   70   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   71   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   72   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   73   TOP   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+        BOT   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+   74   TOP   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+        BOT   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+   75   TOP   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+        BOT   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+   76   TOP   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+        BOT   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+   77   TOP   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+        BOT   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+   78   TOP   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+        BOT   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+   79   TOP   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+        BOT   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+   80   TOP   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+        BOT   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+   81   TOP   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+        BOT   .2509E+09   .7886E+04   .1414E+05   .1429E-03   .4574E-02   .5018E+06  -.7886E+04  -.1414E+05  -.1429E-03  -.4574E-02   .5018E+06
+   82   TOP   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+        BOT   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+   83   TOP   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+        BOT   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+   84   TOP   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+        BOT   .2151E+09   .7695E+04   .1399E+05   .2021E-03   .6467E-02   .8701E+06  -.7695E+04  -.1399E+05  -.2021E-03  -.6467E-02   .8701E+06
+   85   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   86   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   87   TOP   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+        BOT   .2547E+09   .8296E+04   .1508E+05   .2144E-03   .6861E-02   .5093E+06  -.8296E+04  -.1508E+05  -.2144E-03  -.6861E-02   .5093E+06
+   88   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   89   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   90   TOP   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+        BOT   .2038E+09   .6769E+04   .1231E+05   .1938E-03   .6201E-02   .7441E+06  -.6769E+04  -.1231E+05  -.1938E-03  -.6201E-02   .7441E+06
+   91   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   92   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   93   TOP   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+        BOT   .2394E+09   .5728E+04   .1041E+05   .1736E-03   .5554E-02   .5621E+06  -.5728E+04  -.1041E+05  -.1736E-03  -.5554E-02   .5621E+06
+   94   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   95   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+   96   TOP   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+        BOT   .1790E+09   .4782E+04   .8695E+04   .1417E-03   .4534E-02   .5945E+06  -.4782E+04  -.8695E+04  -.1417E-03  -.4534E-02   .5945E+06
+
+
+
+ SHEAR PROPERTIES
+ ----------------
+
+  NO.       GA         PCP         PYP         UYP         UUP        EI3P         PCN         PYN         UYN         UUN        EI3N
+
+    1   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    2   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    3   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    4   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    5   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    6   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    7   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    8   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+    9   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   10   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   11   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   12   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   13   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   14   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   15   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   16   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   17   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   18   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   19   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   20   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   21   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   22   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   23   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   24   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   25   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   26   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   27   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   28   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   29   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   30   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   31   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   32   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   33   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   34   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   35   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   36   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   37   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   38   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   39   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   40   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   41   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   42   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   43   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   44   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   45   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   46   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   47   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   48   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   49   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   50   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   51   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   52   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   53   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   54   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   55   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   56   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   57   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   58   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   59   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   60   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   61   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   62   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   63   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   64   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   65   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   66   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   67   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   68   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   69   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   70   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   71   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   72   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   73   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   74   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   75   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   76   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   77   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   78   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   79   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   80   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   81   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   82   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   83   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   84   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   85   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   86   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   87   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   88   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   89   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   90   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   91   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   92   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   93   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   94   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   95   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+   96   .9990E+31   .1000E+31   .1500E+31   .2000E+00   .4000E+00   .9990E+30  -.1000E+31  -.1500E+31  -.2000E+00  -.4000E+00   .9990E+30
+1
+
+ ********** SHEAR WALL PROPERTIES **********
+
+
+  NO.         LENGTH  REGION   HYSTERETIC RULE NO       FLEXURAL          AXIAL          SHEAR
+                                *FLEXURE*   SHEAR      STIFFNESS      STIFFNESS      STIFFNESS
+                                BOT    TOP
+
+
+    1        156.000     TOP      1      1      1      .1814E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1814E+11
+    2        156.000     TOP      1      1      1      .1814E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1814E+11
+    3        156.000     TOP      1      1      1      .1814E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1814E+11
+    4        156.000     TOP      1      1      1      .1732E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1732E+11
+    5        156.000     TOP      1      1      1      .1732E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1732E+11
+    6        156.000     TOP      1      1      1      .1732E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1732E+11
+    7        156.000     TOP      1      1      1      .1814E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1814E+11
+    8        156.000     TOP      1      1      1      .1814E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1814E+11
+    9        156.000     TOP      1      1      1      .1814E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1814E+11
+   10        156.000     TOP      1      1      1      .1732E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1732E+11
+   11        156.000     TOP      1      1      1      .1732E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1732E+11
+   12        156.000     TOP      1      1      1      .1732E+11      .7441E+05      .4643E+07
+                         BOT      1      1      1      .1732E+11
+
+
+
+ FLEXURAL PROPERTIES
+ -------------------
+
+  NO.  SECT         PCP         PYP         UYP         UUP        EI3P         PCN         PYN         UYN         UUN        EI3N
+
+    1   TOP   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+        BOT   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+    2   TOP   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+        BOT   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+    3   TOP   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+        BOT   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+    4   TOP   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+        BOT   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+    5   TOP   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+        BOT   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+    6   TOP   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+        BOT   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+    7   TOP   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+        BOT   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+    8   TOP   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+        BOT   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+    9   TOP   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+        BOT   .2173E+06   .3952E+06   .7642E-04   .2446E-02   .8098E+08  -.2173E+06  -.3952E+06  -.7642E-04  -.2446E-02   .8098E+08
+   10   TOP   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+        BOT   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+   11   TOP   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+        BOT   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+   12   TOP   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+        BOT   .2060E+06   .3745E+06   .7268E-04   .2326E-02   .1090E+09  -.2060E+06  -.3745E+06  -.7268E-04  -.2326E-02   .1090E+09
+
+
+
+ SHEAR PROPERTIES
+ ----------------
+
+  NO.         PCP         PYP         UYP         UUP        EI3P         PCN         PYN         UYN         UUN        EI3N
+
+    1   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    2   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    3   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    4   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    5   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    6   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    7   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    8   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+    9   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+   10   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+   11   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+   12   .1287E+04   .1838E+04   .7127E-03   .5702E-02   .7739E+05  -.1287E+04  -.1838E+04  -.7127E-03  -.5702E-02   .7739E+05
+
+
+
+
+
+ **************************************** D Y N A M I C    A N A L Y S I S ****************************************
+
+
+
+
+
+ INPUT DATA:
+
+
+
+
+ ********** DETAILS OF INPUT BASE MOTION **********
+
+
+
+ MAX SCALED VALUE OF HORIZONTAL COMPONENT (g):    1.719
+
+ MAX SCALED VALUE OF VERTICAL COMPONENT (g):      3.139
+
+ TIME INTERVAL OF ANALYSIS (SEC):                 .0005
+
+ TOTAL DURATION OF RESPONSE ANALYSIS  (SEC):     29.990
+
+ DAMPING COEFFICIENT (% OF CRITICAL):             5.000
+ DAMPING TYPE:                                 RAYLEIGH DAMPING    
+
+
+
+
+
+ VERTICAL COMPONENT OF BASE MOTION:                   1
+
+  (=0, NOT INCLUDED; =1, INCLUDED)
+
+
+
+ WAVE NAME: Recorded Table Motion                                                           
+
+
+
+ NO. OF POINTS IN INPUT BASE MOTION:               2999
+
+ TIME INTERVAL OF INPUT WAVE (SEC):                .010
+
+
+
+
+
+ VERTICAL COMPONENT OF BASE MOTION:                   1
+
+  (=0, NOT INCLUDED; =1, INCLUDED)
+
+
+
+ WAVE NAME: WHITENOISE GROUND MOTIONS
+
+
+
+ NO. OF POINTS IN INPUT BASE MOTION:               2999
+
+ TIME INTERVAL OF INPUT WAVE (SEC):                .010
+
+
+
+
+
+
+
+ ********** OUTPUT CONTROL DATA **********
+
+
+
+ NO. OF STORIES FOR WHICH OUTPUT IS REQUIRED:        4
+
+
+
+
+ N0.     STORY
+        NUMBER
+
+
+   1       6
+   2       5
+   3       3
+   4       1
+
+
+
+
+ INITIAL DYNAMIC CHARACTERISTICS:
+
+
+
+
+ ******************************** MODAL ANALYSIS *******************************
+
+
+ MODE       FREQUENCY(Hz)    PERIOD(SEC)  MODAL PARTICIPATION  MODAL WEIGHT     RELATIVE MODAL
+                                               FACTOR         (WEIGHT UNITS)      WEIGHT (%)
+
+
+   1              .79704           1.25465           4.9250            9367.461           66.949
+   2             4.66165            .21452           2.7797            2984.126           21.328
+   3            12.10676            .08260           1.6175            1010.398            7.221
+   4            21.29315            .04696           1.0521             427.519            3.055
+   5            30.69509            .03258            .6486             162.443            1.161
+   6            38.16243            .02620            .3215              39.920             .285
+  TOTAL WEIGHT................................................. 13991.868
+
+
+
+ ********************* EIGEN VECTORS (MAXIMUM NORMALIZED) *********************
+
+
+
+ STORY        1        2        3        4        5        6
+    6       1.000   -1.000     .757    -.528     .348    -.165
+    5        .769    -.034    -.592     .891    -.873     .508
+    4        .544     .706    -.825     .003     .888    -.863
+    3        .339     .994     .137    -.941    -.092    1.000
+    2        .168     .797    1.000     .230    -.751    -.918
+    1        .050     .337     .755    1.000    1.000     .638
+
+
+
+ ********************** EIGEN VECTORS (MASS NORMALIZED) ***********************
+
+
+
+ STORY        1        2        3        4        5        6
+    6        .294    -.229     .173    -.123     .078    -.036
+    5        .226    -.008    -.135     .207    -.195     .113
+    4        .160     .161    -.188     .001     .199    -.191
+    3        .100     .227     .031    -.219    -.021     .222
+    2        .049     .182     .228     .054    -.168    -.204
+    1        .015     .077     .172     .233     .224     .141
+
+
+
+ ***************** END OF MODAL ANALYSIS *****************
+
+
+
+
+
+
+
+ DYNAMIC CHARACTERISTICS WITH GRAVITY LOADS          (IF SPECIFIED):
+
+
+
+
+ ******************************** MODAL ANALYSIS *******************************
+
+
+ MODE       FREQUENCY(Hz)    PERIOD(SEC)  MODAL PARTICIPATION  MODAL WEIGHT     RELATIVE MODAL
+                                               FACTOR         (WEIGHT UNITS)      WEIGHT (%)
+
+
+   1              .79704           1.25465           4.9250            9367.461           66.949
+   2             4.66165            .21452           2.7797            2984.126           21.328
+   3            12.10676            .08260           1.6175            1010.398            7.221
+   4            21.29315            .04696           1.0521             427.519            3.055
+   5            30.69509            .03258            .6486             162.443            1.161
+   6            38.16243            .02620            .3215              39.920             .285
+  TOTAL WEIGHT................................................. 13991.868
+
+
+
+ ********************* EIGEN VECTORS (MAXIMUM NORMALIZED) *********************
+
+
+
+ STORY        1        2        3        4        5        6
+    6       1.000   -1.000     .757    -.528     .348    -.165
+    5        .769    -.034    -.592     .891    -.873     .508
+    4        .544     .706    -.825     .003     .888    -.863
+    3        .339     .994     .137    -.941    -.092    1.000
+    2        .168     .797    1.000     .230    -.751    -.918
+    1        .050     .337     .755    1.000    1.000     .638
+
+
+
+ ********************** EIGEN VECTORS (MASS NORMALIZED) ***********************
+
+
+
+ STORY        1        2        3        4        5        6
+    6        .294    -.229     .173    -.123     .078    -.036
+    5        .226    -.008    -.135     .207    -.195     .113
+    4        .160     .161    -.188     .001     .199    -.191
+    3        .100     .227     .031    -.219    -.021     .222
+    2        .049     .182     .228     .054    -.168    -.204
+    1        .015     .077     .172     .233     .224     .141
+
+
+
+ ***************** END OF MODAL ANALYSIS *****************
+
+
+
+
+
+
+
+
+ SEQUENCE OF COMPONENT CRACKING/YIELDING
+ ---------------------------------------
+
+
+
+
+ CURRENT TIME:                  3.0740
+
+ WALL   1: FLEX. CRACK INITIATED AT BOT 
+ WALL   7: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.1350
+
+ WALL   1: FLEX. CRACK INITIATED AT TOP 
+ WALL   2: FLEX. CRACK INITIATED AT BOT 
+ WALL   7: FLEX. CRACK INITIATED AT TOP 
+ WALL   8: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.1470
+
+ WALL   1: FLEX. YIELDING DETECTED AT BOT 
+ WALL   7: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  3.1550
+
+ COL   2: FLEX. CRACK INITIATED AT BOT 
+ COL  20: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.1560
+
+ COL   1: FLEX. CRACK INITIATED AT TOP 
+ COL  19: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.1710
+
+ COL   8: FLEX. CRACK INITIATED AT BOT 
+ COL  14: FLEX. CRACK INITIATED AT BOT 
+ COL  62: FLEX. CRACK INITIATED AT BOT 
+ COL  92: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.1720
+
+ COL   7: FLEX. CRACK INITIATED AT TOP 
+ COL  13: FLEX. CRACK INITIATED AT TOP 
+ COL  61: FLEX. CRACK INITIATED AT TOP 
+ COL  91: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.1955
+
+ COL  25: FLEX. CRACK INITIATED AT BOT 
+ COL  55: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.2350
+
+ WALL   2: FLEX. CRACK INITIATED AT TOP 
+ WALL   3: FLEX. CRACK INITIATED AT BOT 
+ WALL   8: FLEX. CRACK INITIATED AT TOP 
+ WALL   9: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.2565
+
+ WALL   4: FLEX. CRACK INITIATED AT BOT 
+ WALL  10: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.2605
+
+ WALL   3: FLEX. CRACK INITIATED AT TOP 
+ WALL   9: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.2625
+
+ COL   2: FLEX. CRACK INITIATED AT TOP 
+ COL  20: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.2645
+
+ COL   3: FLEX. CRACK INITIATED AT BOT 
+ COL  21: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.2925
+
+ COL   3: FLEX. CRACK INITIATED AT TOP 
+ COL  21: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.2940
+
+ COL  10: FLEX. CRACK INITIATED AT BOT 
+ COL  16: FLEX. CRACK INITIATED AT BOT 
+ COL  64: FLEX. CRACK INITIATED AT BOT 
+ COL  94: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.3000
+
+ WALL   4: FLEX. CRACK INITIATED AT TOP 
+ WALL   5: FLEX. CRACK INITIATED AT BOT 
+ WALL  10: FLEX. CRACK INITIATED AT TOP 
+ WALL  11: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.3790
+
+ WALL   1: SHEAR CRACK DETECTED
+ WALL   7: SHEAR CRACK DETECTED
+
+ CURRENT TIME:                  3.4105
+
+ WALL   2: SHEAR CRACK DETECTED
+ WALL   8: SHEAR CRACK DETECTED
+
+ CURRENT TIME:                  3.7850
+
+ COL  74: FLEX. CRACK INITIATED AT BOT 
+ COL  80: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.7855
+
+ COL  73: FLEX. CRACK INITIATED AT TOP 
+ COL  79: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.7875
+
+ COL  31: FLEX. CRACK INITIATED AT TOP 
+ COL  32: FLEX. CRACK INITIATED AT BOT 
+ COL  37: FLEX. CRACK INITIATED AT TOP 
+ COL  38: FLEX. CRACK INITIATED AT BOT 
+ COL  43: FLEX. CRACK INITIATED AT TOP 
+ COL  44: FLEX. CRACK INITIATED AT BOT 
+ COL  49: FLEX. CRACK INITIATED AT TOP 
+ COL  50: FLEX. CRACK INITIATED AT BOT 
+ COL  67: FLEX. CRACK INITIATED AT TOP 
+ COL  68: FLEX. CRACK INITIATED AT BOT 
+ COL  85: FLEX. CRACK INITIATED AT TOP 
+ COL  86: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.8265
+
+ COL   8: FLEX. CRACK INITIATED AT TOP 
+ COL  14: FLEX. CRACK INITIATED AT TOP 
+ COL  62: FLEX. CRACK INITIATED AT TOP 
+ COL  92: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.8280
+
+ COL   9: FLEX. CRACK INITIATED AT BOT 
+ COL  15: FLEX. CRACK INITIATED AT BOT 
+ COL  63: FLEX. CRACK INITIATED AT BOT 
+ COL  93: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.8625
+
+ COL  74: FLEX. CRACK INITIATED AT TOP 
+ COL  80: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.8660
+
+ COL  32: FLEX. CRACK INITIATED AT TOP 
+ COL  38: FLEX. CRACK INITIATED AT TOP 
+ COL  44: FLEX. CRACK INITIATED AT TOP 
+ COL  50: FLEX. CRACK INITIATED AT TOP 
+ COL  68: FLEX. CRACK INITIATED AT TOP 
+ COL  75: FLEX. CRACK INITIATED AT BOT 
+ COL  81: FLEX. CRACK INITIATED AT BOT 
+ COL  86: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.8670
+
+ COL   9: FLEX. CRACK INITIATED AT TOP 
+ COL  15: FLEX. CRACK INITIATED AT TOP 
+ COL  63: FLEX. CRACK INITIATED AT TOP 
+ COL  93: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  3.8710
+
+ COL  33: FLEX. CRACK INITIATED AT BOT 
+ COL  39: FLEX. CRACK INITIATED AT BOT 
+ COL  45: FLEX. CRACK INITIATED AT BOT 
+ COL  51: FLEX. CRACK INITIATED AT BOT 
+ COL  69: FLEX. CRACK INITIATED AT BOT 
+ COL  87: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  3.8735
+
+ COL  34: FLEX. CRACK INITIATED AT BOT 
+ COL  40: FLEX. CRACK INITIATED AT BOT 
+ COL  46: FLEX. CRACK INITIATED AT BOT 
+ COL  52: FLEX. CRACK INITIATED AT BOT 
+ COL  70: FLEX. CRACK INITIATED AT BOT 
+ COL  88: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  4.7630
+
+ WALL   1: SHEAR YIELDING DETECTED
+ WALL   7: SHEAR YIELDING DETECTED
+
+ CURRENT TIME:                  4.9710
+
+ COL  25: FLEX. YIELDING DETECTED AT BOT 
+ COL  55: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.7980
+
+ WALL   1: FLEX. YIELDING DETECTED AT TOP 
+ WALL   7: FLEX. YIELDING DETECTED AT TOP 
+
+ CURRENT TIME:                  8.8000
+
+ WALL   2: FLEX. YIELDING DETECTED AT BOT 
+ WALL   8: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.8330
+
+ COL   2: FLEX. YIELDING DETECTED AT BOT 
+ COL  20: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.8495
+
+ COL  74: FLEX. YIELDING DETECTED AT BOT 
+ COL  80: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.8530
+
+ COL  73: FLEX. YIELDING DETECTED AT TOP 
+ COL  79: FLEX. YIELDING DETECTED AT TOP 
+
+ CURRENT TIME:                  8.8535
+
+ COL   8: FLEX. YIELDING DETECTED AT BOT 
+ COL  14: FLEX. YIELDING DETECTED AT BOT 
+ COL  62: FLEX. YIELDING DETECTED AT BOT 
+ COL  92: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.8580
+
+ COL  25: FLEX. CRACK INITIATED AT TOP 
+ COL  55: FLEX. CRACK INITIATED AT TOP 
+
+ CURRENT TIME:                  8.8600
+
+ COL  26: FLEX. CRACK INITIATED AT BOT 
+ COL  56: FLEX. CRACK INITIATED AT BOT 
+
+ CURRENT TIME:                  8.8625
+
+ COL   1: FLEX. YIELDING DETECTED AT TOP 
+ COL  19: FLEX. YIELDING DETECTED AT TOP 
+
+ CURRENT TIME:                  8.8675
+
+ WALL   2: FLEX. YIELDING DETECTED AT TOP 
+ WALL   3: FLEX. YIELDING DETECTED AT BOT 
+ WALL   8: FLEX. YIELDING DETECTED AT TOP 
+ WALL   9: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.8700
+
+ COL  32: FLEX. YIELDING DETECTED AT BOT 
+ COL  38: FLEX. YIELDING DETECTED AT BOT 
+ COL  44: FLEX. YIELDING DETECTED AT BOT 
+ COL  50: FLEX. YIELDING DETECTED AT BOT 
+ COL  68: FLEX. YIELDING DETECTED AT BOT 
+ COL  86: FLEX. YIELDING DETECTED AT BOT 
+
+ CURRENT TIME:                  8.8730
+
+ COL   7: FLEX. YIELDING DETECTED AT TOP 
+ COL  13: FLEX. YIELDING DETECTED AT TOP 
+ COL  61: FLEX. YIELDING DETECTED AT TOP 
+ COL  91: FLEX. YIELDING DETECTED AT TOP 
+
+ CURRENT TIME:                  8.8780
+
+ COL  31: FLEX. YIELDING DETECTED AT TOP 
+ COL  37: FLEX. YIELDING DETECTED AT TOP 
+ COL  43: FLEX. YIELDING DETECTED AT TOP 
+ COL  49: FLEX. YIELDING DETECTED AT TOP 
+ COL  67: FLEX. YIELDING DETECTED AT TOP 
+ COL  85: FLEX. YIELDING DETECTED AT TOP 
+
+ CURRENT TIME:                  8.9545
+
+ COL  25: FLEX. YIELDING DETECTED AT TOP 
+ COL  55: FLEX. YIELDING DETECTED AT TOP 
+
+ CURRENT TIME:                  8.9690
+
+ COL  26: FLEX. YIELDING DETECTED AT BOT 
+ COL  56: FLEX. YIELDING DETECTED AT BOT 
+
+
+
+
+
+          ********** MAXIMUM RESPONSE **********
+
+
+
+ -----------------------------------------------------------------------------------------------
+ STORY    STORY SHEAR    DRIFT RATIO(%)    STORY DRIFT    DISPLACEMENT      VELOCITY    ACCELERATION    STORY VELOCITY DRIFT
+   NO.
+ -----------------------------------------------------------------------------------------------
+
+
+    6       3217.68          6.45           10.0597         49.7495        179.7664      626.9719       46.7544
+    5       3715.72          6.39            9.9687         39.7039        138.9257      281.4623       43.0789
+    4       4071.32          6.24            9.7352         29.7536        105.3298      520.1190       36.9597
+    3       4661.04          5.86            9.1446         20.0310         75.4936      648.0469       32.8852
+    2       6393.54          5.13            7.9978         10.8887         48.5747      646.3393       27.8974
+    1       8552.73          1.85            2.8910          2.8910         22.7316      637.4706       22.7316
+
+
+
+
+
+          ********** MAXIMUM FORCES **********
+                    (TIME AT MAXIMUM)
+
+
+
+
+
+ *** COLUMNS ***
+
+ --------------------------------------------------------------------------------------------------------------
+
+ NO.             MOMENT      MOMENT       SHEAR       SHEAR       AXIAL       AXIAL      MOMENT DEMAND/CAPACITY
+                    (+)         (-)         (+)         (-)      (TENS)      (COMP)        (+)          (-)
+--------------------------------------------------------------------------------------------------------------
+
+   1   BOT    .0000E+00   .0000E+00   .3957E+02  -.5281E+02   .0000E+00  -.1337E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .8026E+04  -.6015E+04                                                       1.028          .770
+               (   9.09)   (   4.95)
+   2   BOT    .8152E+04  -.6127E+04   .3555E+02  -.2362E+02   .0000E+00  -.1337E+03       1.044          .785
+               (   9.08)   (   4.95)   (   8.73)   (   3.42)   (    .00)   (    .00)
+       TOP    .6519E+04  -.5078E+04                                                        .835          .650
+               (   8.91)   (   8.41)
+   3   BOT    .6531E+04  -.4930E+04   .1776E+02  -.1442E+02   .0000E+00  -.1337E+03        .836          .631
+               (   8.91)   (   8.41)   (   8.77)   (   8.31)   (    .00)   (    .00)
+       TOP    .5060E+04  -.4422E+04                                                        .648          .566
+               (   3.88)   (   3.30)
+   4   BOT    .5170E+04  -.4421E+04   .2455E+02  -.1759E+02   .0000E+00  -.4150E+02        .524          .448
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .2378E+04  -.2243E+04                                                        .241          .227
+               (   3.43)   (   9.66)
+   5   BOT    .2339E+04  -.2156E+04   .8152E+01  -.9347E+01   .0000E+00  -.4150E+02        .237          .218
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1143E+04  -.9904E+03                                                        .116          .100
+               (   3.43)   (   3.32)
+   6   BOT    .1083E+04  -.9419E+03   .7127E+01  -.6197E+01   .0000E+00  -.4150E+02        .110          .095
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .2851E+02  -.2479E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+   7   BOT    .0000E+00   .0000E+00   .4672E+02  -.6983E+02   .0000E+00  -.3452E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1061E+05  -.7102E+04                                                       1.019          .682
+               (   9.09)   (   4.95)
+   8   BOT    .1071E+05  -.7217E+04   .4416E+02  -.3149E+02   .0000E+00  -.3452E+03       1.028          .693
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .7562E+04  -.6251E+04                                                        .726          .600
+               (   8.91)   (   8.41)
+   9   BOT    .7514E+04  -.6185E+04   .2214E+02  -.2282E+02   .0000E+00  -.3452E+03        .722          .594
+               (   8.91)   (   8.41)   (   8.81)   (   8.30)   (    .00)   (    .00)
+       TOP    .5994E+04  -.5080E+04                                                        .576          .488
+               (   8.85)   (   3.30)
+  10   BOT    .5475E+04  -.4957E+04   .2315E+02  -.1993E+02   .0000E+00  -.1108E+03        .630          .570
+               (   3.88)   (   9.66)   (   8.89)   (   3.29)   (    .00)   (    .00)
+       TOP    .2550E+04  -.2270E+04                                                        .293          .261
+               (   3.43)   (   9.66)
+  11   BOT    .2554E+04  -.2398E+04   .8843E+01  -.1051E+02   .0000E+00  -.1108E+03        .294          .276
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1258E+04  -.1098E+04                                                        .145          .126
+               (   3.43)   (   3.32)
+  12   BOT    .1192E+04  -.1046E+04   .7844E+01  -.6880E+01   .0000E+00  -.1108E+03        .137          .120
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3138E+02  -.2752E+02                                                        .004          .003
+               (   3.43)   (   3.32)
+  13   BOT    .0000E+00   .0000E+00   .4672E+02  -.6983E+02   .0000E+00  -.3452E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1061E+05  -.7102E+04                                                       1.019          .682
+               (   9.09)   (   4.95)
+  14   BOT    .1071E+05  -.7217E+04   .4416E+02  -.3149E+02   .0000E+00  -.3452E+03       1.028          .693
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .7562E+04  -.6251E+04                                                        .726          .600
+               (   8.91)   (   8.41)
+  15   BOT    .7514E+04  -.6185E+04   .2214E+02  -.2282E+02   .0000E+00  -.3452E+03        .722          .594
+               (   8.91)   (   8.41)   (   8.81)   (   8.30)   (    .00)   (    .00)
+       TOP    .5994E+04  -.5080E+04                                                        .576          .488
+               (   8.85)   (   3.30)
+  16   BOT    .5475E+04  -.4957E+04   .2315E+02  -.1993E+02   .0000E+00  -.1108E+03        .630          .570
+               (   3.88)   (   9.66)   (   8.89)   (   3.29)   (    .00)   (    .00)
+       TOP    .2550E+04  -.2270E+04                                                        .293          .261
+               (   3.43)   (   9.66)
+  17   BOT    .2554E+04  -.2398E+04   .8843E+01  -.1051E+02   .0000E+00  -.1108E+03        .294          .276
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1258E+04  -.1098E+04                                                        .145          .126
+               (   3.43)   (   3.32)
+  18   BOT    .1192E+04  -.1046E+04   .7844E+01  -.6880E+01   .0000E+00  -.1108E+03        .137          .120
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3138E+02  -.2752E+02                                                        .004          .003
+               (   3.43)   (   3.32)
+  19   BOT    .0000E+00   .0000E+00   .3957E+02  -.5281E+02   .0000E+00  -.1337E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .8026E+04  -.6015E+04                                                       1.028          .770
+               (   9.09)   (   4.95)
+  20   BOT    .8152E+04  -.6127E+04   .3555E+02  -.2362E+02   .0000E+00  -.1337E+03       1.044          .785
+               (   9.08)   (   4.95)   (   8.73)   (   3.42)   (    .00)   (    .00)
+       TOP    .6519E+04  -.5078E+04                                                        .835          .650
+               (   8.91)   (   8.41)
+  21   BOT    .6531E+04  -.4930E+04   .1776E+02  -.1442E+02   .0000E+00  -.1337E+03        .836          .631
+               (   8.91)   (   8.41)   (   8.77)   (   8.31)   (    .00)   (    .00)
+       TOP    .5060E+04  -.4422E+04                                                        .648          .566
+               (   3.88)   (   3.30)
+  22   BOT    .5170E+04  -.4421E+04   .2455E+02  -.1759E+02   .0000E+00  -.4150E+02        .524          .448
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .2378E+04  -.2243E+04                                                        .241          .227
+               (   3.43)   (   9.66)
+  23   BOT    .2339E+04  -.2156E+04   .8152E+01  -.9347E+01   .0000E+00  -.4150E+02        .237          .218
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1143E+04  -.9904E+03                                                        .116          .100
+               (   3.43)   (   3.32)
+  24   BOT    .1083E+04  -.9419E+03   .7127E+01  -.6197E+01   .0000E+00  -.4150E+02        .110          .095
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .2851E+02  -.2479E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  25   BOT    .3958E+05  -.3958E+05   .2731E+03  -.3717E+03   .0000E+00  -.5894E+03       1.005         1.005
+               (   8.83)   (   5.07)   (   8.75)   (   9.49)   (    .00)   (    .00)
+       TOP    .3963E+05  -.1232E+05                                                       1.006          .313
+               (   9.06)   (  17.86)
+  26   BOT    .3950E+05  -.1192E+05   .2582E+03  -.1238E+03   .0000E+00  -.5894E+03       1.003          .303
+               (   9.04)   (  14.42)   (   9.33)   (  12.17)   (    .00)   (    .00)
+       TOP    .1125E+05  -.1055E+05                                                        .286          .268
+               (   3.90)   (   8.40)
+  27   BOT    .1137E+05  -.1066E+05   .4959E+02  -.5248E+02   .0000E+00  -.5894E+03        .289          .271
+               (   3.90)   (   8.40)   (  12.09)   (   8.31)   (    .00)   (    .00)
+       TOP    .8645E+04  -.6511E+04                                                        .220          .165
+               (   9.05)   (   3.31)
+  28   BOT    .8522E+04  -.6441E+04   .4523E+02  -.2109E+02   .0000E+00  -.3452E+03        .225          .170
+               (   9.05)   (   3.31)   (   8.98)   (   3.30)   (    .00)   (    .00)
+       TOP    .4004E+04  -.3932E+04                                                        .105          .104
+               (   3.43)   (   9.66)
+  29   BOT    .3941E+04  -.3804E+04   .1461E+02  -.1731E+02   .0000E+00  -.3452E+03        .104          .100
+               (   3.43)   (   9.66)   (   3.89)   (   9.66)   (    .00)   (    .00)
+       TOP    .1902E+04  -.1596E+04                                                        .050          .042
+               (   3.43)   (   3.32)
+  30   BOT    .1801E+04  -.1508E+04   .1185E+02  -.9924E+01   .0000E+00  -.3452E+03        .047          .040
+               (   3.43)   (   3.33)   (   3.43)   (   3.33)   (    .00)   (    .00)
+       TOP    .4739E+02  -.3970E+02                                                        .001          .001
+               (   3.43)   (   3.33)
+  31   BOT    .0000E+00   .0000E+00   .6107E+02  -.1004E+03   .0000E+00  -.7651E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1526E+05  -.9282E+04                                                       1.012          .615
+               (   9.09)   (   4.95)
+  32   BOT    .1530E+05  -.9395E+04   .6331E+02  -.4394E+02   .0000E+00  -.7651E+03       1.014          .623
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .9752E+04  -.7948E+04                                                        .647          .527
+               (   8.91)   (   8.41)
+  33   BOT    .9449E+04  -.7753E+04   .2633E+02  -.3001E+02   .0000E+00  -.7651E+03        .626          .514
+               (   8.91)   (   8.41)   (   8.82)   (   8.31)   (    .00)   (    .00)
+       TOP    .7168E+04  -.5773E+04                                                        .475          .383
+               (   8.85)   (   3.30)
+  34   BOT    .6824E+04  -.5698E+04   .3417E+02  -.2332E+02   .0000E+00  -.2534E+03        .554          .463
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .3000E+04  -.2742E+04                                                        .244          .223
+               (   3.43)   (   9.66)
+  35   BOT    .2954E+04  -.2705E+04   .1045E+02  -.1178E+02   .0000E+00  -.2534E+03        .240          .220
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1421E+04  -.1250E+04                                                        .115          .102
+               (   3.43)   (   3.32)
+  36   BOT    .1345E+04  -.1190E+04   .8851E+01  -.7831E+01   .0000E+00  -.2534E+03        .109          .097
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3540E+02  -.3133E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  37   BOT    .0000E+00   .0000E+00   .6107E+02  -.1004E+03   .0000E+00  -.7651E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1526E+05  -.9282E+04                                                       1.012          .615
+               (   9.09)   (   4.95)
+  38   BOT    .1530E+05  -.9395E+04   .6331E+02  -.4394E+02   .0000E+00  -.7651E+03       1.014          .623
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .9752E+04  -.7948E+04                                                        .647          .527
+               (   8.91)   (   8.41)
+  39   BOT    .9449E+04  -.7753E+04   .2633E+02  -.3001E+02   .0000E+00  -.7651E+03        .626          .514
+               (   8.91)   (   8.41)   (   8.82)   (   8.31)   (    .00)   (    .00)
+       TOP    .7168E+04  -.5773E+04                                                        .475          .383
+               (   8.85)   (   3.30)
+  40   BOT    .6824E+04  -.5698E+04   .3417E+02  -.2332E+02   .0000E+00  -.2534E+03        .554          .463
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .3000E+04  -.2742E+04                                                        .244          .223
+               (   3.43)   (   9.66)
+  41   BOT    .2954E+04  -.2705E+04   .1045E+02  -.1178E+02   .0000E+00  -.2534E+03        .240          .220
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1421E+04  -.1250E+04                                                        .115          .102
+               (   3.43)   (   3.32)
+  42   BOT    .1345E+04  -.1190E+04   .8851E+01  -.7831E+01   .0000E+00  -.2534E+03        .109          .097
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3540E+02  -.3133E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  43   BOT    .0000E+00   .0000E+00   .6107E+02  -.1004E+03   .0000E+00  -.7651E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1526E+05  -.9282E+04                                                       1.012          .615
+               (   9.09)   (   4.95)
+  44   BOT    .1530E+05  -.9395E+04   .6331E+02  -.4394E+02   .0000E+00  -.7651E+03       1.014          .623
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .9752E+04  -.7948E+04                                                        .647          .527
+               (   8.91)   (   8.41)
+  45   BOT    .9449E+04  -.7753E+04   .2633E+02  -.3001E+02   .0000E+00  -.7651E+03        .626          .514
+               (   8.91)   (   8.41)   (   8.82)   (   8.31)   (    .00)   (    .00)
+       TOP    .7168E+04  -.5773E+04                                                        .475          .383
+               (   8.85)   (   3.30)
+  46   BOT    .6824E+04  -.5698E+04   .3417E+02  -.2332E+02   .0000E+00  -.2534E+03        .554          .463
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .3000E+04  -.2742E+04                                                        .244          .223
+               (   3.43)   (   9.66)
+  47   BOT    .2954E+04  -.2705E+04   .1045E+02  -.1178E+02   .0000E+00  -.2534E+03        .240          .220
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1421E+04  -.1250E+04                                                        .115          .102
+               (   3.43)   (   3.32)
+  48   BOT    .1345E+04  -.1190E+04   .8851E+01  -.7831E+01   .0000E+00  -.2534E+03        .109          .097
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3540E+02  -.3133E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  49   BOT    .0000E+00   .0000E+00   .6107E+02  -.1004E+03   .0000E+00  -.7651E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1526E+05  -.9282E+04                                                       1.012          .615
+               (   9.09)   (   4.95)
+  50   BOT    .1530E+05  -.9395E+04   .6331E+02  -.4394E+02   .0000E+00  -.7651E+03       1.014          .623
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .9752E+04  -.7948E+04                                                        .647          .527
+               (   8.91)   (   8.41)
+  51   BOT    .9449E+04  -.7753E+04   .2633E+02  -.3001E+02   .0000E+00  -.7651E+03        .626          .514
+               (   8.91)   (   8.41)   (   8.82)   (   8.31)   (    .00)   (    .00)
+       TOP    .7168E+04  -.5773E+04                                                        .475          .383
+               (   8.85)   (   3.30)
+  52   BOT    .6824E+04  -.5698E+04   .3417E+02  -.2332E+02   .0000E+00  -.2534E+03        .554          .463
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .3000E+04  -.2742E+04                                                        .244          .223
+               (   3.43)   (   9.66)
+  53   BOT    .2954E+04  -.2705E+04   .1045E+02  -.1178E+02   .0000E+00  -.2534E+03        .240          .220
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1421E+04  -.1250E+04                                                        .115          .102
+               (   3.43)   (   3.32)
+  54   BOT    .1345E+04  -.1190E+04   .8851E+01  -.7831E+01   .0000E+00  -.2534E+03        .109          .097
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3540E+02  -.3133E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  55   BOT    .3958E+05  -.3958E+05   .2731E+03  -.3717E+03   .0000E+00  -.5894E+03       1.005         1.005
+               (   8.83)   (   5.07)   (   8.75)   (   9.49)   (    .00)   (    .00)
+       TOP    .3963E+05  -.1232E+05                                                       1.006          .313
+               (   9.06)   (  17.86)
+  56   BOT    .3950E+05  -.1192E+05   .2582E+03  -.1238E+03   .0000E+00  -.5894E+03       1.003          .303
+               (   9.04)   (  14.42)   (   9.33)   (  12.17)   (    .00)   (    .00)
+       TOP    .1125E+05  -.1055E+05                                                        .286          .268
+               (   3.90)   (   8.40)
+  57   BOT    .1137E+05  -.1066E+05   .4959E+02  -.5248E+02   .0000E+00  -.5894E+03        .289          .271
+               (   3.90)   (   8.40)   (  12.09)   (   8.31)   (    .00)   (    .00)
+       TOP    .8645E+04  -.6511E+04                                                        .220          .165
+               (   9.05)   (   3.31)
+  58   BOT    .8522E+04  -.6441E+04   .4523E+02  -.2109E+02   .0000E+00  -.3452E+03        .225          .170
+               (   9.05)   (   3.31)   (   8.98)   (   3.30)   (    .00)   (    .00)
+       TOP    .4004E+04  -.3932E+04                                                        .105          .104
+               (   3.43)   (   9.66)
+  59   BOT    .3941E+04  -.3804E+04   .1461E+02  -.1731E+02   .0000E+00  -.3452E+03        .104          .100
+               (   3.43)   (   9.66)   (   3.89)   (   9.66)   (    .00)   (    .00)
+       TOP    .1902E+04  -.1596E+04                                                        .050          .042
+               (   3.43)   (   3.32)
+  60   BOT    .1801E+04  -.1508E+04   .1185E+02  -.9924E+01   .0000E+00  -.3452E+03        .047          .040
+               (   3.43)   (   3.33)   (   3.43)   (   3.33)   (    .00)   (    .00)
+       TOP    .4739E+02  -.3970E+02                                                        .001          .001
+               (   3.43)   (   3.33)
+  61   BOT    .0000E+00   .0000E+00   .4672E+02  -.6983E+02   .0000E+00  -.3452E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1061E+05  -.7102E+04                                                       1.019          .682
+               (   9.09)   (   4.95)
+  62   BOT    .1071E+05  -.7217E+04   .4416E+02  -.3149E+02   .0000E+00  -.3452E+03       1.028          .693
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .7562E+04  -.6251E+04                                                        .726          .600
+               (   8.91)   (   8.41)
+  63   BOT    .7514E+04  -.6185E+04   .2214E+02  -.2282E+02   .0000E+00  -.3452E+03        .722          .594
+               (   8.91)   (   8.41)   (   8.81)   (   8.30)   (    .00)   (    .00)
+       TOP    .5994E+04  -.5080E+04                                                        .576          .488
+               (   8.85)   (   3.30)
+  64   BOT    .5475E+04  -.4957E+04   .2315E+02  -.1993E+02   .0000E+00  -.1108E+03        .630          .570
+               (   3.88)   (   9.66)   (   8.89)   (   3.29)   (    .00)   (    .00)
+       TOP    .2550E+04  -.2270E+04                                                        .293          .261
+               (   3.43)   (   9.66)
+  65   BOT    .2554E+04  -.2398E+04   .8843E+01  -.1051E+02   .0000E+00  -.1108E+03        .294          .276
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1258E+04  -.1098E+04                                                        .145          .126
+               (   3.43)   (   3.32)
+  66   BOT    .1192E+04  -.1046E+04   .7844E+01  -.6880E+01   .0000E+00  -.1108E+03        .137          .120
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3138E+02  -.2752E+02                                                        .004          .003
+               (   3.43)   (   3.32)
+  67   BOT    .0000E+00   .0000E+00   .6107E+02  -.1004E+03   .0000E+00  -.7651E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1526E+05  -.9282E+04                                                       1.012          .615
+               (   9.09)   (   4.95)
+  68   BOT    .1530E+05  -.9395E+04   .6331E+02  -.4394E+02   .0000E+00  -.7651E+03       1.014          .623
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .9752E+04  -.7948E+04                                                        .647          .527
+               (   8.91)   (   8.41)
+  69   BOT    .9449E+04  -.7753E+04   .2633E+02  -.3001E+02   .0000E+00  -.7651E+03        .626          .514
+               (   8.91)   (   8.41)   (   8.82)   (   8.31)   (    .00)   (    .00)
+       TOP    .7168E+04  -.5773E+04                                                        .475          .383
+               (   8.85)   (   3.30)
+  70   BOT    .6824E+04  -.5698E+04   .3417E+02  -.2332E+02   .0000E+00  -.2534E+03        .554          .463
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .3000E+04  -.2742E+04                                                        .244          .223
+               (   3.43)   (   9.66)
+  71   BOT    .2954E+04  -.2705E+04   .1045E+02  -.1178E+02   .0000E+00  -.2534E+03        .240          .220
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1421E+04  -.1250E+04                                                        .115          .102
+               (   3.43)   (   3.32)
+  72   BOT    .1345E+04  -.1190E+04   .8851E+01  -.7831E+01   .0000E+00  -.2534E+03        .109          .097
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3540E+02  -.3133E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  73   BOT    .0000E+00   .0000E+00   .6186E+02  -.9442E+02   .0000E+00  -.7157E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1435E+05  -.9403E+04                                                       1.015          .665
+               (   9.09)   (   4.95)
+  74   BOT    .1439E+05  -.9536E+04   .6201E+02  -.4316E+02   .0000E+00  -.7157E+03       1.017          .674
+               (   9.08)   (   4.95)   (   8.73)   (   9.53)   (    .00)   (    .00)
+       TOP    .1004E+05  -.7748E+04                                                        .710          .548
+               (   8.91)   (   8.41)
+  75   BOT    .9721E+04  -.7578E+04   .2389E+02  -.2809E+02   .0000E+00  -.7157E+03        .687          .536
+               (   8.91)   (   8.41)   (   8.82)   (   8.32)   (    .00)   (    .00)
+       TOP    .7395E+04  -.5898E+04                                                        .523          .417
+               (   8.85)   (   3.30)
+  76   BOT    .7208E+04  -.5831E+04   .3529E+02  -.2306E+02   .0000E+00  -.2370E+03        .515          .417
+               (   8.85)   (   3.31)   (   8.85)   (   3.30)   (    .00)   (    .00)
+       TOP    .3192E+04  -.2988E+04                                                        .228          .214
+               (   3.43)   (   9.66)
+  77   BOT    .3145E+04  -.2876E+04   .1126E+02  -.1261E+02   .0000E+00  -.2370E+03        .225          .206
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1493E+04  -.1307E+04                                                        .107          .093
+               (   3.43)   (   3.32)
+  78   BOT    .1412E+04  -.1243E+04   .9287E+01  -.8178E+01   .0000E+00  -.2370E+03        .101          .089
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3715E+02  -.3271E+02                                                        .003          .002
+               (   3.43)   (   3.32)
+  79   BOT    .0000E+00   .0000E+00   .6186E+02  -.9442E+02   .0000E+00  -.7157E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1435E+05  -.9403E+04                                                       1.015          .665
+               (   9.09)   (   4.95)
+  80   BOT    .1439E+05  -.9536E+04   .6201E+02  -.4316E+02   .0000E+00  -.7157E+03       1.017          .674
+               (   9.08)   (   4.95)   (   8.73)   (   9.53)   (    .00)   (    .00)
+       TOP    .1004E+05  -.7748E+04                                                        .710          .548
+               (   8.91)   (   8.41)
+  81   BOT    .9721E+04  -.7578E+04   .2389E+02  -.2809E+02   .0000E+00  -.7157E+03        .687          .536
+               (   8.91)   (   8.41)   (   8.82)   (   8.32)   (    .00)   (    .00)
+       TOP    .7395E+04  -.5898E+04                                                        .523          .417
+               (   8.85)   (   3.30)
+  82   BOT    .7208E+04  -.5831E+04   .3529E+02  -.2306E+02   .0000E+00  -.2370E+03        .515          .417
+               (   8.85)   (   3.31)   (   8.85)   (   3.30)   (    .00)   (    .00)
+       TOP    .3192E+04  -.2988E+04                                                        .228          .214
+               (   3.43)   (   9.66)
+  83   BOT    .3145E+04  -.2876E+04   .1126E+02  -.1261E+02   .0000E+00  -.2370E+03        .225          .206
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1493E+04  -.1307E+04                                                        .107          .093
+               (   3.43)   (   3.32)
+  84   BOT    .1412E+04  -.1243E+04   .9287E+01  -.8178E+01   .0000E+00  -.2370E+03        .101          .089
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3715E+02  -.3271E+02                                                        .003          .002
+               (   3.43)   (   3.32)
+  85   BOT    .0000E+00   .0000E+00   .6107E+02  -.1004E+03   .0000E+00  -.7651E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1526E+05  -.9282E+04                                                       1.012          .615
+               (   9.09)   (   4.95)
+  86   BOT    .1530E+05  -.9395E+04   .6331E+02  -.4394E+02   .0000E+00  -.7651E+03       1.014          .623
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .9752E+04  -.7948E+04                                                        .647          .527
+               (   8.91)   (   8.41)
+  87   BOT    .9449E+04  -.7753E+04   .2633E+02  -.3001E+02   .0000E+00  -.7651E+03        .626          .514
+               (   8.91)   (   8.41)   (   8.82)   (   8.31)   (    .00)   (    .00)
+       TOP    .7168E+04  -.5773E+04                                                        .475          .383
+               (   8.85)   (   3.30)
+  88   BOT    .6824E+04  -.5698E+04   .3417E+02  -.2332E+02   .0000E+00  -.2534E+03        .554          .463
+               (   8.85)   (   3.31)   (   8.89)   (   3.30)   (    .00)   (    .00)
+       TOP    .3000E+04  -.2742E+04                                                        .244          .223
+               (   3.43)   (   9.66)
+  89   BOT    .2954E+04  -.2705E+04   .1045E+02  -.1178E+02   .0000E+00  -.2534E+03        .240          .220
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1421E+04  -.1250E+04                                                        .115          .102
+               (   3.43)   (   3.32)
+  90   BOT    .1345E+04  -.1190E+04   .8851E+01  -.7831E+01   .0000E+00  -.2534E+03        .109          .097
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3540E+02  -.3133E+02                                                        .003          .003
+               (   3.43)   (   3.32)
+  91   BOT    .0000E+00   .0000E+00   .4672E+02  -.6983E+02   .0000E+00  -.3452E+03        .000          .000
+               (    .00)   (    .00)   (   4.95)   (   9.09)   (    .00)   (    .00)
+       TOP    .1061E+05  -.7102E+04                                                       1.019          .682
+               (   9.09)   (   4.95)
+  92   BOT    .1071E+05  -.7217E+04   .4416E+02  -.3149E+02   .0000E+00  -.3452E+03       1.028          .693
+               (   9.08)   (   4.95)   (   8.73)   (  10.63)   (    .00)   (    .00)
+       TOP    .7562E+04  -.6251E+04                                                        .726          .600
+               (   8.91)   (   8.41)
+  93   BOT    .7514E+04  -.6185E+04   .2214E+02  -.2282E+02   .0000E+00  -.3452E+03        .722          .594
+               (   8.91)   (   8.41)   (   8.81)   (   8.30)   (    .00)   (    .00)
+       TOP    .5994E+04  -.5080E+04                                                        .576          .488
+               (   8.85)   (   3.30)
+  94   BOT    .5475E+04  -.4957E+04   .2315E+02  -.1993E+02   .0000E+00  -.1108E+03        .630          .570
+               (   3.88)   (   9.66)   (   8.89)   (   3.29)   (    .00)   (    .00)
+       TOP    .2550E+04  -.2270E+04                                                        .293          .261
+               (   3.43)   (   9.66)
+  95   BOT    .2554E+04  -.2398E+04   .8843E+01  -.1051E+02   .0000E+00  -.1108E+03        .294          .276
+               (   3.43)   (   9.66)   (   3.43)   (   9.66)   (    .00)   (    .00)
+       TOP    .1258E+04  -.1098E+04                                                        .145          .126
+               (   3.43)   (   3.32)
+  96   BOT    .1192E+04  -.1046E+04   .7844E+01  -.6880E+01   .0000E+00  -.1108E+03        .137          .120
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (    .00)
+       TOP    .3138E+02  -.2752E+02                                                        .004          .003
+               (   3.43)   (   3.32)
+
+
+ *** WALLS ***
+
+ --------------------------------------------------------------------------------
+
+ NO.             MOMENT      MOMENT       SHEAR       SHEAR       AXIAL       AXIAL      MOMENT DEMAND/CAPACITY
+                    (+)         (-)         (+)         (-)      (TENS)      (COMP)        (+)          (-)
+--------------------------------------------------------------------------------------------------------------
+
+   1   BOT    .4426E+06  -.4334E+06   .1532E+04  -.1939E+04   .0000E+00  -.1323E+03
+               (   9.13)   (   5.07)   (   3.53)   (  10.68)   (    .00)   (  29.99)
+       TOP    .4364E+06  -.3781E+06
+               (   9.08)   (   4.95)
+   2   BOT    .4363E+06  -.3770E+06   .1249E+04  -.1349E+04   .0000E+00  -.1323E+03
+               (   9.08)   (   4.95)   (   8.73)   (   3.42)   (    .00)   (  29.99)
+       TOP    .3973E+06  -.3165E+06
+               (   9.07)   (   8.40)
+   3   BOT    .3973E+06  -.3166E+06   .1032E+04  -.8728E+03   .0000E+00  -.1323E+03
+               (   9.07)   (   8.40)   (   8.78)   (   3.43)   (    .00)   (  29.99)
+       TOP    .3053E+06  -.2698E+06
+               (   3.89)   (   3.31)
+   4   BOT    .3023E+06  -.2668E+06   .7730E+03  -.5600E+03   .0000E+00  -.1248E+03
+               (   8.86)   (   3.31)   (   8.91)   (   4.95)   (    .00)   (  29.99)
+       TOP    .2171E+06  -.2155E+06
+               (   6.45)   (   9.66)
+   5   BOT    .2171E+06  -.2155E+06   .8030E+03  -.8338E+03   .0000E+00  -.1248E+03
+               (   6.45)   (   9.66)   (   3.89)   (   9.66)   (    .00)   (  29.99)
+       TOP    .1146E+06  -.9686E+05
+               (   3.43)   (   3.32)
+   6   BOT    .1145E+06  -.9679E+05   .7340E+03  -.6205E+03   .0000E+00  -.1248E+03
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (  29.99)
+       TOP    .3171E-06  -.8469E-07
+               (  26.89)   (   4.50)
+   7   BOT    .4426E+06  -.4334E+06   .1532E+04  -.1939E+04   .0000E+00  -.1323E+03
+               (   9.13)   (   5.07)   (   3.53)   (  10.68)   (    .00)   (  29.99)
+       TOP    .4364E+06  -.3781E+06
+               (   9.08)   (   4.95)
+   8   BOT    .4363E+06  -.3770E+06   .1249E+04  -.1349E+04   .0000E+00  -.1323E+03
+               (   9.08)   (   4.95)   (   8.73)   (   3.42)   (    .00)   (  29.99)
+       TOP    .3973E+06  -.3165E+06
+               (   9.07)   (   8.40)
+   9   BOT    .3973E+06  -.3166E+06   .1032E+04  -.8728E+03   .0000E+00  -.1323E+03
+               (   9.07)   (   8.40)   (   8.78)   (   3.43)   (    .00)   (  29.99)
+       TOP    .3053E+06  -.2698E+06
+               (   3.89)   (   3.31)
+  10   BOT    .3023E+06  -.2668E+06   .7730E+03  -.5600E+03   .0000E+00  -.1248E+03
+               (   8.86)   (   3.31)   (   8.91)   (   4.95)   (    .00)   (  29.99)
+       TOP    .2171E+06  -.2155E+06
+               (   6.45)   (   9.66)
+  11   BOT    .2171E+06  -.2155E+06   .8030E+03  -.8338E+03   .0000E+00  -.1248E+03
+               (   6.45)   (   9.66)   (   3.89)   (   9.66)   (    .00)   (  29.99)
+       TOP    .1146E+06  -.9686E+05
+               (   3.43)   (   3.32)
+  12   BOT    .1145E+06  -.9679E+05   .7340E+03  -.6205E+03   .0000E+00  -.1248E+03
+               (   3.43)   (   3.32)   (   3.43)   (   3.32)   (    .00)   (  29.99)
+       TOP    .1034E-06  -.7689E-07
+               (  20.24)   (  10.08)
+
+
+
+
+
+ ******************** D A M A G E D   S T A T E   O F   F R A M E S ********************
+
+
+
+
+ FINAL STATE OF FRAME NO.  1
+
+
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           x           !           !           x           !     
+        +           +           +           +           +           +     
+        !           x           !           !           x           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           x           x           x           x           !     
+        +           +           +           +           +           +     
+        x           x           x           x           x           x     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        x           O           x           x           O           x     
+        +           +           +           +           +           +     
+        x           O           x           x           O           x     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        O           O           O           O           O           O     
+        +           +           +           +           +           +     
+        O           O           O           O           O           O     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !           O           !           !           O           !     
+
+
+
+ NOTATION:
+
+ - = BEAM                 x = CRACKING(FOR CONCRETE)
+ ! = COLUMN                   INITIAL YIELD(FOR STEEL)
+ W = SHEAR WALL           O = PLASTIC HINGE DEVELOPED
+                          * = LOCAL FAUILURE(EXCEED CRITERIA)
+ I = EDGE COLUMN          FOR EDGE COLS: C: COMPRESSION
+                                         T: TENSION
+                                         O: TENSILE YIELD
+                          X = INITIAL SHEAR CRACK OR YIELD
+                          $ = SHEAR FAILURE
+
+
+
+
+
+
+
+
+
+
+ FINAL STATE OF FRAME NO.  2
+
+
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           x           x           x           x           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           x           x           x           x           !     
+        +           +           +           +           +           +     
+        !           x           x           x           x           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        O           O           O           O           O           O     
+        +           +           +           +           +           +     
+        O           O           O           O           O           O     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        O           !           !           !           !           O     
+
+
+
+ NOTATION:
+
+ - = BEAM                 x = CRACKING(FOR CONCRETE)
+ ! = COLUMN                   INITIAL YIELD(FOR STEEL)
+ W = SHEAR WALL           O = PLASTIC HINGE DEVELOPED
+                          * = LOCAL FAUILURE(EXCEED CRITERIA)
+ I = EDGE COLUMN          FOR EDGE COLS: C: COMPRESSION
+                                         T: TENSION
+                                         O: TENSILE YIELD
+                          X = INITIAL SHEAR CRACK OR YIELD
+                          $ = SHEAR FAILURE
+
+
+
+
+
+
+
+
+
+
+ FINAL STATE OF FRAME NO.  3
+
+
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        x           x           !           !           x           x     
+        +           +           +           +           +           +     
+        x           !           !           !           !           x     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        x           x           x           x           x           x     
+        +           +           +           +           +           +     
+        x           x           x           x           x           x     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        O           O           O           O           O           O     
+        +           +           +           +           +           +     
+        O           O           O           O           O           O     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+
+
+
+ NOTATION:
+
+ - = BEAM                 x = CRACKING(FOR CONCRETE)
+ ! = COLUMN                   INITIAL YIELD(FOR STEEL)
+ W = SHEAR WALL           O = PLASTIC HINGE DEVELOPED
+                          * = LOCAL FAUILURE(EXCEED CRITERIA)
+ I = EDGE COLUMN          FOR EDGE COLS: C: COMPRESSION
+                                         T: TENSION
+                                         O: TENSILE YIELD
+                          X = INITIAL SHEAR CRACK OR YIELD
+                          $ = SHEAR FAILURE
+
+
+
+
+
+
+ ************ DAMAGE ANALYSIS *************
+ ****** MODIFIED PARK-ANG-WEN MODEL *******
+
+
+
+
+ ********** DAMAGE DATA: COLUMNS
+            ====================
+
+
+
+  NO.      ****DEFORMATION DAMAGE***     *****STRENGTH DAMAGE*****    *HYST. ENERGY*     ***TOTAL DAMAGE***
+           ****FLEXURAL***     SHEAR     ****FLEXURAL***     SHEAR                        FLEXURAL   SHEAR
+            BOT       TOP                 BOT       TOP
+
+
+    1      .000      .253      .000      .000      .004      .000       .1398E+03           .256      .000
+    2      .347      .105      .000      .005      .000      .000       .2136E+03           .336      .000
+    3      .081      .068      .000      .001      .000      .000       .3002E+02           .079      .000
+    4      .000      .000      .000      .000      .000      .000       .8149E-05           .000      .000
+    5      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+    6      .000      .000      .000      .000      .000      .000       .4713E-07           .000      .000
+    7      .000      .183      .000      .000      .002      .000       .1818E+03           .186      .000
+    8      .232      .050      .000      .003      .000      .000       .2554E+03           .226      .000
+    9      .040      .040      .000      .000      .000      .000       .2347E+02           .040      .000
+   10      .054      .000      .000      .000      .000      .000       .6552E+01           .054      .000
+   11      .000      .000      .000      .000      .000      .000       .1937E-06           .000      .000
+   12      .000      .000      .000      .000      .000      .000       .1551E-06           .000      .000
+   13      .000      .183      .000      .000      .002      .000       .1818E+03           .186      .000
+   14      .232      .050      .000      .003      .000      .000       .2554E+03           .226      .000
+   15      .040      .040      .000      .000      .000      .000       .2347E+02           .040      .000
+   16      .054      .000      .000      .000      .000      .000       .6552E+01           .054      .000
+   17      .000      .000      .000      .000      .000      .000       .1937E-06           .000      .000
+   18      .000      .000      .000      .000      .000      .000       .1551E-06           .000      .000
+   19      .000      .253      .000      .000      .004      .000       .1398E+03           .256      .000
+   20      .347      .105      .000      .005      .000      .000       .2136E+03           .336      .000
+   21      .081      .068      .000      .001      .000      .000       .3002E+02           .079      .000
+   22      .000      .000      .000      .000      .000      .000       .8149E-05           .000      .000
+   23      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   24      .000      .000      .000      .000      .000      .000       .4713E-07           .000      .000
+   25      .141      .074      .000      .004      .000      .000       .2168E+04           .141      .000
+   26      .060      .000      .000      .000      .000      .000       .1671E+03           .060      .000
+   27      .000      .000      .000      .000      .000      .000       .1616E-03           .000      .000
+   28      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   29      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   30      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   31      .000      .129      .000      .000      .002      .000       .2328E+03           .131      .000
+   32      .150      .047      .000      .002      .000      .000       .2891E+03           .148      .000
+   33      .039      .000      .000      .000      .000      .000       .1466E+02           .040      .000
+   34      .037      .000      .000      .000      .000      .000       .2964E+00           .037      .000
+   35      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   36      .000      .000      .000      .000      .000      .000       .2672E-07           .000      .000
+   37      .000      .129      .000      .000      .002      .000       .2328E+03           .131      .000
+   38      .150      .047      .000      .002      .000      .000       .2891E+03           .148      .000
+   39      .039      .000      .000      .000      .000      .000       .1466E+02           .040      .000
+   40      .037      .000      .000      .000      .000      .000       .2964E+00           .037      .000
+   41      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   42      .000      .000      .000      .000      .000      .000       .2672E-07           .000      .000
+   43      .000      .129      .000      .000      .002      .000       .2328E+03           .131      .000
+   44      .150      .047      .000      .002      .000      .000       .2891E+03           .148      .000
+   45      .039      .000      .000      .000      .000      .000       .1466E+02           .040      .000
+   46      .037      .000      .000      .000      .000      .000       .2964E+00           .037      .000
+   47      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   48      .000      .000      .000      .000      .000      .000       .2672E-07           .000      .000
+   49      .000      .129      .000      .000      .002      .000       .2328E+03           .131      .000
+   50      .150      .047      .000      .002      .000      .000       .2891E+03           .148      .000
+   51      .039      .000      .000      .000      .000      .000       .1466E+02           .040      .000
+   52      .037      .000      .000      .000      .000      .000       .2964E+00           .037      .000
+   53      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   54      .000      .000      .000      .000      .000      .000       .2672E-07           .000      .000
+   55      .141      .074      .000      .004      .000      .000       .2168E+04           .141      .000
+   56      .060      .000      .000      .000      .000      .000       .1671E+03           .060      .000
+   57      .000      .000      .000      .000      .000      .000       .1616E-03           .000      .000
+   58      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   59      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   60      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   61      .000      .183      .000      .000      .002      .000       .1818E+03           .186      .000
+   62      .232      .050      .000      .003      .000      .000       .2554E+03           .226      .000
+   63      .040      .040      .000      .000      .000      .000       .2347E+02           .040      .000
+   64      .054      .000      .000      .000      .000      .000       .6552E+01           .054      .000
+   65      .000      .000      .000      .000      .000      .000       .1937E-06           .000      .000
+   66      .000      .000      .000      .000      .000      .000       .1551E-06           .000      .000
+   67      .000      .129      .000      .000      .002      .000       .2328E+03           .131      .000
+   68      .150      .047      .000      .002      .000      .000       .2891E+03           .148      .000
+   69      .039      .000      .000      .000      .000      .000       .1466E+02           .040      .000
+   70      .037      .000      .000      .000      .000      .000       .2964E+00           .037      .000
+   71      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   72      .000      .000      .000      .000      .000      .000       .2672E-07           .000      .000
+   73      .000      .195      .000      .000      .003      .000       .2279E+03           .198      .000
+   74      .225      .069      .000      .003      .000      .000       .2771E+03           .224      .000
+   75      .058      .000      .000      .000      .000      .000       .1402E+02           .059      .000
+   76      .000      .000      .000      .000      .000      .000       .1147E-05           .000      .000
+   77      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   78      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   79      .000      .195      .000      .000      .003      .000       .2279E+03           .198      .000
+   80      .225      .069      .000      .003      .000      .000       .2771E+03           .224      .000
+   81      .058      .000      .000      .000      .000      .000       .1402E+02           .059      .000
+   82      .000      .000      .000      .000      .000      .000       .1147E-05           .000      .000
+   83      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   84      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   85      .000      .129      .000      .000      .002      .000       .2328E+03           .131      .000
+   86      .150      .047      .000      .002      .000      .000       .2891E+03           .148      .000
+   87      .039      .000      .000      .000      .000      .000       .1466E+02           .040      .000
+   88      .037      .000      .000      .000      .000      .000       .2964E+00           .037      .000
+   89      .000      .000      .000      .000      .000      .000       .0000E+00           .000      .000
+   90      .000      .000      .000      .000      .000      .000       .2672E-07           .000      .000
+   91      .000      .183      .000      .000      .002      .000       .1818E+03           .186      .000
+   92      .232      .050      .000      .003      .000      .000       .2554E+03           .226      .000
+   93      .040      .040      .000      .000      .000      .000       .2347E+02           .040      .000
+   94      .054      .000      .000      .000      .000      .000       .6552E+01           .054      .000
+   95      .000      .000      .000      .000      .000      .000       .1937E-06           .000      .000
+   96      .000      .000      .000      .000      .000      .000       .1551E-06           .000      .000
+
+
+ ********** DAMAGE DATA: WALLS
+            ==================
+
+
+  NO.     **DEFORMATION DAMAGE**     ***STRENGTH DAMAGE****   HYST. ENERGY  **TOTAL DAMAGE**
+          ***FLEXURE***    SHEAR     ***FLEXURE***    SHEAR                 FLEXURE   SHEAR
+           BOT      TOP               BOT      TOP
+
+    1     .102     .091     .353     .030     .007     .000    .4762E+05     .126     .353
+    2     .091     .025     .057     .007     .002     .000    .1140E+05     .083     .057
+    3     .025     .015     .000     .002     .001     .000    .3890E+04     .023     .000
+    4     .017     .011     .000     .001     .000     .000    .1796E+04     .018     .000
+    5     .011     .000     .000     .000     .000     .000    .1312E+03     .011     .000
+    6     .000     .000     .000     .000     .000     .000    .1070E-15     .000     .000
+    7     .102     .091     .353     .030     .007     .000    .4762E+05     .126     .353
+    8     .091     .025     .057     .007     .002     .000    .1140E+05     .083     .057
+    9     .025     .015     .000     .002     .001     .000    .3890E+04     .023     .000
+   10     .017     .011     .000     .001     .000     .000    .1796E+04     .018     .000
+   11     .011     .000     .000     .000     .000     .000    .1312E+03     .011     .000
+   12     .000     .000     .000     .000     .000     .000    .2957E-16     .000     .000
+
+
+
+
+          ********** RESULTS OF DAMAGE ANALYSIS **********
+
+
+
+
+
+
+ DAMAGE INDEX STATISTICS OF FRAME NO.  1
+
+
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !0.00       w0.00       !0.00       !0.00       w0.00       !0.00 
+        !(.05)      w(.00)      !(.18)      !(.18)      w(.00)      !(.05)
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !0.00       w0.01       !0.00       !0.00       w0.01       !0.00 
+        !(.00)      w(.50)      !(.00)      !(.00)      w(.50)      !(.00)
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !0.00       w0.02       !0.05       !0.05       w0.02       !0.00 
+        !(.00)      w(.50)      !(.00)      !(.00)      w(.50)      !(.00)
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !0.08       w0.02       !0.04       !0.04       w0.02       !0.08 
+        !(.00)      w(.48)      !(.00)      !(.00)      w(.48)      !(.00)
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !0.34       w0.08       !0.23       !0.23       w0.08       !0.34 
+        !(.01)      w(.42)      !(.01)      !(.01)      w(.42)      !(.01)
+        !           w           !           !           w           !     
+        +           +           +           +           +           +     
+        !           w           !           !           w           !     
+        !           w           !           !           w           !     
+        !0.26       w0.13       !0.19       !0.19       w0.13       !0.26 
+        !(.00)      w(.46)      !(.00)      !(.00)      w(.46)      !(.00)
+        !           w           !           !           w           !     
+
+
+
+ VALUES IN PARANTHESIS INDICATE ENERGY RATIOS
+
+
+
+
+
+
+
+
+
+ DAMAGE INDEX STATISTICS OF FRAME NO.  2
+
+
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.00       !0.00       !0.00       !0.00       !0.00       !0.00 
+        !(.00)      !(.03)      !(.03)      !(.03)      !(.03)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.00       !0.00       !0.00       !0.00       !0.00       !0.00 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.00       !0.04       !0.04       !0.04       !0.04       !0.00 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.00       !0.04       !0.04       !0.04       !0.04       !0.00 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.06       !0.15       !0.15       !0.15       !0.15       !0.06 
+        !(.01)      !(.01)      !(.01)      !(.01)      !(.01)      !(.01)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.14       !0.13       !0.13       !0.13       !0.13       !0.14 
+        !(.02)      !(.00)      !(.00)      !(.00)      !(.00)      !(.02)
+        !           !           !           !           !           !     
+
+
+
+ VALUES IN PARANTHESIS INDICATE ENERGY RATIOS
+
+
+
+
+
+
+
+
+
+ DAMAGE INDEX STATISTICS OF FRAME NO.  3
+
+
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.00       !0.00       !0.00       !0.00       !0.00       !0.00 
+        !(.18)      !(.03)      !(.00)      !(.00)      !(.03)      !(.18)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.00       !0.00       !0.00       !0.00       !0.00       !0.00 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.05       !0.04       !0.00       !0.00       !0.04       !0.05 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.04       !0.04       !0.06       !0.06       !0.04       !0.04 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.23       !0.15       !0.22       !0.22       !0.15       !0.23 
+        !(.01)      !(.01)      !(.01)      !(.01)      !(.01)      !(.01)
+        !           !           !           !           !           !     
+        +           +           +           +           +           +     
+        !           !           !           !           !           !     
+        !           !           !           !           !           !     
+        !0.19       !0.13       !0.20       !0.20       !0.13       !0.19 
+        !(.00)      !(.00)      !(.00)      !(.00)      !(.00)      !(.00)
+        !           !           !           !           !           !     
+
+
+
+ VALUES IN PARANTHESIS INDICATE ENERGY RATIOS
+
+
+
+
+
+
+ ********* STORY LEVEL DAMAGE INDICES **********
+
+ ------------------------------------------------------------
+
+  STORY         BEAM-SLAB          COL-WALL         WEIGHTING
+                   DAMAGE            DAMAGE            FACTOR
+ ------------------------------------------------------------
+
+    6              .000              .000              .000
+    5              .000              .011              .002
+    4              .000              .018              .026
+    3              .000              .024              .057
+    2              .000              .099              .190
+    1              .000              .128              .725
+
+    OVERALL STRUCTURAL DAMAGE :      .113
+
+ ------------------------------------------------------------
+
+
+

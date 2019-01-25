@@ -1,0 +1,137 @@
+2017-09-23 19:34:54,149 INFO SampleWizard.Program - Hello I am Started
+2017-09-23 21:14:18,903 INFO SampleWizard.Program - Application Started
+2017-09-23 21:15:35,533 INFO SampleWizard.Program - Application Started
+2017-09-23 21:18:47,225 INFO SampleWizard.Program - Application Started
+2017-09-26 10:55:49,070 INFO SampleWizard.Program - Application Started
+2017-09-26 11:10:25,560 INFO SampleWizard.Program - Application Started
+2017-09-26 11:41:46,017 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-09-26 11:41:46,017 INFO SampleWizard.PostProcessor - The value of T is :0.25
+2017-09-26 11:41:46,018 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-09-26 11:41:46,022 INFO SampleWizard.PostProcessor - SSF value is : 1.33
+2017-09-26 11:41:46,023 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-09-26 11:41:46,023 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-09-26 11:41:46,024 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-10-04 11:43:11,398 INFO SampleWizard.Program - Application Started
+2017-10-04 12:01:14,308 INFO SampleWizard.Program - Application Started
+2017-10-04 12:05:03,270 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-10-04 12:05:03,270 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-10-04 12:05:03,271 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-10-04 12:05:03,271 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-10-04 12:05:03,271 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-10-04 12:05:03,271 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-10-04 12:05:03,271 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-10-04 12:05:32,147 INFO SampleWizard.Program - Application Started
+2017-10-04 12:08:24,531 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-10-04 12:08:24,532 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-10-04 12:08:24,532 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-10-04 12:08:24,532 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-10-04 12:08:24,532 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-10-04 12:08:24,533 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-10-04 12:08:24,533 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-10-04 12:09:44,003 INFO SampleWizard.Program - Application Started
+2017-10-05 11:00:38,907 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-10-05 11:00:38,907 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-10-05 11:00:38,907 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-10-05 11:00:38,908 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-10-05 11:00:38,908 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-10-05 11:00:38,909 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-10-05 11:00:38,909 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-10-11 10:26:12,909 INFO SampleWizard.Program - Application Started
+2017-10-11 10:31:01,697 INFO SampleWizard.Program - Application Started
+2017-10-11 11:01:55,529 INFO SampleWizard.Program - Application Started
+2017-10-11 11:07:26,366 INFO SampleWizard.Program - Application Started
+2017-10-12 12:11:56,066 INFO SampleWizard.Program - Application Started
+2017-10-12 12:19:05,975 INFO SampleWizard.Program - Application Started
+2017-10-12 12:26:48,344 INFO SampleWizard.Program - Application Started
+2017-10-12 12:28:24,969 INFO SampleWizard.Program - Application Started
+2017-10-12 12:29:29,579 INFO SampleWizard.Program - Application Started
+2017-10-12 12:30:05,219 INFO SampleWizard.Program - Application Started
+2017-10-12 12:30:46,276 INFO SampleWizard.Program - Application Started
+2017-10-12 12:32:39,720 INFO SampleWizard.Program - Application Started
+2017-10-12 12:41:42,704 INFO SampleWizard.Program - Application Started
+2017-10-12 12:43:24,100 INFO SampleWizard.Program - Application Started
+2017-10-12 12:47:48,227 INFO SampleWizard.Program - Application Started
+2017-10-12 12:48:57,723 INFO SampleWizard.Program - Application Started
+2017-10-12 12:50:55,877 INFO SampleWizard.Program - Application Started
+2017-10-12 12:51:53,341 INFO SampleWizard.Program - Application Started
+2017-10-12 12:54:23,551 INFO SampleWizard.Program - Application Started
+2017-10-12 12:57:01,189 INFO SampleWizard.Program - Application Started
+2017-10-12 17:14:11,999 INFO SampleWizard.Program - Application Started
+2017-10-12 17:22:43,130 INFO SampleWizard.Program - Application Started
+2017-10-12 17:26:06,606 INFO SampleWizard.Program - Application Started
+2017-10-12 17:26:29,951 INFO SampleWizard.Program - Application Started
+2017-10-12 17:26:43,223 INFO SampleWizard.Program - Application Started
+2017-10-12 17:46:33,356 INFO SampleWizard.Program - Application Started
+2017-10-12 17:59:15,117 INFO SampleWizard.Program - Application Started
+2017-10-12 18:04:20,978 INFO SampleWizard.Program - Application Started
+2017-10-12 18:05:55,357 INFO SampleWizard.Program - Application Started
+2017-10-18 10:30:26,538 INFO SampleWizard.Program - Application Started
+2017-10-18 10:33:37,143 INFO SampleWizard.Program - Application Started
+2017-10-18 10:34:34,401 INFO SampleWizard.Program - Application Started
+2017-10-18 10:36:39,369 INFO SampleWizard.Program - Application Started
+2017-10-18 10:37:02,341 INFO SampleWizard.Program - Application Started
+2017-10-18 10:42:03,646 INFO SampleWizard.Program - Application Started
+2017-10-18 10:46:19,927 INFO SampleWizard.Program - Application Started
+2017-10-18 10:53:12,283 INFO SampleWizard.Program - Application Started
+2017-10-18 10:58:08,608 INFO SampleWizard.Program - Application Started
+2017-10-18 11:01:54,045 INFO SampleWizard.Program - Application Started
+2017-10-18 11:02:59,890 INFO SampleWizard.Program - Application Started
+2017-10-18 11:06:15,946 INFO SampleWizard.Program - Application Started
+2017-10-18 11:13:06,857 INFO SampleWizard.Program - Application Started
+2017-10-18 12:44:32,953 INFO SampleWizard.Program - Application Started
+2017-10-18 12:46:09,168 INFO SampleWizard.Program - Application Started
+2017-10-18 12:47:32,796 INFO SampleWizard.Program - Application Started
+2017-10-18 12:58:43,287 INFO SampleWizard.Program - Application Started
+2017-11-15 10:03:04,286 INFO SampleWizard.Program - Application Started
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-11-15 10:05:33,243 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-11-15 10:10:14,594 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-11-15 10:15:11,461 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-11-15 10:15:11,461 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-11-15 10:15:11,462 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-11-15 10:15:11,462 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-11-15 10:15:11,463 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-11-15 10:15:11,463 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-11-15 10:15:11,463 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-11-15 10:15:59,007 INFO SampleWizard.Program - Application Started
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-11-15 10:20:33,675 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-11-15 10:21:30,424 INFO SampleWizard.Program - Application Started
+2017-11-15 10:21:45,830 INFO SampleWizard.Program - Application Started
+2017-11-15 10:24:54,593 INFO SampleWizard.Program - Application Started
+2017-11-15 10:26:03,550 INFO SampleWizard.Program - Application Started
+2017-11-15 10:27:12,907 INFO SampleWizard.Program - Application Started
+2017-11-15 10:28:13,834 INFO SampleWizard.Program - Application Started
+2017-11-15 10:29:01,491 INFO SampleWizard.Program - Application Started
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - SDC : [D -]
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - The value of T is :0.734901245404906
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - The value of BTOT is : 0.529150262212918
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - SSF value is : 1.39047037362147
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - Mu value is : 11
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - The value of ACMR10 is : 1.969960629311
+2017-11-15 12:02:03,532 INFO SampleWizard.PostProcessor - The value of ACMR20 is : 1.5649803146555
+2017-11-15 16:55:04,149 INFO SampleWizard.Program - Application Started
+2017-11-15 16:57:37,157 INFO SampleWizard.Program - Application Started
+2017-11-15 16:58:23,319 INFO SampleWizard.Program - Application Started
+2017-11-15 17:00:24,007 INFO SampleWizard.Program - Application Started
+2017-11-15 17:01:48,863 INFO SampleWizard.Program - Application Started
+2017-12-17 14:48:16,398 INFO SampleWizard.Program - Application Started
+2017-12-17 14:56:34,951 INFO SampleWizard.Program - Application Started
+2019-01-22 18:08:17,357 INFO SampleWizard.Program - Application Started
+2019-01-22 18:09:21,626 INFO SampleWizard.Program - Application Started

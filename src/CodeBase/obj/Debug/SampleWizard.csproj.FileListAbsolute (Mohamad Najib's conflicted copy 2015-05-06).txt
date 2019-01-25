@@ -1,0 +1,795 @@
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.config
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\SampleWizard.pdb
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.pdb
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\Controls.dll
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\Mommo.Data.dll
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\SampleWizard.application
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+c:\users\m_najeeb\documents\visual studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\m_najeeb\Documents\Visual Studio 2012\Projects\SampleWizard\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+F:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.config
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.pdb
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\ResolveAssemblyReference.cache
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+F:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.application
+F:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe
+F:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.pdb
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.application
+K:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.config
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.pdb
+K:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+K:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.application
+K:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe
+K:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.pdb
+K:\SampleWizard\SampleWizard\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.application
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+K:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\GenerateResource-ResGen.read.2.tlog
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\GenerateResource-ResGen.read.6.tlog
+F:\SampleWizard\SampleWizard\SampleWizard\obj\Debug\GenerateResource-ResGen.write.2.tlog
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.New1.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.config
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.application
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.exe
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\SampleWizard.pdb
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.exe
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.pdb
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\Controls.dll
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\Mommo.Data.dll
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\WizardBase.dll
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\bin\Debug\Controls.pdb
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.About.resources
+C:\Users\m_najeeb\Desktop\SampleWizard\SampleWizard\SampleWizard\obj\Debug\SampleWizard.about1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Controls.pdb
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.Web.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.dll
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.pdb
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.pdb
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.pdb
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.xml
+C:\Users\m_najeeb\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\demo.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\demo.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.dll
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.pdb
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.pdb
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.pdb
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Controls.pdb
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.Web.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.xml
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+C:\Users\m_najeeb\Desktop\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\demo.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Controls.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.Web.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.xml
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\GeneralMatrix.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.dll
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.pdb
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Batch_opt.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_opt.resources
+C:\Users\Mohamad\Desktop\Desktop_22-2-2015\Desktop\To copy\AlHamyida Projects\IDARC\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChanger.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.dll
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.dll
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Controls.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.pdb
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.Web.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.xml
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Batch_opt.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_opt.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChanger.resources
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+F:\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\GeneralMatrix.dll
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.dll
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.dll
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.dll
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.xml
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.xml
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.pdb
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Batch_opt.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_opt.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChanger.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.dll
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.dll
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Controls.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.Web.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Batch_opt.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_opt.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChanger.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChangerList.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveBatchExample.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.config
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.application
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.exe
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\SampleWizard.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.dll
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.dll
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Math.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Accord.Statistics.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Controls.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\MathNet.Numerics.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\nunit.framework.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Optimization.pdb
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\ZedGraph.Web.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.Math.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\AForge.xml
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.about1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Batch_opt.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.FEMA_opt.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.New1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.About.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.plot.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveBatchExample.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChanger.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChangerList.resources
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+F:\idarc\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.application
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1_post.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2_post.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3_post.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveBatchExample.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.WaveFileChangerList.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b1_post.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b2_post.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.b3_post.resources
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Resources\FEMA.pdf
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\bin\Debug\Resources\FEMA.pdf
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\project_2\VS files 12-10-2013\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\SampleWizard.exe.config
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.exe
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\Resources\FEMA.pdf
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\SampleWizard.exe.manifest
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\SampleWizard.application
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\SampleWizard.exe
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\SampleWizard.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\MathNet.Numerics.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\nunit.framework.xml
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\Optimization.pdb
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.csprojResolveAssemblyReference.cache
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Analysis.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.about1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.b1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.b2.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.b3.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Batch_opt.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.b1_post.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.b2_post.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.b3_post.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.FEMA_H1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.FEMA_opt.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.New1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_brace_sp.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Infill.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.L_NLC.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.L_NLM.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.L_NLJ.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.L_NLU.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_Infill.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_brace.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_Moment.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_Spring.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_Transverse.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_edge.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_shear.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_beam.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.C_column.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Hy_Mod.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Columns.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Columns_1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Beams_2.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_NSECT.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Shear_2.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Edge.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Transverse.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Rotational.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Visco.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Friction.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Hysteretic.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_Concrete.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_REINFORCEMENT.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Edit_MASONRY.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Form1.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.About.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.plot.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Properties.Resources.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.Splash.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.WaveBatchExample.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.WaveFileChanger.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.WaveFileChangerList.resources
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.csproj.GenerateResource.Cache
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.exe.manifest
+C:\Users\Mohamad\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.application
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\bin\Debug\SampleWizard.exe.config
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.exe
+E:\Dropbox\Dr.AlHamaydeh_Mohamad Najib\AlHamyida Projects\IDARC\VS files\SampleWizard\obj\Debug\SampleWizard.pdb
