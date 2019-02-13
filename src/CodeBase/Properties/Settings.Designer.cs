@@ -739,283 +739,287 @@ namespace SampleWizard.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("<html>\r\n\r\n<head>\r\n<meta http-equiv=Content-Type content=\"text/html; charset=windo" +
-            "ws-1252\">\r\n<meta name=Generator content=\"Microsoft Word 14 (filtered)\">\r\n<style>" +
+            "ws-1252\">\r\n<meta name=Generator content=\"Microsoft Word 15 (filtered)\">\r\n<style>" +
             "\r\n<!--\r\n /* Font Definitions */\r\n @font-face\r\n\t{font-family:Wingdings;\r\n\tpanose-" +
-            "1:5 0 0 0 0 0 0 0 0 0;}\r\n@font-face\r\n\t{font-family:Wingdings;\r\n\tpanose-1:5 0 0 0" +
-            " 0 0 0 0 0 0;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 4 3 2" +
-            " 4;}\r\n@font-face\r\n\t{font-family:Tahoma;\r\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\r\n /* S" +
-            "tyle Definitions */\r\n p.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin-top:0in" +
-            ";\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-left:0in;\r\n\tline-height:1" +
-            "15%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";}\r\na:link, span.Ms" +
-            "oHyperlink\r\n\t{color:blue;\r\n\ttext-decoration:underline;}\r\na:visited, span.MsoHype" +
-            "rlinkFollowed\r\n\t{color:purple;\r\n\ttext-decoration:underline;}\r\np\r\n\t{margin-right:" +
-            "0in;\r\n\tmargin-left:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",\"ser" +
-            "if\";}\r\np.MsoAcetate, li.MsoAcetate, div.MsoAcetate\r\n\t{mso-style-link:\"Balloon Te" +
-            "xt Char\";\r\n\tmargin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:8.0pt;\r\n\tfont-famil" +
-            "y:\"Tahoma\",\"sans-serif\";}\r\np.MsoListParagraph, li.MsoListParagraph, div.MsoListP" +
-            "aragraph\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin" +
-            "-left:.5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"san" +
-            "s-serif\";}\r\np.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoLi" +
-            "stParagraphCxSpFirst\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:0in;" +
-            "\r\n\tmargin-left:.5in;\r\n\tmargin-bottom:.0001pt;\r\n\tline-height:115%;\r\n\tfont-size:11" +
-            ".0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";}\r\np.MsoListParagraphCxSpMiddle, li.M" +
-            "soListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle\r\n\t{margin-top:0in;\r\n\tm" +
-            "argin-right:0in;\r\n\tmargin-bottom:0in;\r\n\tmargin-left:.5in;\r\n\tmargin-bottom:.0001p" +
-            "t;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";" +
-            "}\r\np.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraph" +
-            "CxSpLast\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin" +
-            "-left:.5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"san" +
-            "s-serif\";}\r\nspan.BalloonTextChar\r\n\t{mso-style-name:\"Balloon Text Char\";\r\n\tmso-st" +
-            "yle-link:\"Balloon Text\";\r\n\tfont-family:\"Tahoma\",\"sans-serif\";}\r\n.MsoChpDefault\r\n" +
-            "\t{font-family:\"Calibri\",\"sans-serif\";}\r\n.MsoPapDefault\r\n\t{margin-bottom:10.0pt;\r" +
-            "\n\tline-height:115%;}\r\n@page WordSection1\r\n\t{size:8.5in 11.0in;\r\n\tmargin:.5in .5i" +
-            "n .5in .5in;}\r\ndiv.WordSection1\r\n\t{page:WordSection1;}\r\n /* List Definitions */\r" +
-            "\n ol\r\n\t{margin-bottom:0in;}\r\nul\r\n\t{margin-bottom:0in;}\r\n-->\r\n</style>\r\n\r\n</head>" +
-            "\r\n\r\n<body lang=EN-US link=blue vlink=purple>\r\n\r\n<div class=WordSection1>\r\n\r\n<p c" +
-            "lass=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njusti" +
-            "fy;line-height:normal;text-autospace:none\'><b><i><u><span\r\nstyle=\'font-size:17.0" +
-            "pt;font-family:\"Times New Roman\",\"serif\"\'>INSPECT–PBEE</span></u></i></b><i><spa" +
-            "n\r\nstyle=\'font-size:17.0pt;font-family:\"Times New Roman\",\"serif\"\'>: <b><u>IN</u>" +
-            "</b>elastic\r\n<b><u>S</u></b>eismic <b><u>P</u></b>erformance <b><u>E</u></b>valu" +
-            "ation <b><u>C</u></b>omputational\r\n<b><u>T</u></b>ool for <b><u>P</u></b>erforma" +
-            "nce-<b><u>B</u></b>ased <b><u>E</u></b>arthquake\r\n<b><u>E</u></b>ngineering</spa" +
-            "n></i></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;" +
-            "text-align:\r\njustify;line-height:normal;text-autospace:none\'><span style=\'font-s" +
-            "ize:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>&nbsp;</span></p>\r\n\r\n<p clas" +
-            "s=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;line-height:\r\nnormal\'" +
-            "><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>Copyright\r" +
-            "\n© 2016, Dr. Mohammad AlHamaydeh et al. </span></p>\r\n\r\n<p class=MsoNormal style=" +
-            "\'margin-bottom:0in;margin-bottom:.0001pt;line-height:\r\nnormal\'><span style=\'font" +
-            "-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>All\r\nrights reserved.</span>" +
-            "</p>\r\n\r\n<p class=MsoNormal style=\'margin-top:10.0pt;margin-right:0in;margin-bott" +
-            "om:\r\n0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify\'><span\r\nstyle=" +
-            "\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"\'>The\r\n<" +
-            "i>INSPECT–PBEE</i> program is designed to simplify the process of structural\r\nmo" +
-            "deling as well Performance-Based Earthquake Engineering (PBEE) utilizing the\r\nID" +
-            "ARC-2D program. The creation of the input text file for IDARC-2D is\r\nfacilitated" +
-            " by the GUI pre-processor, while running analyses and manipulating\r\noutputs are " +
-            "fully automated by the GUI post-processor in <i>INSPECT–PBEE</i>. The\r\nhigh-leve" +
-            "l handling and automation capabilities provided by <i>INSPECT–PBEE</i>\r\nliberate" +
-            " the structural/earthquake engineer from the distractions of\r\nmaneuvering throug" +
-            "h the minute syntax details. Thus, transforming the PBEE from\r\na tedious exercis" +
-            "e into a streamlined and seamless experience without\r\ncompromising its inherent " +
-            "rigor. <i>INSPECT–PBEE</i> would be found useful and\r\nappealing to structural/ea" +
-            "rthquake engineering students, researchers and\r\npractitioners alike. The freely " +
-            "distributed executable version of the IDRAC-2D\r\nprogram [which is made free and " +
-            "publically available at this webpage: [</span><a\r\nhref=\"http://civil.eng.buffalo" +
-            ".edu/idarc2d50/\"><span style=\'font-size:12.0pt;\r\nline-height:115%;font-family:\"T" +
-            "imes New Roman\",\"serif\"\'>http://civil.eng.buffalo.edu/idarc2d50/</span></a><span" +
-            "\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"" +
-            "\'>],\r\nis included within the <i>INSPECT–PBEE</i> package. The redistribution of " +
-            "the\r\nIDRAC-2D executable is done with the explicit written permission from the\r\n" +
-            "IDARC-2D copyright holders, represented by Prof. Andrei M. Reinhorn of the\r\nUniv" +
-            "ersity at Buffalo-SUNY. </span></p>\r\n\r\n<p class=MsoNormal style=\'line-height:nor" +
-            "mal\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>Redi" +
-            "stribution and use in source and\r\nbinary forms, with or without modification, ar" +
-            "e permitted provided that the\r\nfollowing conditions are met:</span></p>\r\n\r\n<ol s" +
-            "tart=1 type=1>\r\n <li class=MsoNormal style=\'line-height:normal\'><span style=\'fon" +
-            "t-size:12.0pt;\r\n     font-family:\"Times New Roman\",\"serif\"\'>Redistributions of s" +
-            "ource code must\r\n     retain the above copyright notice, this list of conditions" +
-            " and the\r\n     following disclaimers. Redistributions in binary form must reprod" +
-            "uce the\r\n     above copyright notice, this list of conditions and the following\r" +
-            "\n     disclaimers in the documentation and/or other materials provided with the\r" +
-            "\n     distribution.</span></li>\r\n</ol>\r\n\r\n<p class=MsoListParagraphCxSpFirst sty" +
-            "le=\'text-indent:-.25in;line-height:normal\'><span\r\nstyle=\'font-size:12.0pt;font-f" +
-            "amily:\"Times New Roman\",\"serif\"\'>2.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&" +
-            "nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span\r\ndir=LTR></span><span style=\'f" +
-            "ont-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>All\r\npublications resulti" +
-            "ng from the use of the <i>INSPECT</i> or <i>INSPECT–PBEE</i>\r\nsoftware in any of" +
-            " their forms must make reference to the<i> INSPECT</i> and <i>INSPECT–PBEE</i>\r\n" +
-            "packages and their developers. Proper reference for the <i>INSPECT</i> and <i>IN" +
-            "SPECT–PBEE</i>\r\nsoftware packages and their developers is: </span></p>\r\n\r\n<p cla" +
-            "ss=MsoListParagraphCxSpMiddle style=\'margin-left:.75in;text-indent:-.25in;\r\nline" +
-            "-height:normal\'><span style=\'font-size:12.0pt;font-family:Symbol\'>·<span\r\nstyle=" +
-            "\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r" +
-            "\n</span></span><span dir=LTR></span><span style=\'font-size:12.0pt;font-family:\r\n" +
-            "\"Times New Roman\",\"serif\"\'>AlHamaydeh, M., Najib, M., Alawnah, S. (2016). “INSPE" +
-            "CT:\r\nA Graphical User Interface Software Package for IDARC-2D.” <i>SoftwareX</i>" +
-            ", 5,\r\n243–251, DOI: 10.1016/j.softx.2016.10.004.</span></p>\r\n\r\n<p class=MsoListP" +
-            "aragraphCxSpMiddle style=\'margin-left:.75in;text-indent:-.25in;\r\nline-height:nor" +
-            "mal\'><span style=\'font-size:12.0pt;font-family:Symbol\'>·<span\r\nstyle=\'font:7.0pt" +
-            " \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</span></s" +
-            "pan><span dir=LTR></span><span style=\'font-size:12.0pt;font-family:\r\n\"Times New " +
-            "Roman\",\"serif\"\'>AlHamaydeh, M., Aly, N., Najib, M., Alawnah, S.\r\n(2016). “<i>INS" +
-            "PECT–PBEE</i>: A Performance-Based Earthquake Engineering GUI\r\nfor IDARC-2D.” <i" +
-            ">SoftwareX Journal</i>, Vol. XX, Issue YY.\r\ndoi:10.1016/Z.softx.2016.ZZ.ZZZ.</sp" +
-            "an></p>\r\n\r\n<p class=MsoListParagraphCxSpLast style=\'text-indent:-.25in;line-heig" +
-            "ht:normal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'" +
-            ">3.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </" +
-            "span></span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-family:\"Tim" +
-            "es New Roman\",\"serif\"\'>Neither\r\nthe name of the copyright holder nor the names o" +
-            "f its contributors may be used\r\nto endorse or promote products derived from this" +
-            " software without specific\r\nprior written permission.&nbsp;</span></p>\r\n\r\n<p cla" +
-            "ss=MsoNormal style=\'text-align:justify;line-height:normal\'><span\r\nstyle=\'font-si" +
-            "ze:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>THIS SOFTWARE IS\r\nPROVIDED BY T" +
-            "HE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY\r\nEXPRESS OR IMPL" +
-            "IED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\r\nWARRANTIES OF MERCHA" +
-            "NTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\nDISCLAIMED. IN NO EVENT SHAL" +
-            "L THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\r\nFOR ANY DIRECT, INDIRECT, INCI" +
-            "DENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\nDAMAGES (INCLUDING, BUT NOT LIMITE" +
-            "D TO, PROCUREMENT OF SUBSTITUTE GOODS OR\r\nSERVICES; LOSS OF USE, DATA, OR PROFIT" +
-            "S; OR BUSINESS INTERRUPTION) HOWEVER\r\nCAUSED AND ON ANY THEORY OF LIABILITY, WHE" +
-            "THER IN CONTRACT, STRICT LIABILITY,\r\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)" +
-            " ARISING IN ANY WAY OUT OF THE USE\r\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POS" +
-            "SIBILITY OF SUCH DAMAGE.</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0" +
+            "1:5 0 0 0 0 0 0 0 0 0;}\r\n@font-face\r\n\t{font-family:\"Cambria Math\";\r\n\tpanose-1:2 " +
+            "4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 " +
+            "4 3 2 4;}\r\n@font-face\r\n\t{font-family:Tahoma;\r\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\r\n" +
+            " /* Style Definitions */\r\n p.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin-to" +
+            "p:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-left:0in;\r\n\tline-hei" +
+            "ght:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;}\r\na:link, span" +
+            ".MsoHyperlink\r\n\t{color:blue;\r\n\ttext-decoration:underline;}\r\na:visited, span.MsoH" +
+            "yperlinkFollowed\r\n\t{color:purple;\r\n\ttext-decoration:underline;}\r\np\r\n\t{margin-rig" +
+            "ht:0in;\r\n\tmargin-left:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",s" +
+            "erif;}\r\np.MsoAcetate, li.MsoAcetate, div.MsoAcetate\r\n\t{mso-style-link:\"Balloon T" +
+            "ext Char\";\r\n\tmargin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:8.0pt;\r\n\tfont-fami" +
+            "ly:\"Tahoma\",sans-serif;}\r\np.MsoListParagraph, li.MsoListParagraph, div.MsoListPa" +
+            "ragraph\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-" +
+            "left:.5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-" +
+            "serif;}\r\np.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListP" +
+            "aragraphCxSpFirst\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:0in;\r\n\t" +
+            "margin-left:.5in;\r\n\tmargin-bottom:.0001pt;\r\n\tline-height:115%;\r\n\tfont-size:11.0p" +
+            "t;\r\n\tfont-family:\"Calibri\",sans-serif;}\r\np.MsoListParagraphCxSpMiddle, li.MsoLis" +
+            "tParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle\r\n\t{margin-top:0in;\r\n\tmargin" +
+            "-right:0in;\r\n\tmargin-bottom:0in;\r\n\tmargin-left:.5in;\r\n\tmargin-bottom:.0001pt;\r\n\t" +
+            "line-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;}\r\np.Ms" +
+            "oListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLas" +
+            "t\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-left:." +
+            "5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;" +
+            "}\r\nspan.BalloonTextChar\r\n\t{mso-style-name:\"Balloon Text Char\";\r\n\tmso-style-link:" +
+            "\"Balloon Text\";\r\n\tfont-family:\"Tahoma\",sans-serif;}\r\n.MsoChpDefault\r\n\t{font-fami" +
+            "ly:\"Calibri\",sans-serif;}\r\n.MsoPapDefault\r\n\t{margin-bottom:10.0pt;\r\n\tline-height" +
+            ":115%;}\r\n@page WordSection1\r\n\t{size:8.5in 11.0in;\r\n\tmargin:.5in .5in .5in .5in;}" +
+            "\r\ndiv.WordSection1\r\n\t{page:WordSection1;}\r\n /* List Definitions */\r\n ol\r\n\t{margi" +
+            "n-bottom:0in;}\r\nul\r\n\t{margin-bottom:0in;}\r\n-->\r\n</style>\r\n\r\n</head>\r\n\r\n<body lan" +
+            "g=EN-US link=blue vlink=purple>\r\n\r\n<div class=WordSection1>\r\n\r\n<p class=MsoNorma" +
+            "l style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-heigh" +
+            "t:normal;text-autospace:none\'><b><i><u><span\r\nstyle=\'font-size:17.0pt;font-famil" +
+            "y:\"Times New Roman\",serif\'>INSPECT–PBEE</span></u></i></b><i><span\r\nstyle=\'font-" +
+            "size:17.0pt;font-family:\"Times New Roman\",serif\'>: <b><u>IN</u></b>elastic\r\n<b><" +
+            "u>S</u></b>eismic <b><u>P</u></b>erformance <b><u>E</u></b>valuation <b><u>C</u>" +
+            "</b>omputational\r\n<b><u>T</u></b>ool for <b><u>P</u></b>erformance-<b><u>B</u></" +
+            "b>ased <b><u>E</u></b>arthquake\r\n<b><u>E</u></b>ngineering</span></i></p>\r\n\r\n<p " +
+            "class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njust" +
+            "ify;line-height:normal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont" +
+            "-family:\"Times New Roman\",serif\'>&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'" +
+            "margin-bottom:0in;margin-bottom:.0001pt;line-height:\r\nnormal\'><span style=\'font-" +
+            "size:12.0pt;font-family:\"Times New Roman\",serif\'>Copyright\r\n© 2019, Dr. Mohammad" +
+            " AlHamaydeh et al. </span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;ma" +
+            "rgin-bottom:.0001pt;line-height:\r\nnormal\'><span style=\'font-size:12.0pt;font-fam" +
+            "ily:\"Times New Roman\",serif\'>All\r\nrights reserved.</span></p>\r\n\r\n<p class=MsoNor" +
+            "mal style=\'margin-top:10.0pt;margin-right:0in;margin-bottom:\r\n0in;margin-left:0i" +
+            "n;margin-bottom:.0001pt;text-align:justify\'><span\r\nstyle=\'font-size:12.0pt;line-" +
+            "height:115%;font-family:\"Times New Roman\",serif\'>The\r\n<i>INSPECT–PBEE</i> progra" +
+            "m is designed to simplify the process of structural modeling\r\nas well Performanc" +
+            "e-Based Earthquake Engineering (PBEE) utilizing the IDARC-2D\r\nprogram. The creat" +
+            "ion of the input text file for IDARC-2D is facilitated by the\r\nGUI pre-processor" +
+            ", while running analyses and manipulating outputs are fully\r\nautomated by the GU" +
+            "I post-processor in <i>INSPECT–PBEE</i>. The high-level\r\nhandling and automation" +
+            " capabilities provided by <i>INSPECT–PBEE</i> liberate the\r\nstructural/earthquak" +
+            "e engineer from the distractions of maneuvering through the\r\nminute syntax detai" +
+            "ls. Thus, transforming the PBEE from a tedious exercise into\r\na streamlined and " +
+            "seamless experience without compromising its inherent rigor. <i>INSPECT–PBEE</i>" +
+            "\r\nwould be found useful and appealing to structural/earthquake engineering\r\nstud" +
+            "ents, researchers and practitioners alike. The freely distributed\r\nexecutable ve" +
+            "rsion of the IDRAC-2D program [which is made free and publically\r\navailable at t" +
+            "his webpage: [<span class=MsoHyperlink><a\r\nhref=\"http://civil.eng.buffalo.edu/id" +
+            "arc2d50/\">http://civil.eng.buffalo.edu/idarc2d50/</a></span>],\r\nis included with" +
+            "in the <i>INSPECT–PBEE</i> package. The redistribution of the\r\nIDRAC-2D executab" +
+            "le is done with the explicit written permission from the IDARC-2D\r\ncopyright hol" +
+            "ders, represented by Prof. Andrei M. Reinhorn of the University at\r\nBuffalo-SUNY" +
+            ". </span></p>\r\n\r\n<p class=MsoNormal style=\'line-height:normal\'><span style=\'font" +
+            "-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>Redistribution and use in so" +
+            "urce and\r\nbinary forms, with or without modification, are permitted provided tha" +
+            "t the\r\nfollowing conditions are met:</span></p>\r\n\r\n<ol start=1 type=1>\r\n <li cla" +
+            "ss=MsoNormal style=\'line-height:normal\'><span style=\'font-size:12.0pt;\r\n     fon" +
+            "t-family:\"Times New Roman\",serif\'>Redistributions of source code must\r\n     reta" +
+            "in the above copyright notice, this list of conditions and the\r\n     following d" +
+            "isclaimers. Redistributions in binary form must reproduce the\r\n     above copyri" +
+            "ght notice, this list of conditions and the following\r\n     disclaimers in the d" +
+            "ocumentation and/or other materials provided with the\r\n     distribution.</span>" +
+            "</li>\r\n</ol>\r\n\r\n<p class=MsoListParagraphCxSpFirst style=\'text-indent:-.25in;lin" +
+            "e-height:normal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",se" +
+            "rif\'>2.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp; </sp" +
+            "an></span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-family:\"Times" +
+            " New Roman\",serif\'>All\r\npublications resulting from the use of the <i>INSPECT</i" +
+            "> or <i>INSPECT–PBEE</i>\r\nsoftware in any of their forms must make reference to " +
+            "the<i> INSPECT</i> and <i>INSPECT–PBEE</i>\r\npackages and their developers. Prope" +
+            "r reference for the <i>INSPECT</i> and <i>INSPECT–PBEE</i>\r\nsoftware packages an" +
+            "d their developers is: </span></p>\r\n\r\n<p class=MsoListParagraphCxSpMiddle style=" +
+            "\'margin-left:.75in;text-indent:-.25in;\r\nline-height:normal\'><span style=\'font-si" +
+            "ze:12.0pt;font-family:Symbol\'>·<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp" +
+            ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span\r\ndir=LTR></span><span style=" +
+            "\'font-size:12.0pt;font-family:\"Times New Roman\",serif\'>AlHamaydeh,\r\nM., Najib, M" +
+            "., Alawnah, S. (2016). “INSPECT: A Graphical User Interface Software\r\nPackage fo" +
+            "r IDARC-2D.” <i>SoftwareX</i>, 5, 243–251, DOI:\r\n10.1016/j.softx.2016.10.004.</s" +
+            "pan></p>\r\n\r\n<p class=MsoListParagraphCxSpMiddle style=\'margin-left:.75in;text-in" +
+            "dent:-.25in;\r\nline-height:normal\'><span style=\'font-size:12.0pt;font-family:Symb" +
+            "ol\'>·<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&" +
+            "nbsp; </span></span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-fam" +
+            "ily:\"Times New Roman\",serif\'>AlHamaydeh,\r\nM.; Aly, N.; Najib, M.; Alawnah, S.; &" +
+            "quot;INSPECT-PBEE: A Performance-Based\r\nEarthquake Engineering GUI for IDARC-2D," +
+            "&quot; <i>SoftwareX</i>, 9, 132-144,<i>\r\n</i>DOI: 10.1016/j.softx.2019.01.010.</" +
+            "span></p>\r\n\r\n<p class=MsoListParagraphCxSpLast style=\'text-indent:-.25in;line-he" +
+            "ight:normal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",serif\'" +
+            ">3.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp; </span><" +
+            "/span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-family:\"Times New" +
+            " Roman\",serif\'>Neither\r\nthe name of the copyright holder nor the names of its co" +
+            "ntributors may be used\r\nto endorse or promote products derived from this softwar" +
+            "e without specific\r\nprior written permission.&nbsp;</span></p>\r\n\r\n<p class=MsoNo" +
+            "rmal style=\'text-align:justify;line-height:normal\'><span\r\nstyle=\'font-size:12.0p" +
+            "t;font-family:\"Times New Roman\",serif\'>THIS SOFTWARE IS\r\nPROVIDED BY THE COPYRIG" +
+            "HT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY\r\nEXPRESS OR IMPLIED WARRAN" +
+            "TIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\r\nWARRANTIES OF MERCHANTABILITY " +
+            "AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\nDISCLAIMED. IN NO EVENT SHALL THE COPY" +
+            "RIGHT HOLDER OR CONTRIBUTORS BE LIABLE\r\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SP" +
+            "ECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROC" +
+            "UREMENT OF SUBSTITUTE GOODS OR\r\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSI" +
+            "NESS INTERRUPTION) HOWEVER\r\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CO" +
+            "NTRACT, STRICT LIABILITY,\r\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING I" +
+            "N ANY WAY OUT OF THE USE\r\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O" +
+            "F SUCH DAMAGE.</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-" +
+            "bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:none\'><spa" +
+            "n style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp;</span></" +
+            "p>\r\n\r\n<p class=MsoNormal align=center style=\'text-align:center;text-autospace:no" +
+            "ne\'><b><u><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New" +
+            " Roman\",serif\'>SUPPLEMENTAL\r\nDISCLAIMER</span></u></b></p>\r\n\r\n<p class=MsoNormal" +
+            " style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-height" +
+            ":normal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times " +
+            "New Roman\",serif\'>The computational tool [program] <b><i>“<u>INSPECT–PBEE</u>”</" +
+            "i></b>,\r\nherein referred to as the program. The ownership of the program remains" +
+            " with\r\nthe developers. Whether subroutines of the program or the whole program i" +
+            "s\r\nincorporated into the executable binary code or the source code of any other\r" +
+            "\nprogram(s), any program(s) utilizing or containing <i>INSPECT–PBEE</i> or any\r\n" +
+            "of its subroutines shall explicitly acknowledge acceptance of the subsequent\r\nDI" +
+            "SCLAIMER OF WARRANTY. Furthermore, such incorporation of the <i>INSPECT–PBEE</i>" +
+            "\r\nprogram does not create any business relationship between the developers of <i" +
+            ">INSPECT–PBEE</i>,\r\nnor their institutions, and the developed or derived program" +
+            "’s user(s). The\r\nnames of <i>INSPECT–PBEE</i> program, its authors and their ins" +
+            "titutions, shall\r\nnot be used in the promotion of any such developed or derived " +
+            "products without\r\nprior explicit written permission from the authors of <i>INSPE" +
+            "CT–PBEE</i>. </span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-b" +
+            "ottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:none\'><span" +
+            " style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp;</span></p" +
+            ">\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-alig" +
+            "n:\r\njustify;line-height:normal;text-autospace:none\'><span style=\'font-size:12.0p" +
+            "t;\r\nfont-family:\"Times New Roman\",serif\'>The creators of the <i>INSPECT–PBEE</i>" +
+            "\r\nprogram spared no effort in verifying it; significant time and effort have bee" +
+            "n\r\nput towards its development and testing. However, the authors do not accept a" +
+            "ny\r\nresponsibility for inadequate use of the program or any analysis results\r\npr" +
+            "oduced by it. The ultimate responsibility of verifying analysis results rests\r\ns" +
+            "olely upon the user. The user should have adequate knowledge of structural\r\ndyna" +
+            "mics, nonlinear analysis and modeling, earthquake engineering as well\r\nperforman" +
+            "ce-based seismic design and evaluation techniques. The subsequent\r\nDISCLAIMER OF" +
+            " WARRANTY applies to the user of the program <i>INSPECT–PBEE</i>\r\nand all of its" +
+            " associated subroutines.</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0" +
             "in;margin-bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:" +
-            "none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>&nb" +
-            "sp;</span></p>\r\n\r\n<p class=MsoNormal align=center style=\'text-align:center;text-" +
-            "autospace:none\'><b><u><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-famil" +
-            "y:\"Times New Roman\",\"serif\"\'>SUPPLEMENTAL\r\nDISCLAIMER</span></u></b></p>\r\n\r\n<p c" +
-            "lass=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njusti" +
-            "fy;line-height:normal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont-" +
-            "family:\"Times New Roman\",\"serif\"\'>The computational tool [program] <b><i>“<u>INS" +
-            "PECT–PBEE</u>”</i></b>,\r\nherein referred to as the program. The ownership of the" +
-            " program remains with\r\nthe developers. Whether subroutines of the program or the" +
-            " whole program is\r\nincorporated into the executable binary code or the source co" +
-            "de of any other\r\nprogram(s), any program(s) utilizing or containing <i>INSPECT–P" +
-            "BEE</i> or any\r\nof its subroutines shall explicitly acknowledge acceptance of th" +
-            "e subsequent\r\nDISCLAIMER OF WARRANTY. Furthermore, such incorporation of the <i>" +
-            "INSPECT–PBEE</i>\r\nprogram does not create any business relationship between the " +
-            "developers of <i>INSPECT–PBEE</i>,\r\nnor their institutions, and the developed or" +
-            " derived program’s user(s). The\r\nnames of <i>INSPECT–PBEE</i> program, its autho" +
-            "rs and their institutions, shall\r\nnot be used in the promotion of any such devel" +
-            "oped or derived products without\r\nprior explicit written permission from the aut" +
-            "hors of <i>INSPECT–PBEE</i>. </span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bot" +
-            "tom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autos" +
-            "pace:none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"" +
-            "\'>&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom" +
-            ":.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:none\'><span styl" +
-            "e=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>The creators of the" +
-            " <i>INSPECT–PBEE</i>\r\nprogram spared no effort in verifying it; significant time" +
-            " and effort have been\r\nput towards its development and testing. However, the aut" +
-            "hors do not accept any\r\nresponsibility for inadequate use of the program or any " +
-            "analysis results\r\nproduced by it. The ultimate responsibility of verifying analy" +
-            "sis results rests\r\nsolely upon the user. The user should have adequate knowledge" +
-            " of structural\r\ndynamics, nonlinear analysis and modeling, earthquake engineerin" +
-            "g as well\r\nperformance-based seismic design and evaluation techniques. The subse" +
-            "quent\r\nDISCLAIMER OF WARRANTY applies to the user of the program <i>INSPECT–PBEE" +
-            "</i>\r\nand all of its associated subroutines.</span></p>\r\n\r\n<p class=MsoNormal st" +
-            "yle=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-height:no" +
-            "rmal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New" +
-            " Roman\",\"serif\"\'>&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0i" +
-            "n;margin-bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:n" +
-            "one\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>&nbs" +
-            "p;</span></p>\r\n\r\n<p class=MsoNormal align=center style=\'text-align:center;text-a" +
-            "utospace:none\'><b><u><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family" +
-            ":\"Times New Roman\",\"serif\"\'>DISCLAIMER\r\nOF WARRANTY</span></u></b></p>\r\n\r\n<p cla" +
-            "ss=MsoNormal style=\'text-align:justify\'><span style=\'font-size:12.0pt;\r\nline-hei" +
-            "ght:115%;font-family:\"Times New Roman\",\"serif\"\'>The <i>INSPECT–PBEE</i>\r\nprogram" +
-            ", all its data files, and all its associated subroutines, are provided\r\non an <b" +
-            "><i>“<u>AS-IS</u>”</i></b> basis without any warranty. The authors and\r\ntheir in" +
-            "stitutions disclaim any and all liability for direct or indirect\r\ndamages result" +
-            "ing from use of the program. The authors and their institutions\r\nmake no warrant" +
-            "ies, explicitly or implicitly, that the program is error-free or\r\nis consistent " +
-            "with any particular set of standards, or that the program will\r\nmeet any particu" +
-            "lar application requirements. The program should not be relied\r\non for solving a" +
-            "ny engineering problems where an erroneous solution may cause potential\r\npersona" +
-            "l injury or property loss. If the program is used in such a manner, it\r\nshould b" +
-            "e explicitly understood that it is done at the user’s discretion and\r\nown risk.<" +
-            "/span></p>\r\n\r\n<p class=MsoNormal><b><i><u><span style=\'font-size:12.0pt;line-hei" +
-            "ght:115%;\r\nfont-family:\"Times New Roman\",\"serif\"\'>INSPECT–PBEE</span></u></i></b" +
-            "><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",\"" +
-            "serif\"\'>\r\nis developed by:</span></p>\r\n\r\n<table class=MsoTableGrid border=1 cell" +
-            "spacing=0 cellpadding=0\r\n style=\'margin-left:-.4pt;border-collapse:collapse;bord" +
-            "er:none\'>\r\n <tr style=\'height:46.45pt\'>\r\n  <td width=386 style=\'width:289.3pt;bo" +
-            "rder:solid windowtext 1.0pt;padding:\r\n  0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  " +
-            "<p class=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.75pt;\r\n  m" +
-            "argin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  lin" +
-            "e-height:normal\'><b><span style=\'font-size:12.0pt;font-family:\"Times New Roman\"," +
-            "\"serif\";\r\n  color:#545553\'>Mohammad AlHamaydeh, Ph.D., P.E.<br>\r\n  </span></b><s" +
-            "pan style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  color:#545" +
-            "553\'>Associate Professor of Structural/Earthquake Engineering</span></p>\r\n  <p c" +
-            "lass=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.75pt;\r\n  margi" +
-            "n-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-he" +
-            "ight:normal\'><a href=\"mailto:malhamaydeh@aus.edu\"><span\r\n  style=\'font-size:12.0" +
-            "pt;font-family:\"Times New Roman\",\"serif\"\'>malhamaydeh@aus.edu</span></a></p>\r\n  " +
-            "</td>\r\n  <td width=329 rowspan=3 style=\'width:247.1pt;border:solid windowtext 1." +
-            "0pt;\r\n  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p clas" +
-            "s=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bo" +
-            "ttom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height" +
-            ":normal\'><b><span style=\'font-size:16.0pt;font-family:\"Times New Roman\",\"serif\";" +
-            "\r\n  color:#545553\'>American University of Sharjah</span></b></p>\r\n  <p class=Mso" +
-            "Normal align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:" +
-            "0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:norm" +
-            "al\'><b><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  c" +
-            "olor:#545553\'>Department of Civil Engineering</span></b></p>\r\n  <p class=MsoNorm" +
-            "al align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:0in;" +
-            "margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'>" +
-            "<span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  color:#5" +
-            "45553\'>PO Box 26666, Sharjah<br>\r\n  United Arab Emirates</span></p>\r\n  <p class=" +
-            "MsoNormal align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bott" +
-            "om:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:n" +
-            "ormal\'><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  c" +
-            "olor:#545553\'>Tel +971 6 515 2647</span></p>\r\n  </td>\r\n </tr>\r\n <tr style=\'heigh" +
-            "t:46.45pt\'>\r\n  <td width=386 style=\'width:289.3pt;border:solid windowtext 1.0pt;" +
-            "border-top:\r\n  none;padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p class=Mso" +
-            "Normal align=center style=\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom" +
-            ":0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:nor" +
-            "mal\'><b><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  " +
-            "color:#545553\'>Nader Aly<br>\r\n  </span></b><span style=\'font-size:12.0pt;font-fa" +
-            "mily:\"Times New Roman\",\"serif\";\r\n  color:#545553\'>Graduate Research Assistant</s" +
-            "pan></p>\r\n  <p class=MsoNormal align=center style=\'margin-top:0in;margin-right:-" +
-            "5.75pt;\r\n  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:ce" +
-            "nter;\r\n  line-height:normal\'><a href=\"mailto:b00028143@aus.edu\"><span\r\n  style=\'" +
-            "font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>b00028143@aus.edu</span>" +
-            "</a></p>\r\n  </td>\r\n </tr>\r\n <tr style=\'height:46.45pt\'>\r\n  <td width=386 style=\'" +
-            "width:289.3pt;border:solid windowtext 1.0pt;border-top:\r\n  none;padding:0in 5.4p" +
-            "t 0in 5.4pt;height:46.45pt\'>\r\n  <p class=MsoNormal align=center style=\'margin-to" +
-            "p:0in;margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-left:0in;margin-bottom:." +
-            "0001pt;text-align:center;\r\n  line-height:normal\'><b><span style=\'font-size:12.0p" +
-            "t;font-family:\"Times New Roman\",\"serif\";\r\n  color:#545553\'>Mohamad Najib<br>\r\n  " +
-            "</span></b><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r" +
-            "\n  color:#545553\'>Undergraduate Research Assistant</span></p>\r\n  <p class=MsoNor" +
-            "mal align=center style=\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom:0i" +
-            "n;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal" +
-            "\'><a href=\"mailto:b00045708@aus.edu\"><span\r\n  style=\'font-size:12.0pt;font-famil" +
-            "y:\"Times New Roman\",\"serif\"\'>b00045708@aus.edu</span></a></p>\r\n  </td>\r\n </tr>\r\n" +
-            " <tr style=\'height:46.45pt\'>\r\n  <td width=386 style=\'width:289.3pt;border:solid " +
-            "windowtext 1.0pt;border-top:\r\n  none;padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'" +
-            ">\r\n  <p class=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.75pt;" +
-            "\r\n  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n" +
-            "  line-height:normal\'><b><span style=\'font-size:12.0pt;font-family:\"Times New Ro" +
-            "man\",\"serif\";\r\n  color:#545553\'>Sameer Alawnah, MSc.<br>\r\n  </span></b><span sty" +
-            "le=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  color:#545553\'>La" +
-            "boratory Instructor/Research Associate</span></p>\r\n  <p class=MsoNormal align=ce" +
-            "nter style=\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-lef" +
-            "t:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><a href=\"m" +
-            "ailto:salawnah@aus.edu\"><span style=\'font-size:\r\n  12.0pt;font-family:\"Times New" +
-            " Roman\",\"serif\"\'>salawnah@aus.edu</span></a><span\r\n  class=MsoHyperlink><span st" +
-            "yle=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>\r\n  </span></span><" +
-            "/p>\r\n  </td>\r\n  <td width=329 style=\'width:247.1pt;border-top:none;border-left:n" +
-            "one;\r\n  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt" +
-            ";\r\n  padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p class=MsoNormal align=ce" +
-            "nter style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:0in;margin-left" +
-            ":0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><b><span st" +
-            "yle=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  color:#545553\'>D" +
-            "epartment of Computer Science &amp; Eng.</span></b></p>\r\n  <p class=MsoNormal al" +
+            "none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp" +
+            ";</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001p" +
+            "t;text-align:\r\njustify;line-height:normal;text-autospace:none\'><span style=\'font" +
+            "-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp;</span></p>\r\n\r\n<p clas" +
+            "s=MsoNormal align=center style=\'text-align:center;text-autospace:none\'><b><u><sp" +
+            "an\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",serif" +
+            "\'>DISCLAIMER\r\nOF WARRANTY</span></u></b></p>\r\n\r\n<p class=MsoNormal style=\'text-a" +
+            "lign:justify\'><span style=\'font-size:12.0pt;\r\nline-height:115%;font-family:\"Time" +
+            "s New Roman\",serif\'>The <i>INSPECT–PBEE</i> program,\r\nall its data files, and al" +
+            "l its associated subroutines, are provided on an <b><i>“<u>AS-IS</u>”</i></b>\r\nb" +
+            "asis without any warranty. The authors and their institutions disclaim any and\r\n" +
+            "all liability for direct or indirect damages resulting from use of the program.\r" +
+            "\nThe authors and their institutions make no warranties, explicitly or\r\nimplicitl" +
+            "y, that the program is error-free or is consistent with any particular\r\nset of s" +
+            "tandards, or that the program will meet any particular application\r\nrequirements" +
+            ". The program should not be relied on for solving any engineering\r\nproblems wher" +
+            "e an erroneous solution may cause potential personal injury or\r\nproperty loss. I" +
+            "f the program is used in such a manner, it should be explicitly\r\nunderstood that" +
+            " it is done at the user’s discretion and own risk.</span></p>\r\n\r\n<p class=MsoNor" +
+            "mal><b><i><u><span style=\'font-size:12.0pt;line-height:115%;\r\nfont-family:\"Times" +
+            " New Roman\",serif\'>INSPECT–PBEE</span></u></i></b><span\r\nstyle=\'font-size:12.0pt" +
+            ";line-height:115%;font-family:\"Times New Roman\",serif\'>\r\nis developed by:</span>" +
+            "</p>\r\n\r\n<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0\r\n style=\'" +
+            "margin-left:-.4pt;border-collapse:collapse;border:none\'>\r\n <tr style=\'height:46." +
+            "45pt\'>\r\n  <td width=317 style=\'width:289.3pt;border:solid windowtext 1.0pt;paddi" +
+            "ng:\r\n  0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p class=MsoNormal align=center s" +
+            "tyle=\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-left:0in;" +
+            "margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><b><span style=\'" +
+            "font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  color:#545553\'>Mohammad" +
+            " AlHamaydeh, Ph.D., P.E.<br>\r\n  </span></b><span style=\'font-size:12.0pt;font-fa" +
+            "mily:\"Times New Roman\",serif;\r\n  color:#545553\'>Associate Professor of Structura" +
+            "l/Earthquake Engineering</span></p>\r\n  <p class=MsoNormal align=center style=\'ma" +
+            "rgin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-left:0in;margin-b" +
+            "ottom:.0001pt;text-align:center;\r\n  line-height:normal\'><span class=MsoHyperlink" +
+            "><span style=\'font-size:12.0pt;\r\n  font-family:\"Times New Roman\",serif\'><a href=" +
+            "\"mailto:malhamaydeh@aus.edu\">malhamaydeh@aus.edu</a></span></span></p>\r\n  </td>\r" +
+            "\n  <td width=249 rowspan=3 style=\'width:247.1pt;border:solid windowtext 1.0pt;\r\n" +
+            "  border-left:none;padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p class=MsoN" +
+            "ormal align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:0" +
+            "in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:norma" +
+            "l\'><b><span style=\'font-size:16.0pt;font-family:\"Times New Roman\",serif;\r\n  colo" +
+            "r:#545553\'>American University of Sharjah</span></b></p>\r\n  <p class=MsoNormal a" +
+            "lign=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:0in;marg" +
+            "in-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><b><" +
+            "span style=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  color:#5455" +
+            "53\'>Department of Civil Engineering</span></b></p>\r\n  <p class=MsoNormal align=c" +
+            "enter style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:0in;margin-lef" +
+            "t:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><span styl" +
+            "e=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  color:#545553\'>PO Bo" +
+            "x 26666, Sharjah<br>\r\n  United Arab Emirates</span></p>\r\n  <p class=MsoNormal al" +
             "ign=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-bottom:0in;margi" +
             "n-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><span" +
-            " style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\";\r\n  color:#545553" +
-            "\'>Tel +971 6 515 2974</span></p>\r\n  </td>\r\n </tr>\r\n</table>\r\n\r\n<p class=MsoNorma" +
+            " style=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  color:#545553\'>" +
+            "Tel +971 6 515 2647</span></p>\r\n  </td>\r\n </tr>\r\n <tr style=\'height:46.45pt\'>\r\n " +
+            " <td width=317 style=\'width:289.3pt;border:solid windowtext 1.0pt;border-top:\r\n " +
+            " none;padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p class=MsoNormal align=c" +
+            "enter style=\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-le" +
+            "ft:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><b><span " +
+            "style=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  color:#545553\'>N" +
+            "ader Aly<br>\r\n  </span></b><span style=\'font-size:12.0pt;font-family:\"Times New " +
+            "Roman\",serif;\r\n  color:#545553\'>Former Graduate Research Assistant</span></p>\r\n " +
+            " <p class=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.75pt;\r\n  " +
+            "margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  li" +
+            "ne-height:normal\'><u><span style=\'font-size:12.0pt;font-family:\"Times New Roman\"" +
+            ",serif;\r\n  color:blue\'>nader_aly@alumni.aus.edu</span></u></p>\r\n  </td>\r\n </tr>\r" +
+            "\n <tr style=\'height:46.45pt\'>\r\n  <td width=317 style=\'width:289.3pt;border:solid" +
+            " windowtext 1.0pt;border-top:\r\n  none;padding:0in 5.4pt 0in 5.4pt;height:46.45pt" +
+            "\'>\r\n  <p class=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.75pt" +
+            ";\r\n  margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r" +
+            "\n  line-height:normal\'><b><span style=\'font-size:12.0pt;font-family:\"Times New R" +
+            "oman\",serif;\r\n  color:#545553\'>Mohamad Najib<br>\r\n  </span></b><span style=\'font" +
+            "-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  color:#545553\'>Former Under" +
+            "graduate Research Assistant</span></p>\r\n  <p class=MsoNormal align=center style=" +
+            "\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-left:0in;margi" +
+            "n-bottom:.0001pt;text-align:center;\r\n  line-height:normal\'><span class=MsoHyperl" +
+            "ink><span style=\'font-size:12.0pt;\r\n  font-family:\"Times New Roman\",serif\'><a hr" +
+            "ef=\"mailto:b00045708@alumni.aus.edu\">b00045708@alumni.aus.edu</a></span></span><" +
+            "/p>\r\n  </td>\r\n </tr>\r\n <tr style=\'height:46.45pt\'>\r\n  <td width=317 style=\'width" +
+            ":289.3pt;border:solid windowtext 1.0pt;border-top:\r\n  none;padding:0in 5.4pt 0in" +
+            " 5.4pt;height:46.45pt\'>\r\n  <p class=MsoNormal align=center style=\'margin-top:0in" +
+            ";margin-right:-5.75pt;\r\n  margin-bottom:0in;margin-left:0in;margin-bottom:.0001p" +
+            "t;text-align:center;\r\n  line-height:normal\'><b><span style=\'font-size:12.0pt;fon" +
+            "t-family:\"Times New Roman\",serif;\r\n  color:#545553\'>Sameer Alawnah, MSc.<br>\r\n  " +
+            "</span></b><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n " +
+            " color:#545553\'>Laboratory Instructor/Research Associate</span></p>\r\n  <p class=" +
+            "MsoNormal align=center style=\'margin-top:0in;margin-right:-5.75pt;\r\n  margin-bot" +
+            "tom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:" +
+            "normal\'><span class=MsoHyperlink><span style=\'font-size:12.0pt;\r\n  font-family:\"" +
+            "Times New Roman\",serif\'><a href=\"mailto:salawnah@aus.edu\">salawnah@aus.edu</a>\r\n" +
+            "  </span></span></p>\r\n  </td>\r\n  <td width=249 style=\'width:247.1pt;border-top:n" +
+            "one;border-left:none;\r\n  border-bottom:solid windowtext 1.0pt;border-right:solid" +
+            " windowtext 1.0pt;\r\n  padding:0in 5.4pt 0in 5.4pt;height:46.45pt\'>\r\n  <p class=M" +
+            "soNormal align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-botto" +
+            "m:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-height:no" +
+            "rmal\'><b><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  c" +
+            "olor:#545553\'>Department of Computer Science &amp; Eng.</span></b></p>\r\n  <p cla" +
+            "ss=MsoNormal align=center style=\'margin-top:0in;margin-right:-5.8pt;\r\n  margin-b" +
+            "ottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:center;\r\n  line-heigh" +
+            "t:normal\'><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",serif;\r\n  " +
+            "color:#545553\'>Tel +971 6 515 4940</span></p>\r\n  </td>\r\n </tr>\r\n</table>\r\n\r\n<p c" +
+            "lass=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntex" +
+            "t-align:center\'><b><span style=\'font-size:6.0pt;line-height:115%;font-family:\r\n\"" +
+            "Times New Roman\",serif\'>&nbsp;</span></b></p>\r\n\r\n<p class=MsoNormal align=center" +
+            " style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><b><span st" +
+            "yle=\'font-size:12.0pt;line-height:115%;\r\nfont-family:\"Times New Roman\",serif\'>IN" +
+            "SPECT–PBEE</span></b></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-botto" +
+            "m:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><b><span style=\'font-size:12.0p" +
+            "t;line-height:115%;\r\nfont-family:\"Times New Roman\",serif\'>Version 1.0 2019</span" +
+            "></b></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margin-bot" +
+            "tom:.0001pt;\r\ntext-align:center\'><span style=\'font-size:12.0pt;line-height:115%;" +
+            "font-family:\r\n\"Times New Roman\",serif\'>Kindly report problems and bugs to:</span" +
+            "></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:" +
+            ".0001pt;\r\ntext-align:center\'><span class=MsoHyperlink><span style=\'font-size:12." +
+            "0pt;\r\nline-height:115%;font-family:\"Times New Roman\",serif\'><a\r\nhref=\"mailto:mal" +
+            "hamaydeh@aus.edu\">malhamaydeh@aus.edu</a></span></span></p>\r\n\r\n<p class=MsoNorma" +
             "l align=center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:cente" +
-            "r\'><b><span style=\'font-size:6.0pt;line-height:115%;font-family:\r\n\"Times New Rom" +
-            "an\",\"serif\"\'>&nbsp;</span></b></p>\r\n\r\n<p class=MsoNormal align=center style=\'mar" +
-            "gin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><b><span style=\'font-s" +
-            "ize:12.0pt;line-height:115%;\r\nfont-family:\"Times New Roman\",\"serif\"\'>INSPECT–PBE" +
-            "E</span></b></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;mar" +
-            "gin-bottom:.0001pt;\r\ntext-align:center\'><b><span style=\'font-size:12.0pt;line-he" +
-            "ight:115%;\r\nfont-family:\"Times New Roman\",\"serif\"\'>Version 1.0 2016</span></b></" +
-            "p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:.00" +
-            "01pt;\r\ntext-align:center\'><span style=\'font-size:12.0pt;line-height:115%;font-fa" +
-            "mily:\r\n\"Times New Roman\",\"serif\"\'>Kindly report problems and bugs to:</span></p>" +
-            "\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:.0001" +
-            "pt;\r\ntext-align:center\'><a href=\"mailto:malhamaydeh@aus.edu\"><span style=\'font-s" +
-            "ize:\r\n12.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"\'>malhamaydeh" +
-            "@aus.edu</span></a></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:" +
-            "0in;margin-bottom:.0001pt;\r\ntext-align:center\'><span style=\'font-size:12.0pt;lin" +
-            "e-height:115%;font-family:\r\n\"Times New Roman\",\"serif\"\'>Copyright © 2016. All rig" +
-            "hts reserved.</span></p>\r\n\r\n<p class=MsoNormal>&nbsp;</p>\r\n\r\n</div>\r\n\r\n</body>\r\n" +
-            "\r\n</html>\r\n")]
+            "r\'><span style=\'font-size:12.0pt;line-height:115%;font-family:\r\n\"Times New Roman" +
+            "\",serif\'>Copyright © 2019. All rights reserved.</span></p>\r\n\r\n<p class=MsoNormal" +
+            " style=\'margin-bottom:0in;margin-bottom:.0001pt\'><b><span\r\nstyle=\'font-size:6.0p" +
+            "t;line-height:115%;font-family:\"Times New Roman\",serif\'>&nbsp;</span></b></p>\r\n\r" +
+            "\n<p class=MsoListParagraph style=\'margin-bottom:0in;margin-bottom:.0001pt\'><span" +
+            "\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",serif\'>" +
+            "&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:6.0pt;line-height:n" +
+            "ormal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",serif\'>&nbsp" +
+            ";</span></p>\r\n\r\n<p class=MsoListParagraph style=\'margin-bottom:0in;margin-bottom" +
+            ":.0001pt\'><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New" +
+            " Roman\",serif\'>&nbsp;</span></p>\r\n\r\n</div>\r\n\r\n</body>\r\n\r\n</html> \r\n")]
         public string about {
             get {
                 return ((string)(this["about"]));
@@ -1049,204 +1053,206 @@ namespace SampleWizard.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("<html>\r\n\r\n<head>\r\n<meta http-equiv=Content-Type content=\"text/html; charset=windo" +
-            "ws-1252\">\r\n<meta name=Generator content=\"Microsoft Word 14 (filtered)\">\r\n<style>" +
+            "ws-1252\">\r\n<meta name=Generator content=\"Microsoft Word 15 (filtered)\">\r\n<style>" +
             "\r\n<!--\r\n /* Font Definitions */\r\n @font-face\r\n\t{font-family:Wingdings;\r\n\tpanose-" +
-            "1:5 0 0 0 0 0 0 0 0 0;}\r\n@font-face\r\n\t{font-family:Wingdings;\r\n\tpanose-1:5 0 0 0" +
-            " 0 0 0 0 0 0;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 4 3 2" +
-            " 4;}\r\n@font-face\r\n\t{font-family:Tahoma;\r\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\r\n /* S" +
-            "tyle Definitions */\r\n p.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin-top:0in" +
-            ";\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-left:0in;\r\n\tline-height:1" +
-            "15%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";}\r\na:link, span.Ms" +
-            "oHyperlink\r\n\t{color:blue;\r\n\ttext-decoration:underline;}\r\na:visited, span.MsoHype" +
-            "rlinkFollowed\r\n\t{color:purple;\r\n\ttext-decoration:underline;}\r\np\r\n\t{margin-right:" +
-            "0in;\r\n\tmargin-left:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",\"ser" +
-            "if\";}\r\np.MsoAcetate, li.MsoAcetate, div.MsoAcetate\r\n\t{mso-style-link:\"Balloon Te" +
-            "xt Char\";\r\n\tmargin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:8.0pt;\r\n\tfont-famil" +
-            "y:\"Tahoma\",\"sans-serif\";}\r\np.MsoListParagraph, li.MsoListParagraph, div.MsoListP" +
-            "aragraph\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin" +
-            "-left:.5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"san" +
-            "s-serif\";}\r\np.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoLi" +
-            "stParagraphCxSpFirst\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:0in;" +
-            "\r\n\tmargin-left:.5in;\r\n\tmargin-bottom:.0001pt;\r\n\tline-height:115%;\r\n\tfont-size:11" +
-            ".0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";}\r\np.MsoListParagraphCxSpMiddle, li.M" +
-            "soListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle\r\n\t{margin-top:0in;\r\n\tm" +
-            "argin-right:0in;\r\n\tmargin-bottom:0in;\r\n\tmargin-left:.5in;\r\n\tmargin-bottom:.0001p" +
-            "t;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"sans-serif\";" +
-            "}\r\np.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraph" +
-            "CxSpLast\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin" +
-            "-left:.5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",\"san" +
-            "s-serif\";}\r\nspan.BalloonTextChar\r\n\t{mso-style-name:\"Balloon Text Char\";\r\n\tmso-st" +
-            "yle-link:\"Balloon Text\";\r\n\tfont-family:\"Tahoma\",\"sans-serif\";}\r\n.MsoChpDefault\r\n" +
-            "\t{font-family:\"Calibri\",\"sans-serif\";}\r\n.MsoPapDefault\r\n\t{margin-bottom:10.0pt;\r" +
-            "\n\tline-height:115%;}\r\n@page WordSection1\r\n\t{size:8.5in 11.0in;\r\n\tmargin:.5in .5i" +
-            "n .5in .5in;}\r\ndiv.WordSection1\r\n\t{page:WordSection1;}\r\n /* List Definitions */\r" +
-            "\n ol\r\n\t{margin-bottom:0in;}\r\nul\r\n\t{margin-bottom:0in;}\r\n-->\r\n</style>\r\n\r\n</head>" +
-            "\r\n\r\n<body lang=EN-US link=blue vlink=purple>\r\n\r\n<div class=WordSection1>\r\n\r\n<p c" +
-            "lass=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njusti" +
-            "fy;line-height:normal;text-autospace:none\'><b><i><u><span\r\nstyle=\'font-size:17.0" +
-            "pt;font-family:\"Times New Roman\",\"serif\"\'>INSPECT–PBEE</span></u></i></b><i><spa" +
-            "n\r\nstyle=\'font-size:17.0pt;font-family:\"Times New Roman\",\"serif\"\'>: <b><u>IN</u>" +
-            "</b>elastic\r\n<b><u>S</u></b>eismic <b><u>P</u></b>erformance <b><u>E</u></b>valu" +
-            "ation <b><u>C</u></b>omputational\r\n<b><u>T</u></b>ool for <b><u>P</u></b>erforma" +
-            "nce-<b><u>B</u></b>ased <b><u>E</u></b>arthquake\r\n<b><u>E</u></b>ngineering</spa" +
-            "n></i></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;" +
-            "text-align:\r\njustify;line-height:normal;text-autospace:none\'><span style=\'font-s" +
-            "ize:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>&nbsp;</span></p>\r\n\r\n<p clas" +
-            "s=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;line-height:\r\nnormal\'" +
-            "><span style=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>Copyright\r" +
-            "\n© 2016, Dr. Mohammad AlHamaydeh et al. </span></p>\r\n\r\n<p class=MsoNormal style=" +
-            "\'margin-bottom:0in;margin-bottom:.0001pt;line-height:\r\nnormal\'><span style=\'font" +
-            "-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>All\r\nrights reserved.</span>" +
-            "</p>\r\n\r\n<p class=MsoNormal style=\'margin-top:10.0pt;margin-right:0in;margin-bott" +
-            "om:\r\n0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify\'><span\r\nstyle=" +
-            "\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"\'>The\r\n<" +
-            "i>INSPECT–PBEE</i> program is designed to simplify the process of structural mod" +
-            "eling\r\nas well Performance-Based Earthquake Engineering (PBEE) utilizing the IDA" +
-            "RC-2D\r\nprogram. The creation of the input text file for IDARC-2D is facilitated " +
-            "by the\r\nGUI pre-processor, while running analyses and manipulating outputs are f" +
-            "ully\r\nautomated by the GUI post-processor in <i>INSPECT–PBEE</i>. The high-level" +
-            "\r\nhandling and automation capabilities provided by <i>INSPECT–PBEE</i> liberate " +
-            "the\r\nstructural/earthquake engineer from the distractions of maneuvering through" +
-            " the\r\nminute syntax details. Thus, transforming the PBEE from a tedious exercise" +
-            " into\r\na streamlined and seamless experience without compromising its inherent r" +
-            "igor. <i>INSPECT–PBEE</i>\r\nwould be found useful and appealing to structural/ear" +
-            "thquake engineering\r\nstudents, researchers and practitioners alike. The freely d" +
-            "istributed\r\nexecutable version of the IDRAC-2D program [which is made free and p" +
-            "ublically\r\navailable at this webpage: [</span><a\r\nhref=\"http://civil.eng.buffalo" +
-            ".edu/idarc2d50/\"><span style=\'font-size:12.0pt;\r\nline-height:115%;font-family:\"T" +
-            "imes New Roman\",\"serif\"\'>http://civil.eng.buffalo.edu/idarc2d50/</span></a><span" +
-            "\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"" +
-            "\'>],\r\nis included within the <i>INSPECT–PBEE</i> package. The redistribution of " +
-            "the\r\nIDRAC-2D executable is done with the explicit written permission from the I" +
-            "DARC-2D\r\ncopyright holders, represented by Prof. Andrei M. Reinhorn of the Unive" +
-            "rsity at\r\nBuffalo-SUNY. </span></p>\r\n\r\n<p class=MsoNormal style=\'line-height:nor" +
-            "mal\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>Redi" +
-            "stribution and use in source and\r\nbinary forms, with or without modification, ar" +
-            "e permitted provided that the\r\nfollowing conditions are met:</span></p>\r\n\r\n<ol s" +
-            "tart=1 type=1>\r\n <li class=MsoNormal style=\'line-height:normal\'><span style=\'fon" +
-            "t-size:12.0pt;\r\n     font-family:\"Times New Roman\",\"serif\"\'>Redistributions of s" +
-            "ource code must\r\n     retain the above copyright notice, this list of conditions" +
-            " and the\r\n     following disclaimers. Redistributions in binary form must reprod" +
-            "uce the\r\n     above copyright notice, this list of conditions and the following\r" +
-            "\n     disclaimers in the documentation and/or other materials provided with the\r" +
-            "\n     distribution.</span></li>\r\n</ol>\r\n\r\n<p class=MsoListParagraphCxSpFirst sty" +
-            "le=\'text-indent:-.25in;line-height:normal\'><span\r\nstyle=\'font-size:12.0pt;font-f" +
-            "amily:\"Times New Roman\",\"serif\"\'>2.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&" +
-            "nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span\r\ndir=LTR></span><span style=\'f" +
-            "ont-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>All\r\npublications resulti" +
-            "ng from the use of the <i>INSPECT</i> or <i>INSPECT–PBEE</i>\r\nsoftware in any of" +
-            " their forms must make reference to the<i> INSPECT</i> and <i>INSPECT–PBEE</i>\r\n" +
-            "packages and their developers. Proper reference for the <i>INSPECT</i> and <i>IN" +
-            "SPECT–PBEE</i>\r\nsoftware packages and their developers is: </span></p>\r\n\r\n<p cla" +
-            "ss=MsoListParagraphCxSpMiddle style=\'margin-left:.75in;text-indent:-.25in;\r\nline" +
-            "-height:normal\'><span style=\'font-size:12.0pt;font-family:Symbol\'>·<span\r\nstyle=" +
-            "\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r" +
-            "\n</span></span><span dir=LTR></span><span style=\'font-size:12.0pt;font-family:\r\n" +
-            "\"Times New Roman\",\"serif\"\'>AlHamaydeh, M., Najib, M., Alawnah, S. (2016). “INSPE" +
-            "CT:\r\nA Graphical User Interface Software Package for IDARC-2D.” <i>SoftwareX</i>" +
-            ", 5,\r\n243–251, DOI: 10.1016/j.softx.2016.10.004.</span></p>\r\n\r\n<p class=MsoListP" +
-            "aragraphCxSpMiddle style=\'margin-left:.75in;text-indent:-.25in;\r\nline-height:nor" +
-            "mal\'><span style=\'font-size:12.0pt;font-family:Symbol\'>·<span\r\nstyle=\'font:7.0pt" +
-            " \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n</span></s" +
-            "pan><span dir=LTR></span><span style=\'font-size:12.0pt;font-family:\r\n\"Times New " +
-            "Roman\",\"serif\"\'>AlHamaydeh, M., Aly, N., Najib, M., Alawnah, S.\r\n(2016). “<i>INS" +
-            "PECT–PBEE</i>: A Performance-Based Earthquake Engineering GUI\r\nfor IDARC-2D.” <i" +
-            ">SoftwareX Journal</i>, Vol. XX, Issue YY.\r\ndoi:10.1016/Z.softx.2016.ZZ.ZZZ.</sp" +
-            "an></p>\r\n\r\n<p class=MsoListParagraphCxSpLast style=\'text-indent:-.25in;line-heig" +
-            "ht:normal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",\"serif\"\'" +
-            ">3.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </" +
-            "span></span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-family:\"Tim" +
-            "es New Roman\",\"serif\"\'>Neither\r\nthe name of the copyright holder nor the names o" +
-            "f its contributors may be used\r\nto endorse or promote products derived from this" +
-            " software without specific\r\nprior written permission.&nbsp;</span></p>\r\n\r\n<p cla" +
-            "ss=MsoNormal style=\'text-align:justify;line-height:normal\'><span\r\nstyle=\'font-si" +
-            "ze:12.0pt;font-family:\"Times New Roman\",\"serif\"\'>THIS SOFTWARE IS\r\nPROVIDED BY T" +
-            "HE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY\r\nEXPRESS OR IMPL" +
-            "IED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\r\nWARRANTIES OF MERCHA" +
-            "NTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\nDISCLAIMED. IN NO EVENT SHAL" +
-            "L THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\r\nFOR ANY DIRECT, INDIRECT, INCI" +
-            "DENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\nDAMAGES (INCLUDING, BUT NOT LIMITE" +
-            "D TO, PROCUREMENT OF SUBSTITUTE GOODS OR\r\nSERVICES; LOSS OF USE, DATA, OR PROFIT" +
-            "S; OR BUSINESS INTERRUPTION) HOWEVER\r\nCAUSED AND ON ANY THEORY OF LIABILITY, WHE" +
-            "THER IN CONTRACT, STRICT LIABILITY,\r\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)" +
-            " ARISING IN ANY WAY OUT OF THE USE\r\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POS" +
-            "SIBILITY OF SUCH DAMAGE.</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0" +
+            "1:5 0 0 0 0 0 0 0 0 0;}\r\n@font-face\r\n\t{font-family:\"Cambria Math\";\r\n\tpanose-1:2 " +
+            "4 5 3 5 4 6 3 2 4;}\r\n@font-face\r\n\t{font-family:Calibri;\r\n\tpanose-1:2 15 5 2 2 2 " +
+            "4 3 2 4;}\r\n@font-face\r\n\t{font-family:Tahoma;\r\n\tpanose-1:2 11 6 4 3 5 4 4 2 4;}\r\n" +
+            " /* Style Definitions */\r\n p.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin-to" +
+            "p:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-left:0in;\r\n\tline-hei" +
+            "ght:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;}\r\na:link, span" +
+            ".MsoHyperlink\r\n\t{color:blue;\r\n\ttext-decoration:underline;}\r\na:visited, span.MsoH" +
+            "yperlinkFollowed\r\n\t{color:purple;\r\n\ttext-decoration:underline;}\r\np\r\n\t{margin-rig" +
+            "ht:0in;\r\n\tmargin-left:0in;\r\n\tfont-size:12.0pt;\r\n\tfont-family:\"Times New Roman\",s" +
+            "erif;}\r\np.MsoAcetate, li.MsoAcetate, div.MsoAcetate\r\n\t{mso-style-link:\"Balloon T" +
+            "ext Char\";\r\n\tmargin:0in;\r\n\tmargin-bottom:.0001pt;\r\n\tfont-size:8.0pt;\r\n\tfont-fami" +
+            "ly:\"Tahoma\",sans-serif;}\r\np.MsoListParagraph, li.MsoListParagraph, div.MsoListPa" +
+            "ragraph\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-" +
+            "left:.5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-" +
+            "serif;}\r\np.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListP" +
+            "aragraphCxSpFirst\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:0in;\r\n\t" +
+            "margin-left:.5in;\r\n\tmargin-bottom:.0001pt;\r\n\tline-height:115%;\r\n\tfont-size:11.0p" +
+            "t;\r\n\tfont-family:\"Calibri\",sans-serif;}\r\np.MsoListParagraphCxSpMiddle, li.MsoLis" +
+            "tParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle\r\n\t{margin-top:0in;\r\n\tmargin" +
+            "-right:0in;\r\n\tmargin-bottom:0in;\r\n\tmargin-left:.5in;\r\n\tmargin-bottom:.0001pt;\r\n\t" +
+            "line-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;}\r\np.Ms" +
+            "oListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLas" +
+            "t\r\n\t{margin-top:0in;\r\n\tmargin-right:0in;\r\n\tmargin-bottom:10.0pt;\r\n\tmargin-left:." +
+            "5in;\r\n\tline-height:115%;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif;" +
+            "}\r\nspan.BalloonTextChar\r\n\t{mso-style-name:\"Balloon Text Char\";\r\n\tmso-style-link:" +
+            "\"Balloon Text\";\r\n\tfont-family:\"Tahoma\",sans-serif;}\r\n.MsoChpDefault\r\n\t{font-fami" +
+            "ly:\"Calibri\",sans-serif;}\r\n.MsoPapDefault\r\n\t{margin-bottom:10.0pt;\r\n\tline-height" +
+            ":115%;}\r\n@page WordSection1\r\n\t{size:8.5in 11.0in;\r\n\tmargin:.5in .5in .5in .5in;}" +
+            "\r\ndiv.WordSection1\r\n\t{page:WordSection1;}\r\n /* List Definitions */\r\n ol\r\n\t{margi" +
+            "n-bottom:0in;}\r\nul\r\n\t{margin-bottom:0in;}\r\n-->\r\n</style>\r\n\r\n</head>\r\n\r\n<body lan" +
+            "g=EN-US link=blue vlink=purple>\r\n\r\n<div class=WordSection1>\r\n\r\n<p class=MsoNorma" +
+            "l style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-heigh" +
+            "t:normal;text-autospace:none\'><b><i><u><span\r\nstyle=\'font-size:17.0pt;font-famil" +
+            "y:\"Times New Roman\",serif\'>INSPECT–PBEE</span></u></i></b><i><span\r\nstyle=\'font-" +
+            "size:17.0pt;font-family:\"Times New Roman\",serif\'>: <b><u>IN</u></b>elastic\r\n<b><" +
+            "u>S</u></b>eismic <b><u>P</u></b>erformance <b><u>E</u></b>valuation <b><u>C</u>" +
+            "</b>omputational\r\n<b><u>T</u></b>ool for <b><u>P</u></b>erformance-<b><u>B</u></" +
+            "b>ased <b><u>E</u></b>arthquake\r\n<b><u>E</u></b>ngineering</span></i></p>\r\n\r\n<p " +
+            "class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njust" +
+            "ify;line-height:normal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont" +
+            "-family:\"Times New Roman\",serif\'>&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'" +
+            "margin-bottom:0in;margin-bottom:.0001pt;line-height:\r\nnormal\'><span style=\'font-" +
+            "size:12.0pt;font-family:\"Times New Roman\",serif\'>Copyright\r\n© 2019, Dr. Mohammad" +
+            " AlHamaydeh et al. </span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;ma" +
+            "rgin-bottom:.0001pt;line-height:\r\nnormal\'><span style=\'font-size:12.0pt;font-fam" +
+            "ily:\"Times New Roman\",serif\'>All\r\nrights reserved.</span></p>\r\n\r\n<p class=MsoNor" +
+            "mal style=\'margin-top:10.0pt;margin-right:0in;margin-bottom:\r\n0in;margin-left:0i" +
+            "n;margin-bottom:.0001pt;text-align:justify\'><span\r\nstyle=\'font-size:12.0pt;line-" +
+            "height:115%;font-family:\"Times New Roman\",serif\'>The\r\n<i>INSPECT–PBEE</i> progra" +
+            "m is designed to simplify the process of structural modeling\r\nas well Performanc" +
+            "e-Based Earthquake Engineering (PBEE) utilizing the IDARC-2D\r\nprogram. The creat" +
+            "ion of the input text file for IDARC-2D is facilitated by the\r\nGUI pre-processor" +
+            ", while running analyses and manipulating outputs are fully\r\nautomated by the GU" +
+            "I post-processor in <i>INSPECT–PBEE</i>. The high-level\r\nhandling and automation" +
+            " capabilities provided by <i>INSPECT–PBEE</i> liberate the\r\nstructural/earthquak" +
+            "e engineer from the distractions of maneuvering through the\r\nminute syntax detai" +
+            "ls. Thus, transforming the PBEE from a tedious exercise into\r\na streamlined and " +
+            "seamless experience without compromising its inherent rigor. <i>INSPECT–PBEE</i>" +
+            "\r\nwould be found useful and appealing to structural/earthquake engineering\r\nstud" +
+            "ents, researchers and practitioners alike. The freely distributed\r\nexecutable ve" +
+            "rsion of the IDRAC-2D program [which is made free and publically\r\navailable at t" +
+            "his webpage: [<span class=MsoHyperlink><a\r\nhref=\"http://civil.eng.buffalo.edu/id" +
+            "arc2d50/\">http://civil.eng.buffalo.edu/idarc2d50/</a></span>],\r\nis included with" +
+            "in the <i>INSPECT–PBEE</i> package. The redistribution of the\r\nIDRAC-2D executab" +
+            "le is done with the explicit written permission from the IDARC-2D\r\ncopyright hol" +
+            "ders, represented by Prof. Andrei M. Reinhorn of the University at\r\nBuffalo-SUNY" +
+            ". </span></p>\r\n\r\n<p class=MsoNormal style=\'line-height:normal\'><span style=\'font" +
+            "-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>Redistribution and use in so" +
+            "urce and\r\nbinary forms, with or without modification, are permitted provided tha" +
+            "t the\r\nfollowing conditions are met:</span></p>\r\n\r\n<ol start=1 type=1>\r\n <li cla" +
+            "ss=MsoNormal style=\'line-height:normal\'><span style=\'font-size:12.0pt;\r\n     fon" +
+            "t-family:\"Times New Roman\",serif\'>Redistributions of source code must\r\n     reta" +
+            "in the above copyright notice, this list of conditions and the\r\n     following d" +
+            "isclaimers. Redistributions in binary form must reproduce the\r\n     above copyri" +
+            "ght notice, this list of conditions and the following\r\n     disclaimers in the d" +
+            "ocumentation and/or other materials provided with the\r\n     distribution.</span>" +
+            "</li>\r\n</ol>\r\n\r\n<p class=MsoListParagraphCxSpFirst style=\'text-indent:-.25in;lin" +
+            "e-height:normal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",se" +
+            "rif\'>2.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp; </sp" +
+            "an></span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-family:\"Times" +
+            " New Roman\",serif\'>All\r\npublications resulting from the use of the <i>INSPECT</i" +
+            "> or <i>INSPECT–PBEE</i>\r\nsoftware in any of their forms must make reference to " +
+            "the<i> INSPECT</i> and <i>INSPECT–PBEE</i>\r\npackages and their developers. Prope" +
+            "r reference for the <i>INSPECT</i> and <i>INSPECT–PBEE</i>\r\nsoftware packages an" +
+            "d their developers is: </span></p>\r\n\r\n<p class=MsoListParagraphCxSpMiddle style=" +
+            "\'margin-left:.75in;text-indent:-.25in;\r\nline-height:normal\'><span style=\'font-si" +
+            "ze:12.0pt;font-family:Symbol\'>·<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp" +
+            ";&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span\r\ndir=LTR></span><span style=" +
+            "\'font-size:12.0pt;font-family:\"Times New Roman\",serif\'>AlHamaydeh,\r\nM., Najib, M" +
+            "., Alawnah, S. (2016). “INSPECT: A Graphical User Interface Software\r\nPackage fo" +
+            "r IDARC-2D.” <i>SoftwareX</i>, 5, 243–251, DOI:\r\n10.1016/j.softx.2016.10.004.</s" +
+            "pan></p>\r\n\r\n<p class=MsoListParagraphCxSpMiddle style=\'margin-left:.75in;text-in" +
+            "dent:-.25in;\r\nline-height:normal\'><span style=\'font-size:12.0pt;font-family:Symb" +
+            "ol\'>·<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&" +
+            "nbsp; </span></span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-fam" +
+            "ily:\"Times New Roman\",serif\'>AlHamaydeh,\r\nM.; Aly, N.; Najib, M.; Alawnah, S.; &" +
+            "quot;INSPECT-PBEE: A Performance-Based\r\nEarthquake Engineering GUI for IDARC-2D," +
+            "&quot; <i>SoftwareX</i>, 9, 132-144,<i>\r\n</i>DOI: 10.1016/j.softx.2019.01.010.</" +
+            "span></p>\r\n\r\n<p class=MsoListParagraphCxSpLast style=\'text-indent:-.25in;line-he" +
+            "ight:normal\'><span\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",serif\'" +
+            ">3.<span\r\nstyle=\'font:7.0pt \"Times New Roman\"\'>&nbsp;&nbsp;&nbsp;&nbsp; </span><" +
+            "/span><span\r\ndir=LTR></span><span style=\'font-size:12.0pt;font-family:\"Times New" +
+            " Roman\",serif\'>Neither\r\nthe name of the copyright holder nor the names of its co" +
+            "ntributors may be used\r\nto endorse or promote products derived from this softwar" +
+            "e without specific\r\nprior written permission.&nbsp;</span></p>\r\n\r\n<p class=MsoNo" +
+            "rmal style=\'text-align:justify;line-height:normal\'><span\r\nstyle=\'font-size:12.0p" +
+            "t;font-family:\"Times New Roman\",serif\'>THIS SOFTWARE IS\r\nPROVIDED BY THE COPYRIG" +
+            "HT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY\r\nEXPRESS OR IMPLIED WARRAN" +
+            "TIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\r\nWARRANTIES OF MERCHANTABILITY " +
+            "AND FITNESS FOR A PARTICULAR PURPOSE ARE\r\nDISCLAIMED. IN NO EVENT SHALL THE COPY" +
+            "RIGHT HOLDER OR CONTRIBUTORS BE LIABLE\r\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SP" +
+            "ECIAL, EXEMPLARY, OR CONSEQUENTIAL\r\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROC" +
+            "UREMENT OF SUBSTITUTE GOODS OR\r\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSI" +
+            "NESS INTERRUPTION) HOWEVER\r\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CO" +
+            "NTRACT, STRICT LIABILITY,\r\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING I" +
+            "N ANY WAY OUT OF THE USE\r\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY O" +
+            "F SUCH DAMAGE.</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-" +
+            "bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:none\'><spa" +
+            "n style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp;</span></" +
+            "p>\r\n\r\n<p class=MsoNormal align=center style=\'text-align:center;text-autospace:no" +
+            "ne\'><b><u><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New" +
+            " Roman\",serif\'>SUPPLEMENTAL\r\nDISCLAIMER</span></u></b></p>\r\n\r\n<p class=MsoNormal" +
+            " style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-height" +
+            ":normal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times " +
+            "New Roman\",serif\'>The computational tool [program] <b><i>“<u>INSPECT–PBEE</u>”</" +
+            "i></b>,\r\nherein referred to as the program. The ownership of the program remains" +
+            " with\r\nthe developers. Whether subroutines of the program or the whole program i" +
+            "s\r\nincorporated into the executable binary code or the source code of any other\r" +
+            "\nprogram(s), any program(s) utilizing or containing <i>INSPECT–PBEE</i> or any\r\n" +
+            "of its subroutines shall explicitly acknowledge acceptance of the subsequent\r\nDI" +
+            "SCLAIMER OF WARRANTY. Furthermore, such incorporation of the <i>INSPECT–PBEE</i>" +
+            "\r\nprogram does not create any business relationship between the developers of <i" +
+            ">INSPECT–PBEE</i>,\r\nnor their institutions, and the developed or derived program" +
+            "’s user(s). The\r\nnames of <i>INSPECT–PBEE</i> program, its authors and their ins" +
+            "titutions, shall\r\nnot be used in the promotion of any such developed or derived " +
+            "products without\r\nprior explicit written permission from the authors of <i>INSPE" +
+            "CT–PBEE</i>. </span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-b" +
+            "ottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:none\'><span" +
+            " style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp;</span></p" +
+            ">\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-alig" +
+            "n:\r\njustify;line-height:normal;text-autospace:none\'><span style=\'font-size:12.0p" +
+            "t;\r\nfont-family:\"Times New Roman\",serif\'>The creators of the <i>INSPECT–PBEE</i>" +
+            "\r\nprogram spared no effort in verifying it; significant time and effort have bee" +
+            "n\r\nput towards its development and testing. However, the authors do not accept a" +
+            "ny\r\nresponsibility for inadequate use of the program or any analysis results\r\npr" +
+            "oduced by it. The ultimate responsibility of verifying analysis results rests\r\ns" +
+            "olely upon the user. The user should have adequate knowledge of structural\r\ndyna" +
+            "mics, nonlinear analysis and modeling, earthquake engineering as well\r\nperforman" +
+            "ce-based seismic design and evaluation techniques. The subsequent\r\nDISCLAIMER OF" +
+            " WARRANTY applies to the user of the program <i>INSPECT–PBEE</i>\r\nand all of its" +
+            " associated subroutines.</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0" +
             "in;margin-bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:" +
-            "none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>&nb" +
-            "sp;</span></p>\r\n\r\n<p class=MsoNormal align=center style=\'text-align:center;text-" +
-            "autospace:none\'><b><u><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-famil" +
-            "y:\"Times New Roman\",\"serif\"\'>SUPPLEMENTAL\r\nDISCLAIMER</span></u></b></p>\r\n\r\n<p c" +
-            "lass=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njusti" +
-            "fy;line-height:normal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont-" +
-            "family:\"Times New Roman\",\"serif\"\'>The computational tool [program] <b><i>“<u>INS" +
-            "PECT–PBEE</u>”</i></b>,\r\nherein referred to as the program. The ownership of the" +
-            " program remains with\r\nthe developers. Whether subroutines of the program or the" +
-            " whole program is\r\nincorporated into the executable binary code or the source co" +
-            "de of any other\r\nprogram(s), any program(s) utilizing or containing <i>INSPECT–P" +
-            "BEE</i> or any\r\nof its subroutines shall explicitly acknowledge acceptance of th" +
-            "e subsequent\r\nDISCLAIMER OF WARRANTY. Furthermore, such incorporation of the <i>" +
-            "INSPECT–PBEE</i>\r\nprogram does not create any business relationship between the " +
-            "developers of <i>INSPECT–PBEE</i>,\r\nnor their institutions, and the developed or" +
-            " derived program’s user(s). The\r\nnames of <i>INSPECT–PBEE</i> program, its autho" +
-            "rs and their institutions, shall\r\nnot be used in the promotion of any such devel" +
-            "oped or derived products without\r\nprior explicit written permission from the aut" +
-            "hors of <i>INSPECT–PBEE</i>. </span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bot" +
-            "tom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autos" +
-            "pace:none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"" +
-            "\'>&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom" +
-            ":.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:none\'><span styl" +
-            "e=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>The creators of the" +
-            " <i>INSPECT–PBEE</i>\r\nprogram spared no effort in verifying it; significant time" +
-            " and effort have been\r\nput towards its development and testing. However, the aut" +
-            "hors do not accept any\r\nresponsibility for inadequate use of the program or any " +
-            "analysis results\r\nproduced by it. The ultimate responsibility of verifying analy" +
-            "sis results rests\r\nsolely upon the user. The user should have adequate knowledge" +
-            " of structural\r\ndynamics, nonlinear analysis and modeling, earthquake engineerin" +
-            "g as well\r\nperformance-based seismic design and evaluation techniques. The subse" +
-            "quent\r\nDISCLAIMER OF WARRANTY applies to the user of the program <i>INSPECT–PBEE" +
-            "</i>\r\nand all of its associated subroutines.</span></p>\r\n\r\n<p class=MsoNormal st" +
-            "yle=\'margin-bottom:0in;margin-bottom:.0001pt;text-align:\r\njustify;line-height:no" +
-            "rmal;text-autospace:none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New" +
-            " Roman\",\"serif\"\'>&nbsp;</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0i" +
-            "n;margin-bottom:.0001pt;text-align:\r\njustify;line-height:normal;text-autospace:n" +
-            "one\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",\"serif\"\'>&nbs" +
-            "p;</span></p>\r\n\r\n<p class=MsoNormal align=center style=\'text-align:center;text-a" +
-            "utospace:none\'><b><u><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family" +
-            ":\"Times New Roman\",\"serif\"\'>DISCLAIMER\r\nOF WARRANTY</span></u></b></p>\r\n\r\n<p cla" +
-            "ss=MsoNormal style=\'text-align:justify\'><span style=\'font-size:12.0pt;\r\nline-hei" +
-            "ght:115%;font-family:\"Times New Roman\",\"serif\"\'>The <i>INSPECT–PBEE</i>\r\nprogram" +
-            ", all its data files, and all its associated subroutines, are provided\r\non an <b" +
-            "><i>“<u>AS-IS</u>”</i></b> basis without any warranty. The authors and\r\ntheir in" +
-            "stitutions disclaim any and all liability for direct or indirect\r\ndamages result" +
-            "ing from use of the program. The authors and their institutions\r\nmake no warrant" +
-            "ies, explicitly or implicitly, that the program is error-free or\r\nis consistent " +
-            "with any particular set of standards, or that the program will\r\nmeet any particu" +
-            "lar application requirements. The program should not be relied\r\non for solving a" +
-            "ny engineering problems where an erroneous solution may cause\r\npotential persona" +
-            "l injury or property loss. If the program is used in such a\r\nmanner, it should b" +
-            "e explicitly understood that it is done at the user’s\r\ndiscretion and own risk.<" +
-            "/span></p>\r\n\r\n<p class=MsoNormal style=\'text-align:justify\'><span style=\'font-si" +
-            "ze:12.0pt;\r\nline-height:115%;font-family:\"Times New Roman\",\"serif\"\'>&nbsp;</span" +
-            "></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:" +
-            ".0001pt;\r\ntext-align:center\'><b><span style=\'font-size:12.0pt;line-height:115%;\r" +
-            "\nfont-family:\"Times New Roman\",\"serif\"\'>INSPECT–PBEE</span></b></p>\r\n\r\n<p class=" +
-            "MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-ali" +
-            "gn:center\'><b><span style=\'font-size:12.0pt;line-height:115%;\r\nfont-family:\"Time" +
-            "s New Roman\",\"serif\"\'>Version 1.0 2016</span></b></p>\r\n\r\n<p class=MsoNormal alig" +
-            "n=center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><sp" +
-            "an style=\'font-size:12.0pt;line-height:115%;font-family:\r\n\"Times New Roman\",\"ser" +
-            "if\"\'>Kindly report problems and bugs to:</span></p>\r\n\r\n<p class=MsoNormal align=" +
-            "center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><a hr" +
-            "ef=\"mailto:malhamaydeh@aus.edu\"><span style=\'font-size:\r\n12.0pt;line-height:115%" +
-            ";font-family:\"Times New Roman\",\"serif\"\'>malhamaydeh@aus.edu</span></a></p>\r\n\r\n<p" +
+            "none\'><span style=\'font-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp" +
+            ";</span></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001p" +
+            "t;text-align:\r\njustify;line-height:normal;text-autospace:none\'><span style=\'font" +
+            "-size:12.0pt;\r\nfont-family:\"Times New Roman\",serif\'>&nbsp;</span></p>\r\n\r\n<p clas" +
+            "s=MsoNormal align=center style=\'text-align:center;text-autospace:none\'><b><u><sp" +
+            "an\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",serif" +
+            "\'>DISCLAIMER\r\nOF WARRANTY</span></u></b></p>\r\n\r\n<p class=MsoNormal style=\'text-a" +
+            "lign:justify\'><span style=\'font-size:12.0pt;\r\nline-height:115%;font-family:\"Time" +
+            "s New Roman\",serif\'>The <i>INSPECT–PBEE</i> program,\r\nall its data files, and al" +
+            "l its associated subroutines, are provided on an <b><i>“<u>AS-IS</u>”</i></b>\r\nb" +
+            "asis without any warranty. The authors and their institutions disclaim any and\r\n" +
+            "all liability for direct or indirect damages resulting from use of the program.\r" +
+            "\nThe authors and their institutions make no warranties, explicitly or\r\nimplicitl" +
+            "y, that the program is error-free or is consistent with any particular\r\nset of s" +
+            "tandards, or that the program will meet any particular application\r\nrequirements" +
+            ". The program should not be relied on for solving any engineering\r\nproblems wher" +
+            "e an erroneous solution may cause potential personal injury or\r\nproperty loss. I" +
+            "f the program is used in such a manner, it should be explicitly\r\nunderstood that" +
+            " it is done at the user’s discretion and own risk.</span></p>\r\n\r\n<p class=MsoNor" +
+            "mal align=center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:cen" +
+            "ter\'><b><span style=\'font-size:6.0pt;line-height:115%;font-family:\r\n\"Times New R" +
+            "oman\",serif\'>&nbsp;</span></b></p>\r\n\r\n<p class=MsoNormal align=center style=\'mar" +
+            "gin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><b><span style=\'font-s" +
+            "ize:12.0pt;line-height:115%;\r\nfont-family:\"Times New Roman\",serif\'>INSPECT–PBEE<" +
+            "/span></b></p>\r\n\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margi" +
+            "n-bottom:.0001pt;\r\ntext-align:center\'><b><span style=\'font-size:12.0pt;line-heig" +
+            "ht:115%;\r\nfont-family:\"Times New Roman\",serif\'>Version 1.0 2019</span></b></p>\r\n" +
+            "\r\n<p class=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:.0001pt" +
+            ";\r\ntext-align:center\'><span style=\'font-size:12.0pt;line-height:115%;font-family" +
+            ":\r\n\"Times New Roman\",serif\'>Kindly report problems and bugs to:</span></p>\r\n\r\n<p" +
             " class=MsoNormal align=center style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\nt" +
-            "ext-align:center\'><span style=\'font-size:12.0pt;line-height:115%;font-family:\r\n\"" +
-            "Times New Roman\",\"serif\"\'>Copyright © 2016. All rights reserved.</span></p>\r\n\r\n<" +
-            "p class=MsoNormal style=\'margin-bottom:0in;margin-bottom:.0001pt\'><b><span\r\nstyl" +
-            "e=\'font-size:6.0pt;line-height:115%;font-family:\"Times New Roman\",\"serif\"\'>&nbsp" +
-            ";</span></b></p>\r\n\r\n<p class=MsoListParagraph style=\'margin-bottom:0in;margin-bo" +
-            "ttom:.0001pt\'><span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times" +
-            " New Roman\",\"serif\"\'>&nbsp;</span></p>\r\n\r\n</div>\r\n\r\n</body>\r\n\r\n</html>\r\n")]
+            "ext-align:center\'><span class=MsoHyperlink><span style=\'font-size:12.0pt;\r\nline-" +
+            "height:115%;font-family:\"Times New Roman\",serif\'><a\r\nhref=\"mailto:malhamaydeh@au" +
+            "s.edu\">malhamaydeh@aus.edu</a></span></span></p>\r\n\r\n<p class=MsoNormal align=cen" +
+            "ter style=\'margin-bottom:0in;margin-bottom:.0001pt;\r\ntext-align:center\'><span st" +
+            "yle=\'font-size:12.0pt;line-height:115%;font-family:\r\n\"Times New Roman\",serif\'>Co" +
+            "pyright © 2019. All rights reserved.</span></p>\r\n\r\n<p class=MsoNormal style=\'mar" +
+            "gin-bottom:0in;margin-bottom:.0001pt\'><b><span\r\nstyle=\'font-size:6.0pt;line-heig" +
+            "ht:115%;font-family:\"Times New Roman\",serif\'>&nbsp;</span></b></p>\r\n\r\n<p class=M" +
+            "soListParagraph style=\'margin-bottom:0in;margin-bottom:.0001pt\'><span\r\nstyle=\'fo" +
+            "nt-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",serif\'>&nbsp;</spa" +
+            "n></p>\r\n\r\n<p class=MsoNormal style=\'margin-bottom:6.0pt;line-height:normal\'><spa" +
+            "n\r\nstyle=\'font-size:12.0pt;font-family:\"Times New Roman\",serif\'>&nbsp;</span></p" +
+            ">\r\n\r\n<p class=MsoListParagraph style=\'margin-bottom:0in;margin-bottom:.0001pt\'><" +
+            "span\r\nstyle=\'font-size:12.0pt;line-height:115%;font-family:\"Times New Roman\",ser" +
+            "if\'>&nbsp;</span></p>\r\n\r\n</div>\r\n\r\n</body>\r\n\r\n</html>")]
         public string inspect_lic_text {
             get {
                 return ((string)(this["inspect_lic_text"]));

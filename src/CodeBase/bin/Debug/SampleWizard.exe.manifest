@@ -216,14 +216,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SampleWizard.exe" size="19586560">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SampleWizard.exe" size="19587072">
       <assemblyIdentity name="SampleWizard" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CDONfttfzepnSgp4LyrAPr0zz9B+ybpF9WoYP27MUu8=</dsig:DigestValue>
+        <dsig:DigestValue>zcntxMJkmTT4ar+h+Cr6sx67REiIlD3O+KLaQ4LNP1o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -329,13 +329,13 @@
       <dsig:DigestValue>TrOqxOpntI0WoNEQQrDkC4AjSHJimdbJmMGqcaFTGY8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SampleWizard.exe.config" size="104837">
+  <file name="SampleWizard.exe.config" size="105498">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qAh6PBnYLvMwPj/INthMvIBZoRCPO28lT8GyJ1xpSUM=</dsig:DigestValue>
+      <dsig:DigestValue>iEGzSkFwdvcopM+F9CqY/ANJvJupl0YjMQLd8Q6yn3A=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

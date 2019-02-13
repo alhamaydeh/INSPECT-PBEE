@@ -1,13 +1,13 @@
 ﻿INSPECT–PBEE: INelastic Seismic Performance Evaluation Computational Tool for Performance-Based Earthquake Engineering
 
-Copyright © 2016, Dr. Mohammad AlHamaydeh et al. 
+Copyright © 2019, Dr. Mohammad AlHamaydeh et al. 
 All rights reserved.
 The INSPECT–PBEE program is designed to simplify the process of structural modeling as well Performance-Based Earthquake Engineering (PBEE) utilizing the IDARC-2D program. The creation of the input text file for IDARC-2D is facilitated by the GUI pre-processor, while running analyses and manipulating outputs are fully automated by the GUI post-processor in INSPECT–PBEE. The high-level handling and automation capabilities provided by INSPECT–PBEE liberate the structural/earthquake engineer from the distractions of maneuvering through the minute syntax details. Thus, transforming the PBEE from a tedious exercise into a streamlined and seamless experience without compromising its inherent rigor. INSPECT–PBEE would be found useful and appealing to structural/earthquake engineering students, researchers and practitioners alike. The freely distributed executable version of the IDRAC-2D program [which is made free and publically available at this webpage: [http://civil.eng.buffalo.edu/idarc2d50/], is included within the INSPECT–PBEE package. The redistribution of the IDRAC-2D executable is done with the explicit written permission from the IDARC-2D copyright holders, represented by Prof. Andrei M. Reinhorn of the University at Buffalo-SUNY. 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.
 2. All publications resulting from the use of the INSPECT or INSPECT–PBEE software in any of their forms must make reference to the INSPECT and INSPECT–PBEE packages and their developers. Proper reference for the INSPECT and INSPECT–PBEE software packages and their developers is: 
 • AlHamaydeh, M., Najib, M., Alawnah, S. (2016). “INSPECT: A Graphical User Interface Software Package for IDARC-2D.” SoftwareX, 5, 243–251, DOI: 10.1016/j.softx.2016.10.004.
-• AlHamaydeh, M., Aly, N., Najib, M., Alawnah, S. (2016). “INSPECT–PBEE: A Performance-Based Earthquake Engineering GUI for IDARC-2D.” SoftwareX Journal, Vol. XX, Issue YY. doi:10.1016/Z.softx.2016.ZZ.ZZZ.
+• AlHamaydeh, M.; Aly, N.; Najib, M.; Alawnah, S.; "INSPECT-PBEE: A Performance-Based Earthquake Engineering GUI for IDARC-2D," SoftwareX, 9, 132-144, DOI: 10.1016/j.softx.2019.01.010.
 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
@@ -21,9 +21,11 @@ DISCLAIMER OF WARRANTY
 The INSPECT–PBEE program, all its data files, and all its associated subroutines, are provided on an “AS-IS” basis without any warranty. The authors and their institutions disclaim any and all liability for direct or indirect damages resulting from use of the program. The authors and their institutions make no warranties, explicitly or implicitly, that the program is error-free or is consistent with any particular set of standards, or that the program will meet any particular application requirements. The program should not be relied on for solving any engineering problems where an erroneous solution may cause potential personal injury or property loss. If the program is used in such a manner, it should be explicitly understood that it is done at the user’s discretion and own risk.
 
 INSPECT–PBEE
-Version 1.0 2016
+Version 1.0 2019
 Kindly report problems and bugs to:
 malhamaydeh@aus.edu
-Copyright © 2016. All rights reserved.
+Copyright © 2019. All rights reserved.
+
+ 
 
 
